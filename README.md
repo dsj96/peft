@@ -10,6 +10,10 @@ git clone https://huggingface.co/bigscience/mt0-xxl
 ### Dataset
 In order to reproduce the bug, I have released the dataset used in the formal training in `data` file.
 
+`opus_train_labse_dev_tst_add_task.zip` Always suffer from OOM errors at the **same** steps.
+
+`wmt16enro_dev_dev_test_task.zip` could run correctly (train validation test).
+
 ## Enverment
 ### Hardware
 Tesla V100(32G) * `4 or 8`.
@@ -78,4 +82,17 @@ deepspeed wheel compiled w. ...... torch 2.0, cuda 11.7
 ## Run commend
 ```
 bash mt0.sh
+```
+## Note:
+To save GPU memory, I have tried many methods (I can't guarantee if there is a conflict between them):
+```
+1. deepspeed zero-stage 3,2,1 + off load
+2. bf16
+3. os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "max_split_size_mb:128"
+4. model.enable_input_require_grads()
+   model.gradient_checkpointing_enable() # dsj
+5. gc.collect() torch.cuda.empty_cache() # import gc
+   get_accelerator().empty_cache()
+   model.empty_partition_cache()
+6. outputs = model(**batch, use_cache=False)
 ```
