@@ -14,7 +14,7 @@ In order to reproduce the bug, I have released the dataset used in the formal tr
 Tesla V100(32G) * `4 or 8`.
 
 ### python library
-More details refer to (pip_list.txt)[https://github.com/dsj96/peft/blob/main/pip_list.txt]
+More details refer to [pip_list.txt](https://github.com/dsj96/peft/blob/main/pip_list.txt)
 
 ### ds_report
 ```
