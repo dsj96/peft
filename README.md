@@ -1,9 +1,10 @@
 ## Repository
 Forked from [PEFT](https://github.com/huggingface/peft). Thanks for their outstanding work.
-
-## Prepare Model and Dataset
+# Reproduce the Bug
+## Step 1: Prepare Model and Dataset
 ### Model
 ```
+git clone https://github.com/dsj96/peft.git
 cd pre_trained_model
 git clone https://huggingface.co/bigscience/mt0-xxl
 ```
@@ -14,7 +15,7 @@ In order to reproduce the bug, I have released the dataset used in the formal tr
 
 `wmt16enro_dev_dev_test_task.zip` could run correctly (train validation test).
 
-## Enverment
+## Step 2: Enverment
 ### Hardware
 Tesla V100(32G) * `4 or 8`.
 
@@ -79,7 +80,7 @@ deepspeed wheel compiled w. ...... torch 2.0, cuda 11.7
 ## Main modified python script
 [examples/mt0_peft_lora_ds_zero3_offload.py](https://github.com/dsj96/peft/blob/main/examples/mt0_peft_lora_ds_zero3_offload.py) modified according [examples/conditional_generation/peft_lora_seq2seq_accelerate_ds_zero3_offload.py](https://github.com/dsj96/peft/blob/main/examples/conditional_generation/peft_lora_seq2seq_accelerate_ds_zero3_offload.py)
 
-## Run commend
+## Step 3: Run commend
 ```
 bash mt0.sh
 ```
