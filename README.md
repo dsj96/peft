@@ -4,6 +4,7 @@ Forked from [PEFT](https://github.com/huggingface/peft). Thanks for their outsta
 ## Prepare Model and Dataset
 ### Model
 ```
+cd pre_trained_model
 git clone https://huggingface.co/bigscience/mt0-xxl
 ```
 ### Dataset
