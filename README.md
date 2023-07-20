@@ -84,7 +84,7 @@ deepspeed wheel compiled w. ...... torch 2.0, cuda 11.7
 bash mt0.sh
 ```
 ## Note:
-To save GPU memory, I have tried many methods (I can't guarantee if there is a conflict between them):
+To save GPU memory, I have tried some methods (I can't guarantee if there is a conflict between them):
 ```
 1. deepspeed zero-stage 3,2,1 + off load
 2. bf16
