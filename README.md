@@ -56,7 +56,7 @@ opus_dev_dev_tst  | train:371068 validation:371074 test:371074 |  5952/23192 |  
 opus9_select_train_labse_dev_tst_add_task  | train:32000 validation:32000 test:32000 | 303/1000 | - | 8
 wmt16enro_dev_dev_test_task  | train:3998 validation:3998 test:3998 | run correctly **in a complete epoch**.
 
-
+Exactly half of the training step when use more GPUs.
 
 ## Step 2: Enverment
 ### Hardware
