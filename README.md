@@ -7,7 +7,7 @@ I want to utilize LORA to fineturn a LLM.
 ## Bug description
 - When I finetune [mt0-xxl(13B)](https://huggingface.co/bigscience/mt0-xxl) through [peft-lora](https://github.com/huggingface/peft) on 2 V100(32 G), batch size=8 on data `wmt16enro_dev_dev_test_task.zip` (train:3998 validation:3998 test:3998), The program can run successfully.
 
-- However, when I change to 372,000 pieces of  train data `opus_dev_dev_tst` and run it on  4 V100. I met the `CUDA out of memory` problem (always stop at step=5952/23192).
+- However, when I change to 372,000 pieces of  train data `opus_dev_dev_tst` and run it on  4*V100 or 8*V100 with bathc_size=4 . I met the `CUDA out of memory` problem (always stop at step=5952/23192 on V*100*4 and  stop at step=2976/11596 on V*100*8 ).  Exactly half of the training step when use more GPUs.
 
 - Additionally, when I reduce the data size. Fineturn model on train data `opus9_select_train_labse_dev_tst_add_task`. and run it on  4 V100 or 8 V100. I met the `CUDA out of memory` problem  (always stop at step=303/1000).
 
