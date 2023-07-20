@@ -11,7 +11,7 @@ git clone https://huggingface.co/bigscience/mt0-xxl
 ### Dataset
 In order to reproduce the bug, I have released the dataset used in the formal training in `data` file.
 
-`opus_train_labse_dev_tst_add_task.zip` Always suffer from OOM errors at the **same** steps.
+`opus9_select_train_labse_dev_tst_add_task.zip` Always suffer from OOM errors at the **same** steps.
 
 `wmt16enro_dev_dev_test_task.zip` could run correctly (train validation test).
 
