@@ -1,7 +1,7 @@
-model=mt0-xl
+model=mt0-xxl
 config_file=./ds_zero3_config/default_config.yaml
-dataset_name=./data/opus-100/opus-100-corpus/v1.0/opus_train_dev_tst/opus9_train_labse_2w_dev_tst_add_task
-raw_dataset_name=opus9_train_labse_2w_dev_tst_add_task
+dataset_name=./data/opus-100/opus-100-corpus/v1.0/opus_train_dev_tst/opus_train_labse_dev_tst_add_task
+raw_dataset_name=opus_train_labse_dev_tst_add_task
 r=8
 lora_alpha=32
 lora_dropout=0.1
