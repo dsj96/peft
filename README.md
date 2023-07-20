@@ -130,5 +130,5 @@ bash mt0.sh
 
 
 ## log file
-some failed config file and log report are in the `error_log` directionary when training on the `opus9_select_train_labse_dev_tst_add_task` dataset. 
+Some failed config files and log reports are in the `error_log` directionary when training on the `opus9_select_train_labse_dev_tst_add_task` dataset. 
 
