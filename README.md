@@ -96,8 +96,10 @@ To save GPU memory, I have tried some methods (I can't guarantee if there is a c
    model.empty_partition_cache()
 6. outputs = model(**batch, use_cache=False)
 7. reduce:
+   batch size
    stage3_prefetch_bucket_size
    stage3_param_persistence_threshold
    stage3_max_live_parameters
    stage3_max_reuse_distance
+8. increase: gradient_accumulation_steps
 ```
