@@ -12,7 +12,7 @@ I want to utilize LORA to fineturn a LLM.
 - Additionally, when I reduce the data size. Fineturn model on train data `opus9_select_train_labse_dev_tst_add_task`. and run it on  4 V100 or 8 V100. I met the `CUDA out of memory` problem.
 
 ## log file
-some failed config file and log report are in `ds_zero3_config` directionary.
+some failed config file and log report are in the `error_log` directionary.
 
 ## Most Confused
 The main difference is the ```data size```.  Is it a matter of data size?
