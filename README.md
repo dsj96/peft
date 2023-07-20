@@ -7,19 +7,38 @@ I want to utilize LORA to fineturn a LLM.
 ## Bug description
 - When I finetune [mt0-xxl(13B)](https://huggingface.co/bigscience/mt0-xxl) through [peft-lora](https://github.com/huggingface/peft) on 2 V100(32 G), batch size=8 on data `wmt16enro_dev_dev_test_task.zip` (train:3998 validation:3998 test:3998), The program can run successfully.
 
-- However, when I change to 372,000 pieces of  train data `opus_dev_dev_tst` and run it on  4 V100 or 8 V100. I met the `CUDA out of memory` problem.
+- However, when I change to 372,000 pieces of  train data `opus_dev_dev_tst` and run it on  4 V100. I met the `CUDA out of memory` problem (always stop at step=5952/23192).
 
-- Additionally, when I reduce the data size. Fineturn model on train data `opus9_select_train_labse_dev_tst_add_task`. and run it on  4 V100 or 8 V100. I met the `CUDA out of memory` problem.
+- Additionally, when I reduce the data size. Fineturn model on train data `opus9_select_train_labse_dev_tst_add_task`. and run it on  4 V100 or 8 V100. I met the `CUDA out of memory` problem  (always stop at step=303/1000).
 
-## log file
-some failed config file and log report are in the `error_log` directionary.
+- I attempted to modify many parameters that may have an impact on GPU memory. But the steps that appear in OOM remain completely **unchanged**.
+
+- To save GPU memory, I have tried some methods (I can't guarantee if there is a conflict between them):
+```
+1. deepspeed zero-stage 3,2,1 + off load
+2. bf16
+3. os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "max_split_size_mb:128"
+4. model.enable_input_require_grads()
+   model.gradient_checkpointing_enable() # dsj
+5. gc.collect() torch.cuda.empty_cache() # import gc
+   get_accelerator().empty_cache()
+   model.empty_partition_cache()
+6. outputs = model(**batch, use_cache=False)
+7. reduce:
+   batch size
+   stage3_prefetch_bucket_size
+   stage3_param_persistence_threshold
+   stage3_max_live_parameters
+   stage3_max_reuse_distance
+8. increase: gradient_accumulation_steps
+```
 
 ## Most Confused
 The main difference is the ```data size```.  Is it a matter of data size?
 ZeRO-3 should automatically collect and partition model parameters  during the forward and backward passes. According to ZeRO-stage-3, when I only add data size, I should have no problem running on 4 V100.
 
 Could you give me some suggestions about  partition model parameters in a more controllable and reasonable way? 
-## 
+
 # Reproduce the Bug
 ## Step 1: Prepare Model and Dataset
 ### Model
@@ -34,7 +53,7 @@ In order to reproduce the bug, I have released the dataset used in the formal tr
 dataset     | datasize | OOM step(v100*4) | OOM step(v100*8) | batch_size
 -------- | ----- | ----- | --|--|
 opus_dev_dev_tst  | train:371068 validation:371074 test:371074 |  5952/23192 |  2976/11596  | 2
-opus9_select_train_labse_dev_tst_add_task  | train:32000 validation:32000 test:32000 | 1871/2500 | 935/1250 | 8
+opus9_select_train_labse_dev_tst_add_task  | train:32000 validation:32000 test:32000 | 303/1000 | - | 8
 wmt16enro_dev_dev_test_task  | train:3998 validation:3998 test:3998 | run correctly **in a complete epoch**.
 
 
@@ -108,23 +127,7 @@ deepspeed wheel compiled w. ...... torch 2.0, cuda 11.7
 ```
 bash mt0.sh
 ```
-## Note:
-To save GPU memory, I have tried some methods (I can't guarantee if there is a conflict between them):
-```
-1. deepspeed zero-stage 3,2,1 + off load
-2. bf16
-3. os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "max_split_size_mb:128"
-4. model.enable_input_require_grads()
-   model.gradient_checkpointing_enable() # dsj
-5. gc.collect() torch.cuda.empty_cache() # import gc
-   get_accelerator().empty_cache()
-   model.empty_partition_cache()
-6. outputs = model(**batch, use_cache=False)
-7. reduce:
-   batch size
-   stage3_prefetch_bucket_size
-   stage3_param_persistence_threshold
-   stage3_max_live_parameters
-   stage3_max_reuse_distance
-8. increase: gradient_accumulation_steps
-```
+
+
+## log file
+some failed config file and log report are in the `error_log` directionary.
