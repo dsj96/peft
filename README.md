@@ -3,11 +3,19 @@ Forked from [PEFT](https://github.com/huggingface/peft). Thanks for their outsta
 I hope this library can help developers easily identify the problem.
 ## Target
 I want to utilize LORA to fineturn a LLM.
-# Bug description
-## 
-When I finetune [mt0-xxl(13B)](https://huggingface.co/bigscience/mt0-xxl) through [peft-lora](https://github.com/huggingface/peft) on 2 V100(32 G), batch size=2, num_beams=5 and 12,000 pieces of train data, The program can run successfully.
-However, when I change to 372,000 pieces of  train data and run it on  4 V100. I met the `CUDA out of memory` problem.
-The main difference is the data size.  Is it a matter of data size?
+
+## Bug description
+- When I finetune [mt0-xxl(13B)](https://huggingface.co/bigscience/mt0-xxl) through [peft-lora](https://github.com/huggingface/peft) on 2 V100(32 G), batch size=8 on data `wmt16enro_dev_dev_test_task.zip` (train:3998 validation:3998 test:3998), The program can run successfully.
+
+- However, when I change to 372,000 pieces of  train data `opus_dev_dev_tst` and run it on  4 V100 or 8 V100. I met the `CUDA out of memory` problem.
+
+- Additionally, when I reduce the data size. Fineturn model on train data `opus9_select_train_labse_dev_tst_add_task`. and run it on  4 V100 or 8 V100. I met the `CUDA out of memory` problem.
+
+## log file
+some failed config file and log report are in `ds_zero3_config` directionary.
+
+## Most Confused
+The main difference is the ```data size```.  Is it a matter of data size?
 ZeRO-3 should automatically collect and partition model parameters  during the forward and backward passes. According to ZeRO-stage-3, when I only add data size, I should have no problem running on 4 V100.
 
 Could you give me some suggestions about  partition model parameters in a more controllable and reasonable way? 
@@ -23,9 +31,13 @@ git clone https://huggingface.co/bigscience/mt0-xxl
 ### Dataset
 In order to reproduce the bug, I have released the dataset used in the formal training in `data` file.
 
-`opus9_select_train_labse_dev_tst_add_task.zip (train:32000 validation:32000 test:32000)` Always suffer from OOM errors at the **same** steps.
+dataset     | datasize | OOM step(v100*4) | OOM step(v100*8) | batch_size
+-------- | ----- | ----- | --|--|
+opus_dev_dev_tst  | train:371068 validation:371074 test:371074 |  5952/23192 |  2976/11596  | 2
+opus9_select_train_labse_dev_tst_add_task  | train:32000 validation:32000 test:32000 | 1871/2500 | 935/1250 | 8
+wmt16enro_dev_dev_test_task  | train:3998 validation:3998 test:3998 | run correctly **in a complete epoch**.
 
-`wmt16enro_dev_dev_test_task.zip` could run correctly (train:3998 validation:3998 test:3998).
+
 
 ## Step 2: Enverment
 ### Hardware
