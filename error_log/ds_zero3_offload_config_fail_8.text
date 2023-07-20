@@ -1,0 +1,1025 @@
+./trained_checkpoint/model-mt0-xxl-raw_dataset_name-opus9_select_train_labse_dev_tst_add_task-num_epochs-3-batch_size-8-src_max_length-256-max_new_tokens-256-num_beams-5-save_interval-200-validation_interval-100-validation_ratio-0.1
+[2023-07-17 05:10:49,592] [INFO] [real_accelerator.py:110:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+WARNING:torch.distributed.run:
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+[2023-07-17 05:11:06,209] [INFO] [real_accelerator.py:110:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2023-07-17 05:11:06,273] [INFO] [real_accelerator.py:110:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2023-07-17 05:11:06,317] [INFO] [real_accelerator.py:110:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2023-07-17 05:11:06,355] [INFO] [real_accelerator.py:110:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+
+===================================BUG REPORT===================================
+Welcome to bitsandbytes. For bug reports, please run
+
+python -m bitsandbytes
+
+ and submit this information together with your error trace to: https://github.com/TimDettmers/bitsandbytes/issues
+================================================================================
+
+===================================BUG REPORT===================================
+Welcome to bitsandbytes. For bug reports, please run
+
+python -m bitsandbytes
+
+ and submit this information together with your error trace to: https://github.com/TimDettmers/bitsandbytes/issues
+================================================================================
+
+===================================BUG REPORT===================================
+Welcome to bitsandbytes. For bug reports, please run
+
+python -m bitsandbytes
+
+ and submit this information together with your error trace to: https://github.com/TimDettmers/bitsandbytes/issues
+================================================================================
+
+===================================BUG REPORT===================================
+Welcome to bitsandbytes. For bug reports, please run
+
+python -m bitsandbytes
+
+ and submit this information together with your error trace to: https://github.com/TimDettmers/bitsandbytes/issues
+================================================================================
+bin /opt/conda/lib/python3.8/site-packages/bitsandbytes/libbitsandbytes_cuda113_nocublaslt.so
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/usr/local/cuda/compat/lib'), PosixPath('/usr/local/cuda/compat/lib.real'), PosixPath('/usr/local/nvidia/lib64'), PosixPath('/usr/local/nvidia/lib')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: /usr/local/cuda/compat/lib.real:/usr/local/cuda/compat/lib.real:/usr/local/cuda/compat/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 did not contain ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] as expected! Searching further paths...
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('//10.100.92.150'), PosixPath('tcp'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('tcp'), PosixPath('//10.100.3.136'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('tcp'), PosixPath('//10.106.12.43'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('tcp'), PosixPath('//10.102.111.121'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('tcp'), PosixPath('8888'), PosixPath('//10.102.11.50')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('tcp'), PosixPath('//10.105.120.235'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('tcp'), PosixPath('//10.97.237.160'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('tcp'), PosixPath('//10.111.215.115'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('//10.104.171.149'), PosixPath('tcp'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('tcp'), PosixPath('8888'), PosixPath('//10.104.179.83')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('//10.101.22.125'), PosixPath('tcp'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('tcp'), PosixPath('//10.101.88.89'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('//10.97.253.95'), PosixPath('tcp'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/notebook_x6885143f27147f887b8a4f03f7e9d51_task0')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('tcp'), PosixPath('//10.110.132.25'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('tcp'), PosixPath('//10.96.0.1'), PosixPath('443')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('tcp'), PosixPath('//10.102.78.124'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('//10.97.203.148'), PosixPath('tcp'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('//10.104.78.182'), PosixPath('tcp'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('tcp'), PosixPath('//10.106.147.21'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('tcp'), PosixPath('//10.103.94.234'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('tcp'), PosixPath('//10.109.34.130'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('tcp'), PosixPath('//10.96.140.126'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/usr/local/cuda/compat')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('tcp'), PosixPath('//10.98.223.254'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/tmp/torchelastic_xpkpgjau/none_gbxg3svr/attempt_0/1/error.json')}
+  warn(msg)
+CUDA_SETUP: WARNING! libcudart.so not found in any environmental path. Searching in backup paths...
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: Found duplicate ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] files: {PosixPath('/usr/local/cuda/lib64/libcudart.so.11.0'), PosixPath('/usr/local/cuda/lib64/libcudart.so')}.. We'll flip a coin and try one of these, in order to fail forward.
+Either way, this might cause trouble in the future:
+If you get `CUDA error: invalid device function` errors, the above might be the cause and the solution is to make sure only one ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] in the paths that we search based on your env.
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: Compute capability < 7.5 detected! Only slow 8-bit matmul is supported for your GPU!
+  warn(msg)
+CUDA SETUP: CUDA runtime path found: /usr/local/cuda/lib64/libcudart.so.11.0
+CUDA SETUP: Highest compute capability among GPUs detected: 7.0
+CUDA SETUP: Detected CUDA version 113
+CUDA SETUP: Loading binary /opt/conda/lib/python3.8/site-packages/bitsandbytes/libbitsandbytes_cuda113_nocublaslt.so...
+bin /opt/conda/lib/python3.8/site-packages/bitsandbytes/libbitsandbytes_cuda113_nocublaslt.so
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/usr/local/cuda/compat/lib'), PosixPath('/usr/local/nvidia/lib'), PosixPath('/usr/local/nvidia/lib64'), PosixPath('/usr/local/cuda/compat/lib.real')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: /usr/local/cuda/compat/lib.real:/usr/local/cuda/compat/lib.real:/usr/local/cuda/compat/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 did not contain ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] as expected! Searching further paths...
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('8888'), PosixPath('tcp'), PosixPath('//10.100.92.150')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('8888'), PosixPath('//10.100.3.136'), PosixPath('tcp')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('8888'), PosixPath('tcp'), PosixPath('//10.106.12.43')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('8888'), PosixPath('//10.102.111.121'), PosixPath('tcp')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('//10.102.11.50'), PosixPath('tcp'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('8888'), PosixPath('//10.105.120.235'), PosixPath('tcp')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('8888'), PosixPath('tcp'), PosixPath('//10.97.237.160')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('8888'), PosixPath('//10.111.215.115'), PosixPath('tcp')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('8888'), PosixPath('tcp'), PosixPath('//10.104.171.149')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('//10.104.179.83'), PosixPath('tcp'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('8888'), PosixPath('tcp'), PosixPath('//10.101.22.125')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('8888'), PosixPath('//10.101.88.89'), PosixPath('tcp')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('8888'), PosixPath('//10.97.253.95'), PosixPath('tcp')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/notebook_x6885143f27147f887b8a4f03f7e9d51_task0')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('8888'), PosixPath('tcp'), PosixPath('//10.110.132.25')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('443'), PosixPath('tcp'), PosixPath('//10.96.0.1')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('8888'), PosixPath('tcp'), PosixPath('//10.102.78.124')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('8888'), PosixPath('tcp'), PosixPath('//10.97.203.148')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('8888'), PosixPath('tcp'), PosixPath('//10.104.78.182')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('8888'), PosixPath('tcp'), PosixPath('//10.106.147.21')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('8888'), PosixPath('//10.103.94.234'), PosixPath('tcp')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('//10.109.34.130'), PosixPath('8888'), PosixPath('tcp')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('8888'), PosixPath('tcp'), PosixPath('//10.96.140.126')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/usr/local/cuda/compat')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('//10.98.223.254'), PosixPath('8888'), PosixPath('tcp')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/tmp/torchelastic_xpkpgjau/none_gbxg3svr/attempt_0/0/error.json')}
+  warn(msg)
+CUDA_SETUP: WARNING! libcudart.so not found in any environmental path. Searching in backup paths...
+CUDA SETUP: CUDA runtime path found: /usr/local/cuda/lib64/libcudart.so.11.0
+CUDA SETUP: Highest compute capability among GPUs detected: 7.0
+CUDA SETUP: Detected CUDA version 113
+CUDA SETUP: Loading binary /opt/conda/lib/python3.8/site-packages/bitsandbytes/libbitsandbytes_cuda113_nocublaslt.so...
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: Found duplicate ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] files: {PosixPath('/usr/local/cuda/lib64/libcudart.so.11.0'), PosixPath('/usr/local/cuda/lib64/libcudart.so')}.. We'll flip a coin and try one of these, in order to fail forward.
+Either way, this might cause trouble in the future:
+If you get `CUDA error: invalid device function` errors, the above might be the cause and the solution is to make sure only one ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] in the paths that we search based on your env.
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: Compute capability < 7.5 detected! Only slow 8-bit matmul is supported for your GPU!
+  warn(msg)
+bin /opt/conda/lib/python3.8/site-packages/bitsandbytes/libbitsandbytes_cuda113_nocublaslt.so
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/usr/local/nvidia/lib'), PosixPath('/usr/local/cuda/compat/lib'), PosixPath('/usr/local/cuda/compat/lib.real'), PosixPath('/usr/local/nvidia/lib64')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: /usr/local/cuda/compat/lib.real:/usr/local/cuda/compat/lib.real:/usr/local/cuda/compat/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 did not contain ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] as expected! Searching further paths...
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('8888'), PosixPath('tcp'), PosixPath('//10.100.92.150')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('8888'), PosixPath('//10.100.3.136'), PosixPath('tcp')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('8888'), PosixPath('//10.106.12.43'), PosixPath('tcp')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('8888'), PosixPath('tcp'), PosixPath('//10.102.111.121')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('8888'), PosixPath('tcp'), PosixPath('//10.102.11.50')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('//10.105.120.235'), PosixPath('8888'), PosixPath('tcp')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('8888'), PosixPath('//10.97.237.160'), PosixPath('tcp')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('//10.111.215.115'), PosixPath('8888'), PosixPath('tcp')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('8888'), PosixPath('tcp'), PosixPath('//10.104.171.149')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('//10.104.179.83'), PosixPath('8888'), PosixPath('tcp')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('8888'), PosixPath('//10.101.22.125'), PosixPath('tcp')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('8888'), PosixPath('//10.101.88.89'), PosixPath('tcp')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('8888'), PosixPath('tcp'), PosixPath('//10.97.253.95')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/notebook_x6885143f27147f887b8a4f03f7e9d51_task0')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('8888'), PosixPath('//10.110.132.25'), PosixPath('tcp')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('//10.96.0.1'), PosixPath('tcp'), PosixPath('443')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('//10.102.78.124'), PosixPath('8888'), PosixPath('tcp')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('8888'), PosixPath('//10.97.203.148'), PosixPath('tcp')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('8888'), PosixPath('tcp'), PosixPath('//10.104.78.182')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('//10.106.147.21'), PosixPath('8888'), PosixPath('tcp')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('8888'), PosixPath('tcp'), PosixPath('//10.103.94.234')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('8888'), PosixPath('//10.109.34.130'), PosixPath('tcp')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('8888'), PosixPath('tcp'), PosixPath('//10.96.140.126')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/usr/local/cuda/compat')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('8888'), PosixPath('//10.98.223.254'), PosixPath('tcp')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/tmp/torchelastic_xpkpgjau/none_gbxg3svr/attempt_0/3/error.json')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: Found duplicate ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] files: {PosixPath('/usr/local/cuda/lib64/libcudart.so'), PosixPath('/usr/local/cuda/lib64/libcudart.so.11.0')}.. We'll flip a coin and try one of these, in order to fail forward.
+Either way, this might cause trouble in the future:
+If you get `CUDA error: invalid device function` errors, the above might be the cause and the solution is to make sure only one ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] in the paths that we search based on your env.
+CUDA_SETUP: WARNING! libcudart.so not found in any environmental path. Searching in backup paths...
+CUDA SETUP: CUDA runtime path found: /usr/local/cuda/lib64/libcudart.so
+CUDA SETUP: Highest compute capability among GPUs detected: 7.0
+CUDA SETUP: Detected CUDA version 113
+CUDA SETUP: Loading binary /opt/conda/lib/python3.8/site-packages/bitsandbytes/libbitsandbytes_cuda113_nocublaslt.so...
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: Compute capability < 7.5 detected! Only slow 8-bit matmul is supported for your GPU!
+  warn(msg)
+bin /opt/conda/lib/python3.8/site-packages/bitsandbytes/libbitsandbytes_cuda113_nocublaslt.so
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/usr/local/cuda/compat/lib'), PosixPath('/usr/local/nvidia/lib64'), PosixPath('/usr/local/nvidia/lib'), PosixPath('/usr/local/cuda/compat/lib.real')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: /usr/local/cuda/compat/lib.real:/usr/local/cuda/compat/lib.real:/usr/local/cuda/compat/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 did not contain ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] as expected! Searching further paths...
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('//10.100.92.150'), PosixPath('tcp'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('//10.100.3.136'), PosixPath('tcp'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('tcp'), PosixPath('//10.106.12.43'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('//10.102.111.121'), PosixPath('tcp'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('//10.102.11.50'), PosixPath('tcp'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('//10.105.120.235'), PosixPath('tcp'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('//10.97.237.160'), PosixPath('tcp'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('//10.111.215.115'), PosixPath('tcp'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('//10.104.171.149'), PosixPath('tcp'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('tcp'), PosixPath('//10.104.179.83'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('//10.101.22.125'), PosixPath('tcp'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('//10.101.88.89'), PosixPath('tcp'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('//10.97.253.95'), PosixPath('tcp'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/notebook_x6885143f27147f887b8a4f03f7e9d51_task0')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('//10.110.132.25'), PosixPath('tcp'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('443'), PosixPath('tcp'), PosixPath('//10.96.0.1')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('tcp'), PosixPath('//10.102.78.124'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('//10.97.203.148'), PosixPath('tcp'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('//10.104.78.182'), PosixPath('tcp'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('//10.106.147.21'), PosixPath('tcp'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('//10.103.94.234'), PosixPath('tcp'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('tcp'), PosixPath('//10.109.34.130'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('//10.96.140.126'), PosixPath('tcp'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/usr/local/cuda/compat')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('tcp'), PosixPath('//10.98.223.254'), PosixPath('8888')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/tmp/torchelastic_xpkpgjau/none_gbxg3svr/attempt_0/2/error.json')}
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: Found duplicate ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] files: {PosixPath('/usr/local/cuda/lib64/libcudart.so'), PosixPath('/usr/local/cuda/lib64/libcudart.so.11.0')}.. We'll flip a coin and try one of these, in order to fail forward.
+Either way, this might cause trouble in the future:
+If you get `CUDA error: invalid device function` errors, the above might be the cause and the solution is to make sure only one ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] in the paths that we search based on your env.
+  warn(msg)
+/opt/conda/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:145: UserWarning: WARNING: Compute capability < 7.5 detected! Only slow 8-bit matmul is supported for your GPU!
+  warn(msg)
+CUDA_SETUP: WARNING! libcudart.so not found in any environmental path. Searching in backup paths...
+CUDA SETUP: CUDA runtime path found: /usr/local/cuda/lib64/libcudart.so
+CUDA SETUP: Highest compute capability among GPUs detected: 7.0
+CUDA SETUP: Detected CUDA version 113
+CUDA SETUP: Loading binary /opt/conda/lib/python3.8/site-packages/bitsandbytes/libbitsandbytes_cuda113_nocublaslt.so...
+args:
+ Namespace(batch_size=8, cache_dir='../huggface_cache', dataset_name='./data/opus-100/opus-100-corpus/v1.0/opus_train_dev_tst/opus9_select_train_labse_dev_tst_add_task', deepspeed_config_file='/userhome/dsj/peft/ds_zero3_config/ds_offload_config.json', do_test=False, do_validation=False, inference_mode=False, label_column='TGT', lora_alpha=32, lora_dropout=0.1, lr_scheduler_type='linear', max_new_tokens=256, model_name_or_path='./pre_trained_model/mt0-xxl', no_repeat_ngram_size=3, num_beams=5, num_epochs=3, num_proc=8, num_warmup_steps=0, output_dir='./trained_checkpoint/model-mt0-xxl-raw_dataset_name-opus9_select_train_labse_dev_tst_add_task-num_epochs-3-batch_size-8-src_max_length-256-max_new_tokens-256-num_beams-5-save_interval-200-validation_interval-100-validation_ratio-0.1', push_to_hub=False, r=8, save_interval=200, seed=42, src_max_length=256, text_column='SRC', validation_interval=100, validation_ratio=0.1)
+args:
+ Namespace(batch_size=8, cache_dir='../huggface_cache', dataset_name='./data/opus-100/opus-100-corpus/v1.0/opus_train_dev_tst/opus9_select_train_labse_dev_tst_add_task', deepspeed_config_file='/userhome/dsj/peft/ds_zero3_config/ds_offload_config.json', do_test=False, do_validation=False, inference_mode=False, label_column='TGT', lora_alpha=32, lora_dropout=0.1, lr_scheduler_type='linear', max_new_tokens=256, model_name_or_path='./pre_trained_model/mt0-xxl', no_repeat_ngram_size=3, num_beams=5, num_epochs=3, num_proc=8, num_warmup_steps=0, output_dir='./trained_checkpoint/model-mt0-xxl-raw_dataset_name-opus9_select_train_labse_dev_tst_add_task-num_epochs-3-batch_size-8-src_max_length-256-max_new_tokens-256-num_beams-5-save_interval-200-validation_interval-100-validation_ratio-0.1', push_to_hub=False, r=8, save_interval=200, seed=42, src_max_length=256, text_column='SRC', validation_interval=100, validation_ratio=0.1)
+args:
+ Namespace(batch_size=8, cache_dir='../huggface_cache', dataset_name='./data/opus-100/opus-100-corpus/v1.0/opus_train_dev_tst/opus9_select_train_labse_dev_tst_add_task', deepspeed_config_file='/userhome/dsj/peft/ds_zero3_config/ds_offload_config.json', do_test=False, do_validation=False, inference_mode=False, label_column='TGT', lora_alpha=32, lora_dropout=0.1, lr_scheduler_type='linear', max_new_tokens=256, model_name_or_path='./pre_trained_model/mt0-xxl', no_repeat_ngram_size=3, num_beams=5, num_epochs=3, num_proc=8, num_warmup_steps=0, output_dir='./trained_checkpoint/model-mt0-xxl-raw_dataset_name-opus9_select_train_labse_dev_tst_add_task-num_epochs-3-batch_size-8-src_max_length-256-max_new_tokens-256-num_beams-5-save_interval-200-validation_interval-100-validation_ratio-0.1', push_to_hub=False, r=8, save_interval=200, seed=42, src_max_length=256, text_column='SRC', validation_interval=100, validation_ratio=0.1)
+args:
+ Namespace(batch_size=8, cache_dir='../huggface_cache', dataset_name='./data/opus-100/opus-100-corpus/v1.0/opus_train_dev_tst/opus9_select_train_labse_dev_tst_add_task', deepspeed_config_file='/userhome/dsj/peft/ds_zero3_config/ds_offload_config.json', do_test=False, do_validation=False, inference_mode=False, label_column='TGT', lora_alpha=32, lora_dropout=0.1, lr_scheduler_type='linear', max_new_tokens=256, model_name_or_path='./pre_trained_model/mt0-xxl', no_repeat_ngram_size=3, num_beams=5, num_epochs=3, num_proc=8, num_warmup_steps=0, output_dir='./trained_checkpoint/model-mt0-xxl-raw_dataset_name-opus9_select_train_labse_dev_tst_add_task-num_epochs-3-batch_size-8-src_max_length-256-max_new_tokens-256-num_beams-5-save_interval-200-validation_interval-100-validation_ratio-0.1', push_to_hub=False, r=8, save_interval=200, seed=42, src_max_length=256, text_column='SRC', validation_interval=100, validation_ratio=0.1)
+DatasetDict({
+    train: Dataset({
+        features: ['SRC', 'TGT'],
+        num_rows: 32000
+    })
+    validation: Dataset({
+        features: ['SRC', 'TGT'],
+        num_rows: 3200
+    })
+    test: Dataset({
+        features: ['SRC', 'TGT'],
+        num_rows: 32000
+    })
+})
+DatasetDict({
+    train: Dataset({
+        features: ['SRC', 'TGT'],
+        num_rows: 32000
+    })
+    validation: Dataset({
+        features: ['SRC', 'TGT'],
+        num_rows: 3200
+    })
+    test: Dataset({
+        features: ['SRC', 'TGT'],
+        num_rows: 32000
+    })
+})
+DatasetDict({
+    train: Dataset({
+        features: ['SRC', 'TGT'],
+        num_rows: 32000
+    })
+    validation: Dataset({
+        features: ['SRC', 'TGT'],
+        num_rows: 3200
+    })
+    test: Dataset({
+        features: ['SRC', 'TGT'],
+        num_rows: 32000
+    })
+})
+DatasetDict({
+    train: Dataset({
+        features: ['SRC', 'TGT'],
+        num_rows: 32000
+    })
+    validation: Dataset({
+        features: ['SRC', 'TGT'],
+        num_rows: 3200
+    })
+    test: Dataset({
+        features: ['SRC', 'TGT'],
+        num_rows: 32000
+    })
+})
+Loading cached processed dataset at /userhome/dsj/peft/data/opus-100/opus-100-corpus/v1.0/opus_train_dev_tst/opus9_select_train_labse_dev_tst_add_task/train/cache-1b89ff3c87f2093a_*_of_00008.arrow
+Loading cached processed dataset at /userhome/dsj/peft/data/opus-100/opus-100-corpus/v1.0/opus_train_dev_tst/opus9_select_train_labse_dev_tst_add_task/train/cache-1b89ff3c87f2093a_*_of_00008.arrow
+Loading cached processed dataset at /userhome/dsj/peft/data/opus-100/opus-100-corpus/v1.0/opus_train_dev_tst/opus9_select_train_labse_dev_tst_add_task/train/cache-1b89ff3c87f2093a_*_of_00008.arrow
+Loading cached processed dataset at /userhome/dsj/peft/data/opus-100/opus-100-corpus/v1.0/opus_train_dev_tst/opus9_select_train_labse_dev_tst_add_task/train/cache-1b89ff3c87f2093a_*_of_00008.arrow
+Running tokenizer on dataset (num_proc=8):   0%|          | 0/3200 [00:00<?, ? examples/s]Running tokenizer on dataset (num_proc=8):   0%|          | 0/3200 [00:00<?, ? examples/s]Running tokenizer on dataset (num_proc=8):   0%|          | 0/3200 [00:00<?, ? examples/s]Running tokenizer on dataset (num_proc=8):   0%|          | 0/3200 [00:00<?, ? examples/s]Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Running tokenizer on dataset (num_proc=8):  12%|█▎        | 400/3200 [00:01<00:10, 279.16 examples/s]Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Running tokenizer on dataset (num_proc=8):  12%|█▎        | 400/3200 [00:01<00:11, 250.20 examples/s]Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Running tokenizer on dataset (num_proc=8):  25%|██▌       | 800/3200 [00:01<00:04, 539.12 examples/s]Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Running tokenizer on dataset (num_proc=8):  12%|█▎        | 400/3200 [00:01<00:11, 250.10 examples/s]Running tokenizer on dataset (num_proc=8):  25%|██▌       | 800/3200 [00:01<00:04, 555.38 examples/s]Running tokenizer on dataset (num_proc=8):  12%|█▎        | 400/3200 [00:01<00:11, 235.06 examples/s]Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Running tokenizer on dataset (num_proc=8):  38%|███▊      | 1200/3200 [00:01<00:02, 879.67 examples/s]Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Running tokenizer on dataset (num_proc=8):  38%|███▊      | 1200/3200 [00:02<00:03, 592.09 examples/s]Running tokenizer on dataset (num_proc=8):  75%|███████▌  | 2400/3200 [00:02<00:00, 1329.36 examples/s]Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Running tokenizer on dataset (num_proc=8):  50%|█████     | 1600/3200 [00:02<00:01, 809.04 examples/s]Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Running tokenizer on dataset (num_proc=8):  62%|██████▎   | 2000/3200 [00:02<00:01, 1119.19 examples/s]Running tokenizer on dataset (num_proc=8):  62%|██████▎   | 2000/3200 [00:02<00:01, 990.30 examples/s]Running tokenizer on dataset (num_proc=8):  88%|████████▊ | 2800/3200 [00:02<00:00, 1453.75 examples/s]Running tokenizer on dataset (num_proc=8):  88%|████████▊ | 2800/3200 [00:02<00:00, 1716.09 examples/s]Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Running tokenizer on dataset (num_proc=8):  75%|███████▌  | 2400/3200 [00:02<00:00, 1324.85 examples/s]Running tokenizer on dataset (num_proc=8):  75%|███████▌  | 2400/3200 [00:02<00:00, 1216.96 examples/s]Running tokenizer on dataset (num_proc=8): 100%|██████████| 3200/3200 [00:02<00:00, 1639.88 examples/s]                                                                                                                                                                                                                                                                                                                     Running tokenizer on dataset (num_proc=8): 100%|██████████| 3200/3200 [00:02<00:00, 1756.15 examples/s]                                                                                                       Loading cached processed dataset at /userhome/dsj/peft/data/opus-100/opus-100-corpus/v1.0/opus_train_dev_tst/opus9_select_train_labse_dev_tst_add_task/test/cache-337604d6a76144b2_*_of_00008.arrow
+Loading cached processed dataset at /userhome/dsj/peft/data/opus-100/opus-100-corpus/v1.0/opus_train_dev_tst/opus9_select_train_labse_dev_tst_add_task/test/cache-337604d6a76144b2_*_of_00008.arrow
+Loading cached processed dataset at /userhome/dsj/peft/data/opus-100/opus-100-corpus/v1.0/opus_train_dev_tst/opus9_select_train_labse_dev_tst_add_task/test/cache-337604d6a76144b2_*_of_00008.arrow
+Loading cached processed dataset at /userhome/dsj/peft/data/opus-100/opus-100-corpus/v1.0/opus_train_dev_tst/opus9_select_train_labse_dev_tst_add_task/test/cache-337604d6a76144b2_*_of_00008.arrow
+hpZeRO group size? 4
+[2023-07-17 05:11:53,257] [INFO] [partition_parameters.py:326:__exit__] finished initializing model with 12.92B parameters
+Loading checkpoint shards:   0%|          | 0/6 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/6 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/6 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/6 [00:00<?, ?it/s]Loading checkpoint shards:  17%|█▋        | 1/6 [00:58<04:51, 58.21s/it]Loading checkpoint shards:  17%|█▋        | 1/6 [00:59<04:58, 59.73s/it]Loading checkpoint shards:  17%|█▋        | 1/6 [00:59<04:58, 59.71s/it]Loading checkpoint shards:  17%|█▋        | 1/6 [00:59<04:58, 59.76s/it]Loading checkpoint shards:  33%|███▎      | 2/6 [01:53<03:45, 56.33s/it]Loading checkpoint shards:  33%|███▎      | 2/6 [01:53<03:45, 56.37s/it]Loading checkpoint shards:  33%|███▎      | 2/6 [01:53<03:45, 56.38s/it]Loading checkpoint shards:  33%|███▎      | 2/6 [01:53<03:45, 56.36s/it]Loading checkpoint shards:  50%|█████     | 3/6 [02:42<02:39, 53.02s/it]Loading checkpoint shards:  50%|█████     | 3/6 [02:42<02:39, 53.01s/it]Loading checkpoint shards:  50%|█████     | 3/6 [02:42<02:39, 53.02s/it]Loading checkpoint shards:  50%|█████     | 3/6 [02:42<02:39, 53.05s/it]Loading checkpoint shards:  67%|██████▋   | 4/6 [03:46<01:54, 57.32s/it]Loading checkpoint shards:  67%|██████▋   | 4/6 [03:46<01:54, 57.31s/it]Loading checkpoint shards:  67%|██████▋   | 4/6 [03:46<01:54, 57.31s/it]Loading checkpoint shards:  67%|██████▋   | 4/6 [03:45<01:54, 57.10s/it]Loading checkpoint shards:  83%|████████▎ | 5/6 [04:39<00:55, 55.66s/it]Loading checkpoint shards:  83%|████████▎ | 5/6 [04:39<00:55, 55.65s/it]Loading checkpoint shards:  83%|████████▎ | 5/6 [04:39<00:55, 55.66s/it]Loading checkpoint shards:  83%|████████▎ | 5/6 [04:38<00:55, 55.44s/it]Loading checkpoint shards: 100%|██████████| 6/6 [05:10<00:00, 47.74s/it]Loading checkpoint shards: 100%|██████████| 6/6 [05:10<00:00, 51.83s/it]
+Loading checkpoint shards: 100%|██████████| 6/6 [05:12<00:00, 47.99s/it]Loading checkpoint shards: 100%|██████████| 6/6 [05:12<00:00, 52.08s/it]
+Loading checkpoint shards: 100%|██████████| 6/6 [05:12<00:00, 48.00s/it]Loading checkpoint shards: 100%|██████████| 6/6 [05:12<00:00, 52.09s/it]
+Loading checkpoint shards: 100%|██████████| 6/6 [05:12<00:00, 48.14s/it]Loading checkpoint shards: 100%|██████████| 6/6 [05:12<00:00, 52.16s/it]
+trainable params: 9437184 || all params: 12930494464 || trainable%: 0.072983937515106
+accelerator.state.deepspeed_plugin=DeepSpeedPlugin(hf_ds_config=<accelerate.utils.deepspeed.HfDeepSpeedConfig object at 0x7fb3f3662c10>, gradient_accumulation_steps=2, gradient_clipping=None, zero_stage=3, is_train_batch_min=True, offload_optimizer_device='cpu', offload_param_device='cpu', zero3_init_flag=True, zero3_save_16bit_model=True)
+accelerator.state.deepspeed_plugin.deepspeed_config={'bf16': {'enabled': True}, 'optimizer': {'type': 'Adam', 'params': {'lr': 2e-05, 'betas': [0.9, 0.999], 'eps': 1e-08, 'weight_decay': 3e-07, 'fp32_optimizer_states': False}}, 'scheduler': {'type': 'WarmupDecayLR', 'params': {'warmup_min_lr': 1e-06, 'warmup_max_lr': 2e-05, 'warmup_num_steps': 1000, 'total_num_steps': 'auto'}}, 'zero_optimization': {'stage': 3, 'offload_optimizer': {'device': 'cpu', 'pin_memory': True}, 'offload_param': {'device': 'cpu', 'pin_memory': True}, 'allgather_partitions': True, 'overlap_comm': False, 'reduce_bucket_size': 'auto', 'round_robin_gradients': True, 'contiguous_gradients': True, 'sub_group_size': 100000000.0, 'stage3_prefetch_bucket_size': 0, 'stage3_max_live_parameters': 0, 'stage3_max_reuse_distance': 0, 'stage3_gather_16bit_weights_on_model_save': True, 'zero_quantized_gradients': False, 'zero_hpz_partition_size': 4}, 'activation_checkpointing': {'partition_activations': True, 'cpu_checkpointing': True, 'contiguous_memory_optimization': True, 'number_checkpoints': 4, 'synchronize_checkpoint_boundary': True, 'profile': False}, 'aio': {'block_size': 1048576, 'queue_depth': 8, 'thread_count': 4, 'single_submit': False, 'overlap_events': True}, 'tensorboard': {'enabled': True, 'output_path': 'log/ds_logs/', 'job_name': 'train_mt0_tensorboard'}, 'csv_monitor': {'enabled': True, 'output_path': 'log/ds_logs/', 'job_name': 'train_mt0_csv'}, 'gradient_accumulation_steps': 2, 'gradient_clipping': 'auto', 'steps_per_print': inf, 'train_batch_size': 'auto', 'train_micro_batch_size_per_gpu': 'auto', 'wall_clock_breakdown': False, 'data_types': {'grad_accum_dtype': 'bf16'}, 'flops_profiler': {'enabled': False, 'profile_step': 100, 'module_depth': -1, 'top_modules': 1, 'detailed': True, 'output_file': None}, 'quantize_training': {'enabled': False, 'quantize_verbose': True, 'quantizer_kernel': True, 'quantize-algo': {'q_type': 'symmetric'}, 'quantize_bits': {'start_bits': 16, 'target_bits': 8}, 'quantize_schedule': {'quantize_period': 400, 'schedule_offset': 0}, 'quantize_groups': 8, 'fp16_mixed_quantize': {'enabled': False, 'quantize_change_ratio': 0.001}, 'eigenvalue': {'enabled': False, 'verbose': True, 'max_iter': 50, 'tol': 0.01, 'stability': 0, 'gas_boundary_resolution': 1, 'layer_name': ['SelfAttention.q', 'SelfAttention.k', 'SelfAttention.v', 'SelfAttention.o', 'DenseReluDense.wi_0', 'DenseReluDense.wi_1', 'EncDecAttention'], 'layer_num': 8}}, 'compression_training': {'weight_quantization': {'shared_parameters': {'enabled': False, 'quantizer_kernel': True, 'schedule_offset': 100, 'quantize_groups': 64, 'quantize_verbose': False, 'quantization_type': 'symmetric', 'quantize_weight_in_forward': False, 'rounding': 'nearest', 'fp16_mixed_quantize': {'enabled': False, 'quantize_change_ratio': 0.1}}, 'different_groups': {'wq1': {'params': {'start_bits': 16, 'target_bits': 8, 'quantization_period': 400}, 'modules': ['SelfAttention.q', 'SelfAttention.k', 'SelfAttention.v', 'SelfAttention.o', 'DenseReluDense.wi_0', 'DenseReluDense.wi_1', 'EncDecAttention']}}}, 'activation_quantization': {'shared_parameters': {'enabled': False, 'quantization_type': 'symmetric', 'range_calibration': 'dynamic', 'schedule_offset': 400}, 'different_groups': {'aq1': {'params': {'bits': 8}, 'modules': ['SelfAttention.q', 'SelfAttention.k', 'SelfAttention.v', 'SelfAttention.o', 'DenseReluDense.wi_0', 'DenseReluDense.wi_1', 'EncDecAttention']}}}}, 'fp16': {'enabled': False}}
+trainable params: 9437184 || all params: 12930494464 || trainable%: 0.072983937515106
+accelerator.state.deepspeed_plugin=DeepSpeedPlugin(hf_ds_config=<accelerate.utils.deepspeed.HfDeepSpeedConfig object at 0x7f5b52c37c10>, gradient_accumulation_steps=2, gradient_clipping=None, zero_stage=3, is_train_batch_min=True, offload_optimizer_device='cpu', offload_param_device='cpu', zero3_init_flag=True, zero3_save_16bit_model=True)
+accelerator.state.deepspeed_plugin.deepspeed_config={'bf16': {'enabled': True}, 'optimizer': {'type': 'Adam', 'params': {'lr': 2e-05, 'betas': [0.9, 0.999], 'eps': 1e-08, 'weight_decay': 3e-07, 'fp32_optimizer_states': False}}, 'scheduler': {'type': 'WarmupDecayLR', 'params': {'warmup_min_lr': 1e-06, 'warmup_max_lr': 2e-05, 'warmup_num_steps': 1000, 'total_num_steps': 'auto'}}, 'zero_optimization': {'stage': 3, 'offload_optimizer': {'device': 'cpu', 'pin_memory': True}, 'offload_param': {'device': 'cpu', 'pin_memory': True}, 'allgather_partitions': True, 'overlap_comm': False, 'reduce_bucket_size': 'auto', 'round_robin_gradients': True, 'contiguous_gradients': True, 'sub_group_size': 100000000.0, 'stage3_prefetch_bucket_size': 0, 'stage3_max_live_parameters': 0, 'stage3_max_reuse_distance': 0, 'stage3_gather_16bit_weights_on_model_save': True, 'zero_quantized_gradients': False, 'zero_hpz_partition_size': 4}, 'activation_checkpointing': {'partition_activations': True, 'cpu_checkpointing': True, 'contiguous_memory_optimization': True, 'number_checkpoints': 4, 'synchronize_checkpoint_boundary': True, 'profile': False}, 'aio': {'block_size': 1048576, 'queue_depth': 8, 'thread_count': 4, 'single_submit': False, 'overlap_events': True}, 'tensorboard': {'enabled': True, 'output_path': 'log/ds_logs/', 'job_name': 'train_mt0_tensorboard'}, 'csv_monitor': {'enabled': True, 'output_path': 'log/ds_logs/', 'job_name': 'train_mt0_csv'}, 'gradient_accumulation_steps': 2, 'gradient_clipping': 'auto', 'steps_per_print': inf, 'train_batch_size': 'auto', 'train_micro_batch_size_per_gpu': 'auto', 'wall_clock_breakdown': False, 'data_types': {'grad_accum_dtype': 'bf16'}, 'flops_profiler': {'enabled': False, 'profile_step': 100, 'module_depth': -1, 'top_modules': 1, 'detailed': True, 'output_file': None}, 'quantize_training': {'enabled': False, 'quantize_verbose': True, 'quantizer_kernel': True, 'quantize-algo': {'q_type': 'symmetric'}, 'quantize_bits': {'start_bits': 16, 'target_bits': 8}, 'quantize_schedule': {'quantize_period': 400, 'schedule_offset': 0}, 'quantize_groups': 8, 'fp16_mixed_quantize': {'enabled': False, 'quantize_change_ratio': 0.001}, 'eigenvalue': {'enabled': False, 'verbose': True, 'max_iter': 50, 'tol': 0.01, 'stability': 0, 'gas_boundary_resolution': 1, 'layer_name': ['SelfAttention.q', 'SelfAttention.k', 'SelfAttention.v', 'SelfAttention.o', 'DenseReluDense.wi_0', 'DenseReluDense.wi_1', 'EncDecAttention'], 'layer_num': 8}}, 'compression_training': {'weight_quantization': {'shared_parameters': {'enabled': False, 'quantizer_kernel': True, 'schedule_offset': 100, 'quantize_groups': 64, 'quantize_verbose': False, 'quantization_type': 'symmetric', 'quantize_weight_in_forward': False, 'rounding': 'nearest', 'fp16_mixed_quantize': {'enabled': False, 'quantize_change_ratio': 0.1}}, 'different_groups': {'wq1': {'params': {'start_bits': 16, 'target_bits': 8, 'quantization_period': 400}, 'modules': ['SelfAttention.q', 'SelfAttention.k', 'SelfAttention.v', 'SelfAttention.o', 'DenseReluDense.wi_0', 'DenseReluDense.wi_1', 'EncDecAttention']}}}, 'activation_quantization': {'shared_parameters': {'enabled': False, 'quantization_type': 'symmetric', 'range_calibration': 'dynamic', 'schedule_offset': 400}, 'different_groups': {'aq1': {'params': {'bits': 8}, 'modules': ['SelfAttention.q', 'SelfAttention.k', 'SelfAttention.v', 'SelfAttention.o', 'DenseReluDense.wi_0', 'DenseReluDense.wi_1', 'EncDecAttention']}}}}, 'fp16': {'enabled': False}}
+trainable params: 9437184 || all params: 12930494464 || trainable%: 0.072983937515106
+accelerator.state.deepspeed_plugin=DeepSpeedPlugin(hf_ds_config=<accelerate.utils.deepspeed.HfDeepSpeedConfig object at 0x7f0d084dcbe0>, gradient_accumulation_steps=2, gradient_clipping=None, zero_stage=3, is_train_batch_min=True, offload_optimizer_device='cpu', offload_param_device='cpu', zero3_init_flag=True, zero3_save_16bit_model=True)
+accelerator.state.deepspeed_plugin.deepspeed_config={'bf16': {'enabled': True}, 'optimizer': {'type': 'Adam', 'params': {'lr': 2e-05, 'betas': [0.9, 0.999], 'eps': 1e-08, 'weight_decay': 3e-07, 'fp32_optimizer_states': False}}, 'scheduler': {'type': 'WarmupDecayLR', 'params': {'warmup_min_lr': 1e-06, 'warmup_max_lr': 2e-05, 'warmup_num_steps': 1000, 'total_num_steps': 'auto'}}, 'zero_optimization': {'stage': 3, 'offload_optimizer': {'device': 'cpu', 'pin_memory': True}, 'offload_param': {'device': 'cpu', 'pin_memory': True}, 'allgather_partitions': True, 'overlap_comm': False, 'reduce_bucket_size': 'auto', 'round_robin_gradients': True, 'contiguous_gradients': True, 'sub_group_size': 100000000.0, 'stage3_prefetch_bucket_size': 0, 'stage3_max_live_parameters': 0, 'stage3_max_reuse_distance': 0, 'stage3_gather_16bit_weights_on_model_save': True, 'zero_quantized_gradients': False, 'zero_hpz_partition_size': 4}, 'activation_checkpointing': {'partition_activations': True, 'cpu_checkpointing': True, 'contiguous_memory_optimization': True, 'number_checkpoints': 4, 'synchronize_checkpoint_boundary': True, 'profile': False}, 'aio': {'block_size': 1048576, 'queue_depth': 8, 'thread_count': 4, 'single_submit': False, 'overlap_events': True}, 'tensorboard': {'enabled': True, 'output_path': 'log/ds_logs/', 'job_name': 'train_mt0_tensorboard'}, 'csv_monitor': {'enabled': True, 'output_path': 'log/ds_logs/', 'job_name': 'train_mt0_csv'}, 'gradient_accumulation_steps': 2, 'gradient_clipping': 'auto', 'steps_per_print': inf, 'train_batch_size': 'auto', 'train_micro_batch_size_per_gpu': 'auto', 'wall_clock_breakdown': False, 'data_types': {'grad_accum_dtype': 'bf16'}, 'flops_profiler': {'enabled': False, 'profile_step': 100, 'module_depth': -1, 'top_modules': 1, 'detailed': True, 'output_file': None}, 'quantize_training': {'enabled': False, 'quantize_verbose': True, 'quantizer_kernel': True, 'quantize-algo': {'q_type': 'symmetric'}, 'quantize_bits': {'start_bits': 16, 'target_bits': 8}, 'quantize_schedule': {'quantize_period': 400, 'schedule_offset': 0}, 'quantize_groups': 8, 'fp16_mixed_quantize': {'enabled': False, 'quantize_change_ratio': 0.001}, 'eigenvalue': {'enabled': False, 'verbose': True, 'max_iter': 50, 'tol': 0.01, 'stability': 0, 'gas_boundary_resolution': 1, 'layer_name': ['SelfAttention.q', 'SelfAttention.k', 'SelfAttention.v', 'SelfAttention.o', 'DenseReluDense.wi_0', 'DenseReluDense.wi_1', 'EncDecAttention'], 'layer_num': 8}}, 'compression_training': {'weight_quantization': {'shared_parameters': {'enabled': False, 'quantizer_kernel': True, 'schedule_offset': 100, 'quantize_groups': 64, 'quantize_verbose': False, 'quantization_type': 'symmetric', 'quantize_weight_in_forward': False, 'rounding': 'nearest', 'fp16_mixed_quantize': {'enabled': False, 'quantize_change_ratio': 0.1}}, 'different_groups': {'wq1': {'params': {'start_bits': 16, 'target_bits': 8, 'quantization_period': 400}, 'modules': ['SelfAttention.q', 'SelfAttention.k', 'SelfAttention.v', 'SelfAttention.o', 'DenseReluDense.wi_0', 'DenseReluDense.wi_1', 'EncDecAttention']}}}, 'activation_quantization': {'shared_parameters': {'enabled': False, 'quantization_type': 'symmetric', 'range_calibration': 'dynamic', 'schedule_offset': 400}, 'different_groups': {'aq1': {'params': {'bits': 8}, 'modules': ['SelfAttention.q', 'SelfAttention.k', 'SelfAttention.v', 'SelfAttention.o', 'DenseReluDense.wi_0', 'DenseReluDense.wi_1', 'EncDecAttention']}}}}, 'fp16': {'enabled': False}}
+trainable params: 9437184 || all params: 12930494464 || trainable%: 0.072983937515106
+accelerator.state.deepspeed_plugin=DeepSpeedPlugin(hf_ds_config=<accelerate.utils.deepspeed.HfDeepSpeedConfig object at 0x7fa514d63c10>, gradient_accumulation_steps=2, gradient_clipping=None, zero_stage=3, is_train_batch_min=True, offload_optimizer_device='cpu', offload_param_device='cpu', zero3_init_flag=True, zero3_save_16bit_model=True)
+accelerator.state.deepspeed_plugin.deepspeed_config={'bf16': {'enabled': True}, 'optimizer': {'type': 'Adam', 'params': {'lr': 2e-05, 'betas': [0.9, 0.999], 'eps': 1e-08, 'weight_decay': 3e-07, 'fp32_optimizer_states': False}}, 'scheduler': {'type': 'WarmupDecayLR', 'params': {'warmup_min_lr': 1e-06, 'warmup_max_lr': 2e-05, 'warmup_num_steps': 1000, 'total_num_steps': 'auto'}}, 'zero_optimization': {'stage': 3, 'offload_optimizer': {'device': 'cpu', 'pin_memory': True}, 'offload_param': {'device': 'cpu', 'pin_memory': True}, 'allgather_partitions': True, 'overlap_comm': False, 'reduce_bucket_size': 'auto', 'round_robin_gradients': True, 'contiguous_gradients': True, 'sub_group_size': 100000000.0, 'stage3_prefetch_bucket_size': 0, 'stage3_max_live_parameters': 0, 'stage3_max_reuse_distance': 0, 'stage3_gather_16bit_weights_on_model_save': True, 'zero_quantized_gradients': False, 'zero_hpz_partition_size': 4}, 'activation_checkpointing': {'partition_activations': True, 'cpu_checkpointing': True, 'contiguous_memory_optimization': True, 'number_checkpoints': 4, 'synchronize_checkpoint_boundary': True, 'profile': False}, 'aio': {'block_size': 1048576, 'queue_depth': 8, 'thread_count': 4, 'single_submit': False, 'overlap_events': True}, 'tensorboard': {'enabled': True, 'output_path': 'log/ds_logs/', 'job_name': 'train_mt0_tensorboard'}, 'csv_monitor': {'enabled': True, 'output_path': 'log/ds_logs/', 'job_name': 'train_mt0_csv'}, 'gradient_accumulation_steps': 2, 'gradient_clipping': 'auto', 'steps_per_print': inf, 'train_batch_size': 'auto', 'train_micro_batch_size_per_gpu': 'auto', 'wall_clock_breakdown': False, 'data_types': {'grad_accum_dtype': 'bf16'}, 'flops_profiler': {'enabled': False, 'profile_step': 100, 'module_depth': -1, 'top_modules': 1, 'detailed': True, 'output_file': None}, 'quantize_training': {'enabled': False, 'quantize_verbose': True, 'quantizer_kernel': True, 'quantize-algo': {'q_type': 'symmetric'}, 'quantize_bits': {'start_bits': 16, 'target_bits': 8}, 'quantize_schedule': {'quantize_period': 400, 'schedule_offset': 0}, 'quantize_groups': 8, 'fp16_mixed_quantize': {'enabled': False, 'quantize_change_ratio': 0.001}, 'eigenvalue': {'enabled': False, 'verbose': True, 'max_iter': 50, 'tol': 0.01, 'stability': 0, 'gas_boundary_resolution': 1, 'layer_name': ['SelfAttention.q', 'SelfAttention.k', 'SelfAttention.v', 'SelfAttention.o', 'DenseReluDense.wi_0', 'DenseReluDense.wi_1', 'EncDecAttention'], 'layer_num': 8}}, 'compression_training': {'weight_quantization': {'shared_parameters': {'enabled': False, 'quantizer_kernel': True, 'schedule_offset': 100, 'quantize_groups': 64, 'quantize_verbose': False, 'quantization_type': 'symmetric', 'quantize_weight_in_forward': False, 'rounding': 'nearest', 'fp16_mixed_quantize': {'enabled': False, 'quantize_change_ratio': 0.1}}, 'different_groups': {'wq1': {'params': {'start_bits': 16, 'target_bits': 8, 'quantization_period': 400}, 'modules': ['SelfAttention.q', 'SelfAttention.k', 'SelfAttention.v', 'SelfAttention.o', 'DenseReluDense.wi_0', 'DenseReluDense.wi_1', 'EncDecAttention']}}}, 'activation_quantization': {'shared_parameters': {'enabled': False, 'quantization_type': 'symmetric', 'range_calibration': 'dynamic', 'schedule_offset': 400}, 'different_groups': {'aq1': {'params': {'bits': 8}, 'modules': ['SelfAttention.q', 'SelfAttention.k', 'SelfAttention.v', 'SelfAttention.o', 'DenseReluDense.wi_0', 'DenseReluDense.wi_1', 'EncDecAttention']}}}}, 'fp16': {'enabled': False}}
+[2023-07-17 05:18:03,591] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed info: version=0.10.0+unknown, git-hash=unknown, git-branch=unknown
+[2023-07-17 05:18:04,854] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed Flops Profiler Enabled: False
+Installed CUDA version 11.3 does not match the version torch was compiled with 11.7 but since the APIs are compatible, accepting this combination
+Installed CUDA version 11.3 does not match the version torch was compiled with 11.7 but since the APIs are compatible, accepting this combination
+Installed CUDA version 11.3 does not match the version torch was compiled with 11.7 but since the APIs are compatible, accepting this combination
+Installed CUDA version 11.3 does not match the version torch was compiled with 11.7 but since the APIs are compatible, accepting this combination
+Installed CUDA version 11.3 does not match the version torch was compiled with 11.7 but since the APIs are compatible, accepting this combination
+Using /root/.cache/torch_extensions/py38_cu117 as PyTorch extensions root...
+Installed CUDA version 11.3 does not match the version torch was compiled with 11.7 but since the APIs are compatible, accepting this combination
+Using /root/.cache/torch_extensions/py38_cu117 as PyTorch extensions root...
+Detected CUDA files, patching ldflags
+Emitting ninja build file /root/.cache/torch_extensions/py38_cu117/cpu_adam/build.ninja...
+Building extension module cpu_adam...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+Installed CUDA version 11.3 does not match the version torch was compiled with 11.7 but since the APIs are compatible, accepting this combination
+Using /root/.cache/torch_extensions/py38_cu117 as PyTorch extensions root...
+Installed CUDA version 11.3 does not match the version torch was compiled with 11.7 but since the APIs are compatible, accepting this combination
+Using /root/.cache/torch_extensions/py38_cu117 as PyTorch extensions root...
+[1/3] /usr/local/cuda/bin/nvcc  -DTORCH_EXTENSION_NAME=cpu_adam -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -I/opt/conda/lib/python3.8/site-packages/deepspeed/ops/csrc/includes -I/usr/local/cuda/include -isystem /opt/conda/lib/python3.8/site-packages/torch/include -isystem /opt/conda/lib/python3.8/site-packages/torch/include/torch/csrc/api/include -isystem /opt/conda/lib/python3.8/site-packages/torch/include/TH -isystem /opt/conda/lib/python3.8/site-packages/torch/include/THC -isystem /usr/local/cuda/include -isystem /opt/conda/include/python3.8 -D_GLIBCXX_USE_CXX11_ABI=0 -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr -gencode=arch=compute_70,code=compute_70 -gencode=arch=compute_70,code=sm_70 --compiler-options '-fPIC' -O3 --use_fast_math -std=c++17 -U__CUDA_NO_HALF_OPERATORS__ -U__CUDA_NO_HALF_CONVERSIONS__ -U__CUDA_NO_HALF2_OPERATORS__ -gencode=arch=compute_70,code=sm_70 -gencode=arch=compute_70,code=compute_70 -c /opt/conda/lib/python3.8/site-packages/deepspeed/ops/csrc/common/custom_cuda_kernel.cu -o custom_cuda_kernel.cuda.o 
+[2/3] c++ -MMD -MF cpu_adam.o.d -DTORCH_EXTENSION_NAME=cpu_adam -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -I/opt/conda/lib/python3.8/site-packages/deepspeed/ops/csrc/includes -I/usr/local/cuda/include -isystem /opt/conda/lib/python3.8/site-packages/torch/include -isystem /opt/conda/lib/python3.8/site-packages/torch/include/torch/csrc/api/include -isystem /opt/conda/lib/python3.8/site-packages/torch/include/TH -isystem /opt/conda/lib/python3.8/site-packages/torch/include/THC -isystem /usr/local/cuda/include -isystem /opt/conda/include/python3.8 -D_GLIBCXX_USE_CXX11_ABI=0 -fPIC -std=c++17 -O3 -std=c++17 -g -Wno-reorder -L/usr/local/cuda/lib64 -lcudart -lcublas -g -march=native -fopenmp -D__AVX256__ -D__ENABLE_CUDA__ -c /opt/conda/lib/python3.8/site-packages/deepspeed/ops/csrc/adam/cpu_adam.cpp -o cpu_adam.o 
+[3/3] c++ cpu_adam.o custom_cuda_kernel.cuda.o -shared -lcurand -L/opt/conda/lib/python3.8/site-packages/torch/lib -lc10 -lc10_cuda -ltorch_cpu -ltorch_cuda -ltorch -ltorch_python -L/usr/local/cuda/lib64 -lcudart -o cpu_adam.so
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 46.69714140892029 seconds
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 43.988889932632446 seconds
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 45.9312686920166 seconds
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 46.75751543045044 seconds
+Adam Optimizer #0 is created with AVX2 arithmetic capability.
+Config: alpha=0.000020, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=1
+[2023-07-17 05:18:56,704] [INFO] [logging.py:96:log_dist] [Rank 0] Using DeepSpeed Optimizer param name adam as basic optimizer
+[2023-07-17 05:18:56,838] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed Basic Optimizer = DeepSpeedCPUAdam
+[2023-07-17 05:18:56,838] [INFO] [utils.py:54:is_zero_supported_optimizer] Checking ZeRO support for optimizer=DeepSpeedCPUAdam type=<class 'deepspeed.ops.adam.cpu_adam.DeepSpeedCPUAdam'>
+[2023-07-17 05:18:56,839] [INFO] [logging.py:96:log_dist] [Rank 0] Creating fp16 ZeRO stage 3 optimizer, MiCS is enabled False, Hierarchical params gather False
+[2023-07-17 05:18:56,839] [INFO] [logging.py:96:log_dist] [Rank 0] Creating torch.bfloat16 ZeRO stage 3 optimizer
+Adam Optimizer #0 is created with AVX2 arithmetic capability.
+Config: alpha=0.000020, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=1
+Adam Optimizer #0 is created with AVX2 arithmetic capability.
+Config: alpha=0.000020, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=1
+[2023-07-17 05:18:57,186] [INFO] [utils.py:785:see_memory_usage] Stage 3 initialize beginning
+[2023-07-17 05:18:57,187] [INFO] [utils.py:786:see_memory_usage] MA 0.02 GB         Max_MA 5.72 GB         CA 10.06 GB         Max_CA 10 GB 
+[2023-07-17 05:18:57,188] [INFO] [utils.py:793:see_memory_usage] CPU Virtual Memory:  used = 184.51 GB, percent = 36.6%
+[2023-07-17 05:18:57,206] [INFO] [stage3.py:117:__init__] Reduce bucket size 16777216
+[2023-07-17 05:18:57,206] [INFO] [stage3.py:118:__init__] Prefetch bucket size 0
+[2023-07-17 05:18:57,528] [INFO] [utils.py:785:see_memory_usage] DeepSpeedZeRoOffload initialize [begin]
+[2023-07-17 05:18:57,529] [INFO] [utils.py:786:see_memory_usage] MA 0.02 GB         Max_MA 0.02 GB         CA 10.06 GB         Max_CA 10 GB 
+[2023-07-17 05:18:57,529] [INFO] [utils.py:793:see_memory_usage] CPU Virtual Memory:  used = 184.54 GB, percent = 36.6%
+Parameter Offload: Total persistent parameters: 9940992 in 412 params
+[2023-07-17 05:18:58,099] [INFO] [utils.py:785:see_memory_usage] DeepSpeedZeRoOffload initialize [end]
+[2023-07-17 05:18:58,100] [INFO] [utils.py:786:see_memory_usage] MA 0.0 GB         Max_MA 0.02 GB         CA 10.06 GB         Max_CA 10 GB 
+[2023-07-17 05:18:58,101] [INFO] [utils.py:793:see_memory_usage] CPU Virtual Memory:  used = 184.6 GB, percent = 36.6%
+[2023-07-17 05:18:58,428] [INFO] [utils.py:785:see_memory_usage] Before creating fp16 partitions
+[2023-07-17 05:18:58,430] [INFO] [utils.py:786:see_memory_usage] MA 0.0 GB         Max_MA 0.0 GB         CA 10.06 GB         Max_CA 10 GB 
+[2023-07-17 05:18:58,430] [INFO] [utils.py:793:see_memory_usage] CPU Virtual Memory:  used = 184.64 GB, percent = 36.7%
+Adam Optimizer #0 is created with AVX2 arithmetic capability.
+Config: alpha=0.000020, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=1
+[2023-07-17 05:19:02,604] [INFO] [utils.py:785:see_memory_usage] After creating fp16 partitions: 1
+[2023-07-17 05:19:02,605] [INFO] [utils.py:786:see_memory_usage] MA 0.0 GB         Max_MA 0.0 GB         CA 10.06 GB         Max_CA 10 GB 
+[2023-07-17 05:19:02,605] [INFO] [utils.py:793:see_memory_usage] CPU Virtual Memory:  used = 184.81 GB, percent = 36.7%
+[2023-07-17 05:19:02,911] [INFO] [utils.py:785:see_memory_usage] Before creating fp32 partitions
+[2023-07-17 05:19:02,912] [INFO] [utils.py:786:see_memory_usage] MA 0.0 GB         Max_MA 0.0 GB         CA 10.06 GB         Max_CA 10 GB 
+[2023-07-17 05:19:02,912] [INFO] [utils.py:793:see_memory_usage] CPU Virtual Memory:  used = 184.82 GB, percent = 36.7%
+[2023-07-17 05:19:03,241] [INFO] [utils.py:785:see_memory_usage] After creating fp32 partitions
+[2023-07-17 05:19:03,241] [INFO] [utils.py:786:see_memory_usage] MA 0.0 GB         Max_MA 0.0 GB         CA 10.06 GB         Max_CA 10 GB 
+[2023-07-17 05:19:03,242] [INFO] [utils.py:793:see_memory_usage] CPU Virtual Memory:  used = 184.83 GB, percent = 36.7%
+[2023-07-17 05:19:03,556] [INFO] [utils.py:785:see_memory_usage] Before initializing optimizer states
+[2023-07-17 05:19:03,557] [INFO] [utils.py:786:see_memory_usage] MA 0.0 GB         Max_MA 0.0 GB         CA 10.06 GB         Max_CA 10 GB 
+[2023-07-17 05:19:03,557] [INFO] [utils.py:793:see_memory_usage] CPU Virtual Memory:  used = 184.94 GB, percent = 36.7%
+[2023-07-17 05:19:03,905] [INFO] [utils.py:785:see_memory_usage] After initializing optimizer states
+[2023-07-17 05:19:03,906] [INFO] [utils.py:786:see_memory_usage] MA 0.0 GB         Max_MA 0.0 GB         CA 10.06 GB         Max_CA 10 GB 
+[2023-07-17 05:19:03,906] [INFO] [utils.py:793:see_memory_usage] CPU Virtual Memory:  used = 185.0 GB, percent = 36.7%
+[2023-07-17 05:19:03,907] [INFO] [stage3.py:423:_setup_for_real_optimizer] optimizer state initialized
+[2023-07-17 05:19:05,474] [INFO] [utils.py:785:see_memory_usage] After initializing ZeRO optimizer
+[2023-07-17 05:19:05,475] [INFO] [utils.py:786:see_memory_usage] MA 0.03 GB         Max_MA 0.03 GB         CA 10.06 GB         Max_CA 10 GB 
+[2023-07-17 05:19:05,475] [INFO] [utils.py:793:see_memory_usage] CPU Virtual Memory:  used = 185.03 GB, percent = 36.7%
+[2023-07-17 05:19:05,475] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed Final Optimizer = adam
+[2023-07-17 05:19:05,558] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed using configured LR scheduler = WarmupDecayLR
+[2023-07-17 05:19:05,558] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed LR Scheduler = <deepspeed.runtime.lr_schedules.WarmupDecayLR object at 0x7fa4989f1f70>
+[2023-07-17 05:19:05,558] [INFO] [logging.py:96:log_dist] [Rank 0] step=0, skipped=0, lr=[2e-05], mom=[[0.9, 0.999]]
+[2023-07-17 05:19:05,562] [INFO] [config.py:960:print] DeepSpeedEngine configuration:
+[2023-07-17 05:19:05,562] [INFO] [config.py:964:print]   activation_checkpointing_config  {
+    "partition_activations": true, 
+    "contiguous_memory_optimization": true, 
+    "cpu_checkpointing": true, 
+    "number_checkpoints": 4, 
+    "synchronize_checkpoint_boundary": true, 
+    "profile": false
+}
+[2023-07-17 05:19:05,562] [INFO] [config.py:964:print]   aio_config ................... {'block_size': 1048576, 'queue_depth': 8, 'thread_count': 4, 'single_submit': False, 'overlap_events': True}
+[2023-07-17 05:19:05,562] [INFO] [config.py:964:print]   amp_enabled .................. False
+[2023-07-17 05:19:05,562] [INFO] [config.py:964:print]   amp_params ................... False
+[2023-07-17 05:19:05,563] [INFO] [config.py:964:print]   autotuning_config ............ {
+    "enabled": false, 
+    "start_step": null, 
+    "end_step": null, 
+    "metric_path": null, 
+    "arg_mappings": null, 
+    "metric": "throughput", 
+    "model_info": null, 
+    "results_dir": "autotuning_results", 
+    "exps_dir": "autotuning_exps", 
+    "overwrite": true, 
+    "fast": true, 
+    "start_profile_step": 3, 
+    "end_profile_step": 5, 
+    "tuner_type": "gridsearch", 
+    "tuner_early_stopping": 5, 
+    "tuner_num_trials": 50, 
+    "model_info_path": null, 
+    "mp_size": 1, 
+    "max_train_batch_size": null, 
+    "min_train_batch_size": 1, 
+    "max_train_micro_batch_size_per_gpu": 1.024000e+03, 
+    "min_train_micro_batch_size_per_gpu": 1, 
+    "num_tuning_micro_batch_sizes": 3
+}
+[2023-07-17 05:19:05,563] [INFO] [config.py:964:print]   bfloat16_enabled ............. True
+[2023-07-17 05:19:05,563] [INFO] [config.py:964:print]   checkpoint_parallel_write_pipeline  False
+[2023-07-17 05:19:05,563] [INFO] [config.py:964:print]   checkpoint_tag_validation_enabled  True
+[2023-07-17 05:19:05,563] [INFO] [config.py:964:print]   checkpoint_tag_validation_fail  False
+[2023-07-17 05:19:05,563] [INFO] [config.py:964:print]   comms_config ................. <deepspeed.comm.config.DeepSpeedCommsConfig object at 0x7fa510a396d0>
+[2023-07-17 05:19:05,563] [INFO] [config.py:964:print]   communication_data_type ...... None
+[2023-07-17 05:19:05,563] [INFO] [config.py:964:print]   compression_config ........... {'weight_quantization': {'shared_parameters': {'enabled': False, 'quantizer_kernel': True, 'schedule_offset': 100, 'quantize_groups': 64, 'quantize_verbose': False, 'quantization_type': 'symmetric', 'quantize_weight_in_forward': False, 'rounding': 'nearest', 'fp16_mixed_quantize': False, 'quantize_change_ratio': 0.1}, 'different_groups': {'wq1': {'params': {'start_bits': 16, 'target_bits': 8, 'quantization_period': 400}, 'modules': ['SelfAttention.q', 'SelfAttention.k', 'SelfAttention.v', 'SelfAttention.o', 'DenseReluDense.wi_0', 'DenseReluDense.wi_1', 'EncDecAttention'], 'related_modules': None}}}, 'activation_quantization': {'shared_parameters': {'enabled': False, 'quantization_type': 'symmetric', 'range_calibration': 'dynamic', 'schedule_offset': 400}, 'different_groups': {'aq1': {'params': {'bits': 8}, 'modules': ['SelfAttention.q', 'SelfAttention.k', 'SelfAttention.v', 'SelfAttention.o', 'DenseReluDense.wi_0', 'DenseReluDense.wi_1', 'EncDecAttention'], 'related_modules': None}}}, 'sparse_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'row_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'head_pruning': {'shared_parameters': {'enabled': False, 'method': 'topk', 'schedule_offset': 1000}, 'different_groups': {}}, 'channel_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'layer_reduction': {'enabled': False}}
+[2023-07-17 05:19:05,563] [INFO] [config.py:964:print]   curriculum_enabled_legacy .... False
+[2023-07-17 05:19:05,563] [INFO] [config.py:964:print]   curriculum_params_legacy ..... False
+[2023-07-17 05:19:05,563] [INFO] [config.py:964:print]   data_efficiency_config ....... {'enabled': False, 'seed': 1234, 'data_sampling': {'enabled': False, 'num_epochs': 1000, 'num_workers': 0, 'curriculum_learning': {'enabled': False}}, 'data_routing': {'enabled': False, 'random_ltd': {'enabled': False, 'layer_token_lr_schedule': {'enabled': False}}}}
+[2023-07-17 05:19:05,563] [INFO] [config.py:964:print]   data_efficiency_enabled ...... False
+[2023-07-17 05:19:05,563] [INFO] [config.py:964:print]   dataloader_drop_last ......... False
+[2023-07-17 05:19:05,563] [INFO] [config.py:964:print]   disable_allgather ............ False
+[2023-07-17 05:19:05,564] [INFO] [config.py:964:print]   dump_state ................... False
+[2023-07-17 05:19:05,564] [INFO] [config.py:964:print]   dynamic_loss_scale_args ...... None
+[2023-07-17 05:19:05,564] [INFO] [config.py:964:print]   eigenvalue_enabled ........... False
+[2023-07-17 05:19:05,564] [INFO] [config.py:964:print]   eigenvalue_gas_boundary_resolution  1
+[2023-07-17 05:19:05,564] [INFO] [config.py:964:print]   eigenvalue_layer_name ........ bert.encoder.layer
+[2023-07-17 05:19:05,564] [INFO] [config.py:964:print]   eigenvalue_layer_num ......... 0
+[2023-07-17 05:19:05,564] [INFO] [config.py:964:print]   eigenvalue_max_iter .......... 100
+[2023-07-17 05:19:05,564] [INFO] [config.py:964:print]   eigenvalue_stability ......... 1e-06
+[2023-07-17 05:19:05,564] [INFO] [config.py:964:print]   eigenvalue_tol ............... 0.01
+[2023-07-17 05:19:05,564] [INFO] [config.py:964:print]   eigenvalue_verbose ........... False
+[2023-07-17 05:19:05,564] [INFO] [config.py:964:print]   elasticity_enabled ........... False
+[2023-07-17 05:19:05,564] [INFO] [config.py:964:print]   flops_profiler_config ........ {
+    "enabled": false, 
+    "recompute_fwd_factor": 0.0, 
+    "profile_step": 100, 
+    "module_depth": -1, 
+    "top_modules": 1, 
+    "detailed": true, 
+    "output_file": null
+}
+[2023-07-17 05:19:05,564] [INFO] [config.py:964:print]   fp16_auto_cast ............... None
+[2023-07-17 05:19:05,564] [INFO] [config.py:964:print]   fp16_enabled ................. False
+[2023-07-17 05:19:05,564] [INFO] [config.py:964:print]   fp16_master_weights_and_gradients  False
+[2023-07-17 05:19:05,564] [INFO] [config.py:964:print]   global_rank .................. 0
+[2023-07-17 05:19:05,564] [INFO] [config.py:964:print]   grad_accum_dtype ............. bf16
+[2023-07-17 05:19:05,564] [INFO] [config.py:964:print]   gradient_accumulation_steps .. 1
+[2023-07-17 05:19:05,564] [INFO] [config.py:964:print]   gradient_clipping ............ 1.0
+[2023-07-17 05:19:05,564] [INFO] [config.py:964:print]   gradient_predivide_factor .... 1.0
+[2023-07-17 05:19:05,564] [INFO] [config.py:964:print]   hybrid_engine ................ enabled=False max_out_tokens=512 inference_tp_size=1 release_inference_cache=False pin_parameters=True tp_gather_partition_size=8
+[2023-07-17 05:19:05,564] [INFO] [config.py:964:print]   initial_dynamic_scale ........ 1
+[2023-07-17 05:19:05,564] [INFO] [config.py:964:print]   load_universal_checkpoint .... False
+[2023-07-17 05:19:05,564] [INFO] [config.py:964:print]   loss_scale ................... 1.0
+[2023-07-17 05:19:05,564] [INFO] [config.py:964:print]   memory_breakdown ............. False
+[2023-07-17 05:19:05,564] [INFO] [config.py:964:print]   mics_hierarchial_params_gather  False
+[2023-07-17 05:19:05,564] [INFO] [config.py:964:print]   mics_shard_size .............. -1
+[2023-07-17 05:19:05,564] [INFO] [config.py:964:print]   monitor_config ............... tensorboard=TensorBoardConfig(enabled=True, output_path='log/ds_logs/', job_name='train_mt0_tensorboard') wandb=WandbConfig(enabled=False, group=None, team=None, project='deepspeed') csv_monitor=CSVConfig(enabled=True, output_path='log/ds_logs/', job_name='train_mt0_csv') enabled=True
+[2023-07-17 05:19:05,565] [INFO] [config.py:964:print]   nebula_config ................ {
+    "enabled": false, 
+    "persistent_storage_path": null, 
+    "persistent_time_interval": 100, 
+    "num_of_version_in_retention": 2, 
+    "enable_nebula_load": true, 
+    "load_path": null
+}
+[2023-07-17 05:19:05,565] [INFO] [config.py:964:print]   optimizer_legacy_fusion ...... False
+[2023-07-17 05:19:05,565] [INFO] [config.py:964:print]   optimizer_name ............... adam
+[2023-07-17 05:19:05,565] [INFO] [config.py:964:print]   optimizer_params ............. {'lr': 2e-05, 'betas': [0.9, 0.999], 'eps': 1e-08, 'weight_decay': 3e-07, 'fp32_optimizer_states': False}
+[2023-07-17 05:19:05,565] [INFO] [config.py:964:print]   pipeline ..................... {'stages': 'auto', 'partition': 'best', 'seed_layers': False, 'activation_checkpoint_interval': 0}
+[2023-07-17 05:19:05,565] [INFO] [config.py:964:print]   pld_enabled .................. False
+[2023-07-17 05:19:05,565] [INFO] [config.py:964:print]   pld_params ................... False
+[2023-07-17 05:19:05,565] [INFO] [config.py:964:print]   prescale_gradients ........... False
+[2023-07-17 05:19:05,565] [INFO] [config.py:964:print]   scheduler_name ............... WarmupDecayLR
+[2023-07-17 05:19:05,565] [INFO] [config.py:964:print]   scheduler_params ............. {'warmup_min_lr': 1e-06, 'warmup_max_lr': 2e-05, 'warmup_num_steps': 1000, 'total_num_steps': 3000}
+[2023-07-17 05:19:05,565] [INFO] [config.py:964:print]   sparse_attention ............. None
+[2023-07-17 05:19:05,565] [INFO] [config.py:964:print]   sparse_gradients_enabled ..... False
+[2023-07-17 05:19:05,565] [INFO] [config.py:964:print]   steps_per_print .............. inf
+[2023-07-17 05:19:05,565] [INFO] [config.py:964:print]   train_batch_size ............. 16
+[2023-07-17 05:19:05,565] [INFO] [config.py:964:print]   train_micro_batch_size_per_gpu  4
+[2023-07-17 05:19:05,565] [INFO] [config.py:964:print]   use_node_local_storage ....... False
+[2023-07-17 05:19:05,565] [INFO] [config.py:964:print]   wall_clock_breakdown ......... False
+[2023-07-17 05:19:05,565] [INFO] [config.py:964:print]   world_size ................... 4
+[2023-07-17 05:19:05,565] [INFO] [config.py:964:print]   zero_allow_untested_optimizer  False
+[2023-07-17 05:19:05,565] [INFO] [config.py:964:print]   zero_config .................. stage=3 contiguous_gradients=True reduce_scatter=True reduce_bucket_size=16777216 allgather_partitions=True allgather_bucket_size=500,000,000 overlap_comm=False load_from_fp32_weights=True elastic_checkpoint=False offload_param=DeepSpeedZeroOffloadParamConfig(device='cpu', nvme_path=None, buffer_count=5, buffer_size=100,000,000, max_in_cpu=1,000,000,000, pin_memory=True) offload_optimizer=DeepSpeedZeroOffloadOptimizerConfig(device='cpu', nvme_path=None, buffer_count=4, pin_memory=True, pipeline=False, pipeline_read=False, pipeline_write=False, fast_init=False) sub_group_size=100000000 cpu_offload_param=None cpu_offload_use_pin_memory=None cpu_offload=None prefetch_bucket_size=0 param_persistence_threshold=100,000 model_persistence_threshold=sys.maxsize max_live_parameters=0 max_reuse_distance=0 gather_16bit_weights_on_model_save=True stage3_gather_fp16_weights_on_model_save=False ignore_unused_parameters=True legacy_stage1=False round_robin_gradients=True zero_hpz_partition_size=4 zero_quantized_weights=False zero_quantized_gradients=False mics_shard_size=-1 mics_hierarchical_params_gather=False memory_efficient_linear=True
+[2023-07-17 05:19:05,565] [INFO] [config.py:964:print]   zero_enabled ................. True
+[2023-07-17 05:19:05,565] [INFO] [config.py:964:print]   zero_force_ds_cpu_optimizer .. True
+[2023-07-17 05:19:05,565] [INFO] [config.py:964:print]   zero_optimization_stage ...... 3
+[2023-07-17 05:19:05,566] [INFO] [config.py:950:print_user_config]   json = {
+    "bf16": {
+        "enabled": true
+    }, 
+    "optimizer": {
+        "type": "Adam", 
+        "params": {
+            "lr": 2e-05, 
+            "betas": [0.9, 0.999], 
+            "eps": 1e-08, 
+            "weight_decay": 3e-07, 
+            "fp32_optimizer_states": false
+        }
+    }, 
+    "scheduler": {
+        "type": "WarmupDecayLR", 
+        "params": {
+            "warmup_min_lr": 1e-06, 
+            "warmup_max_lr": 2e-05, 
+            "warmup_num_steps": 1000, 
+            "total_num_steps": 3.000000e+03
+        }
+    }, 
+    "zero_optimization": {
+        "stage": 3, 
+        "offload_optimizer": {
+            "device": "cpu", 
+            "pin_memory": true
+        }, 
+        "offload_param": {
+            "device": "cpu", 
+            "pin_memory": true
+        }, 
+        "allgather_partitions": true, 
+        "overlap_comm": false, 
+        "reduce_bucket_size": 1.677722e+07, 
+        "round_robin_gradients": true, 
+        "contiguous_gradients": true, 
+        "sub_group_size": 1.000000e+08, 
+        "stage3_prefetch_bucket_size": 0, 
+        "stage3_max_live_parameters": 0, 
+        "stage3_max_reuse_distance": 0, 
+        "stage3_gather_16bit_weights_on_model_save": true, 
+        "zero_quantized_gradients": false, 
+        "zero_hpz_partition_size": 4
+    }, 
+    "activation_checkpointing": {
+        "partition_activations": true, 
+        "cpu_checkpointing": true, 
+        "contiguous_memory_optimization": true, 
+        "number_checkpoints": 4, 
+        "synchronize_checkpoint_boundary": true, 
+        "profile": false
+    }, 
+    "aio": {
+        "block_size": 1.048576e+06, 
+        "queue_depth": 8, 
+        "thread_count": 4, 
+        "single_submit": false, 
+        "overlap_events": true
+    }, 
+    "tensorboard": {
+        "enabled": true, 
+        "output_path": "log/ds_logs/", 
+        "job_name": "train_mt0_tensorboard"
+    }, 
+    "csv_monitor": {
+        "enabled": true, 
+        "output_path": "log/ds_logs/", 
+        "job_name": "train_mt0_csv"
+    }, 
+    "gradient_accumulation_steps": 1, 
+    "gradient_clipping": 1.0, 
+    "steps_per_print": inf, 
+    "train_batch_size": 16, 
+    "train_micro_batch_size_per_gpu": 4, 
+    "wall_clock_breakdown": false, 
+    "data_types": {
+        "grad_accum_dtype": "bf16"
+    }, 
+    "flops_profiler": {
+        "enabled": false, 
+        "profile_step": 100, 
+        "module_depth": -1, 
+        "top_modules": 1, 
+        "detailed": true, 
+        "output_file": null
+    }, 
+    "quantize_training": {
+        "enabled": false, 
+        "quantize_verbose": true, 
+        "quantizer_kernel": true, 
+        "quantize-algo": {
+            "q_type": "symmetric"
+        }, 
+        "quantize_bits": {
+            "start_bits": 16, 
+            "target_bits": 8
+        }, 
+        "quantize_schedule": {
+            "quantize_period": 400, 
+            "schedule_offset": 0
+        }, 
+        "quantize_groups": 8, 
+        "fp16_mixed_quantize": {
+            "enabled": false, 
+            "quantize_change_ratio": 0.001
+        }, 
+        "eigenvalue": {
+            "enabled": false, 
+            "verbose": true, 
+            "max_iter": 50, 
+            "tol": 0.01, 
+            "stability": 0, 
+            "gas_boundary_resolution": 1, 
+            "layer_name": ["SelfAttention.q", "SelfAttention.k", "SelfAttention.v", "SelfAttention.o", "DenseReluDense.wi_0", "DenseReluDense.wi_1", "EncDecAttention"], 
+            "layer_num": 8
+        }
+    }, 
+    "compression_training": {
+        "weight_quantization": {
+            "shared_parameters": {
+                "enabled": false, 
+                "quantizer_kernel": true, 
+                "schedule_offset": 100, 
+                "quantize_groups": 64, 
+                "quantize_verbose": false, 
+                "quantization_type": "symmetric", 
+                "quantize_weight_in_forward": false, 
+                "rounding": "nearest", 
+                "fp16_mixed_quantize": {
+                    "enabled": false, 
+                    "quantize_change_ratio": 0.1
+                }
+            }, 
+            "different_groups": {
+                "wq1": {
+                    "params": {
+                        "start_bits": 16, 
+                        "target_bits": 8, 
+                        "quantization_period": 400
+                    }, 
+                    "modules": ["SelfAttention.q", "SelfAttention.k", "SelfAttention.v", "SelfAttention.o", "DenseReluDense.wi_0", "DenseReluDense.wi_1", "EncDecAttention"]
+                }
+            }
+        }, 
+        "activation_quantization": {
+            "shared_parameters": {
+                "enabled": false, 
+                "quantization_type": "symmetric", 
+                "range_calibration": "dynamic", 
+                "schedule_offset": 400
+            }, 
+            "different_groups": {
+                "aq1": {
+                    "params": {
+                        "bits": 8
+                    }, 
+                    "modules": ["SelfAttention.q", "SelfAttention.k", "SelfAttention.v", "SelfAttention.o", "DenseReluDense.wi_0", "DenseReluDense.wi_1", "EncDecAttention"]
+                }
+            }
+        }, 
+        "sparse_pruning": {
+            "shared_parameters": {
+            }, 
+            "different_groups": {
+            }
+        }, 
+        "row_pruning": {
+            "shared_parameters": {
+            }, 
+            "different_groups": {
+            }
+        }, 
+        "head_pruning": {
+            "shared_parameters": {
+            }, 
+            "different_groups": {
+            }
+        }, 
+        "channel_pruning": {
+            "shared_parameters": {
+            }, 
+            "different_groups": {
+            }
+        }
+    }, 
+    "fp16": {
+        "enabled": false
+    }
+}
+/opt/conda/lib/python3.8/site-packages/torch/cuda/memory.py:303: FutureWarning: torch.cuda.reset_max_memory_allocated now calls torch.cuda.reset_peak_memory_stats, which resets /all/ peak memory stats.
+  warnings.warn(
+train epoch0
+  0%|          | 0/1000 [00:00<?, ?it/s]/opt/conda/lib/python3.8/site-packages/torch/cuda/memory.py:303: FutureWarning: torch.cuda.reset_max_memory_allocated now calls torch.cuda.reset_peak_memory_stats, which resets /all/ peak memory stats.
+  warnings.warn(
+/opt/conda/lib/python3.8/site-packages/torch/cuda/memory.py:303: FutureWarning: torch.cuda.reset_max_memory_allocated now calls torch.cuda.reset_peak_memory_stats, which resets /all/ peak memory stats.
+  warnings.warn(
+  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]You're using a T5TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+You're using a T5TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+/opt/conda/lib/python3.8/site-packages/torch/cuda/memory.py:303: FutureWarning: torch.cuda.reset_max_memory_allocated now calls torch.cuda.reset_peak_memory_stats, which resets /all/ peak memory stats.
+  warnings.warn(
+  0%|          | 0/1000 [00:00<?, ?it/s]You're using a T5TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+You're using a T5TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+  0%|          | 1/1000 [01:16<21:16:03, 76.64s/it]  0%|          | 1/1000 [01:16<21:16:11, 76.65s/it]  0%|          | 1/1000 [01:15<21:02:11, 75.81s/it]  0%|          | 1/1000 [01:16<21:21:19, 76.96s/it]  0%|          | 2/1000 [02:14<18:07:51, 65.40s/it]  0%|          | 2/1000 [02:14<18:07:51, 65.40s/it]  0%|          | 2/1000 [02:14<18:08:39, 65.45s/it]  0%|          | 2/1000 [02:13<18:02:22, 65.07s/it]  0%|          | 3/1000 [03:04<16:12:30, 58.53s/it]  0%|          | 3/1000 [03:04<16:12:33, 58.53s/it]  0%|          | 3/1000 [03:03<16:09:14, 58.33s/it]  0%|          | 3/1000 [03:04<16:13:14, 58.57s/it]  0%|          | 4/1000 [04:06<16:33:48, 59.87s/it]  0%|          | 4/1000 [04:06<16:33:53, 59.87s/it]  0%|          | 4/1000 [04:05<16:31:43, 59.74s/it]  0%|          | 4/1000 [04:06<16:34:07, 59.89s/it]  0%|          | 5/1000 [04:43<14:22:45, 52.03s/it]  0%|          | 5/1000 [04:44<14:24:19, 52.12s/it]  0%|          | 5/1000 [04:44<14:24:21, 52.12s/it]  0%|          | 5/1000 [04:45<14:24:29, 52.13s/it]  1%|          | 6/1000 [05:20<12:57:00, 46.90s/it]  1%|          | 6/1000 [05:21<12:57:56, 46.96s/it]  1%|          | 6/1000 [05:21<12:58:00, 46.96s/it]  1%|          | 6/1000 [05:21<12:58:00, 46.96s/it]  1%|          | 7/1000 [06:13<13:20:37, 48.38s/it]  1%|          | 7/1000 [06:13<13:20:37, 48.38s/it]  1%|          | 7/1000 [06:13<13:20:40, 48.38s/it]  1%|          | 7/1000 [06:12<13:20:31, 48.37s/it]  1%|          | 8/1000 [07:37<16:28:24, 59.78s/it]  1%|          | 8/1000 [07:37<16:28:22, 59.78s/it]  1%|          | 8/1000 [07:37<16:28:28, 59.79s/it]  1%|          | 8/1000 [07:36<16:28:25, 59.78s/it]  1%|          | 9/1000 [08:31<16:00:53, 58.18s/it]  1%|          | 9/1000 [08:31<16:00:55, 58.18s/it]  1%|          | 9/1000 [08:32<16:00:57, 58.18s/it]  1%|          | 9/1000 [08:31<16:00:39, 58.16s/it]  1%|          | 10/1000 [09:23<15:28:48, 56.29s/it]  1%|          | 10/1000 [09:23<15:28:48, 56.29s/it]  1%|          | 10/1000 [09:24<15:28:47, 56.29s/it]  1%|          | 10/1000 [09:23<15:28:33, 56.28s/it]  1%|          | 11/1000 [10:19<15:24:34, 56.09s/it]  1%|          | 11/1000 [10:19<15:24:35, 56.09s/it]  1%|          | 11/1000 [10:19<15:24:32, 56.09s/it]  1%|          | 11/1000 [10:18<15:24:24, 56.08s/it]  1%|          | 12/1000 [10:59<14:05:16, 51.33s/it]  1%|          | 12/1000 [11:00<14:05:37, 51.35s/it]  1%|          | 12/1000 [11:00<14:05:34, 51.35s/it]  1%|          | 12/1000 [11:00<14:05:38, 51.35s/it]  1%|▏         | 13/1000 [11:37<12:55:02, 47.12s/it]  1%|▏         | 13/1000 [11:37<12:55:03, 47.12s/it]  1%|▏         | 13/1000 [11:37<12:55:08, 47.12s/it]  1%|▏         | 13/1000 [11:36<12:55:03, 47.12s/it]  1%|▏         | 14/1000 [12:57<15:35:31, 56.93s/it]  1%|▏         | 14/1000 [12:57<15:35:32, 56.93s/it]  1%|▏         | 14/1000 [12:57<15:35:38, 56.94s/it]  1%|▏         | 14/1000 [12:56<15:36:01, 56.96s/it]  2%|▏         | 15/1000 [13:55<15:41:06, 57.33s/it]  2%|▏         | 15/1000 [13:55<15:41:07, 57.33s/it]  2%|▏         | 15/1000 [13:55<15:41:02, 57.32s/it]  2%|▏         | 15/1000 [13:54<15:40:58, 57.32s/it]  2%|▏         | 16/1000 [14:52<15:37:21, 57.16s/it]  2%|▏         | 16/1000 [14:52<15:37:22, 57.16s/it]  2%|▏         | 16/1000 [14:52<15:37:18, 57.15s/it]  2%|▏         | 16/1000 [14:51<15:37:27, 57.16s/it]  2%|▏         | 17/1000 [15:37<14:40:16, 53.73s/it]  2%|▏         | 17/1000 [15:38<14:40:14, 53.73s/it]  2%|▏         | 17/1000 [15:37<14:40:19, 53.73s/it]  2%|▏         | 17/1000 [15:37<14:40:05, 53.72s/it]  2%|▏         | 18/1000 [16:14<13:18:01, 48.76s/it]  2%|▏         | 18/1000 [16:15<13:18:19, 48.78s/it]  2%|▏         | 18/1000 [16:15<13:18:27, 48.79s/it]  2%|▏         | 18/1000 [16:15<13:18:28, 48.79s/it]  2%|▏         | 19/1000 [16:51<12:16:45, 45.06s/it]  2%|▏         | 19/1000 [16:50<12:16:35, 45.05s/it]  2%|▏         | 19/1000 [16:51<12:16:43, 45.06s/it]  2%|▏         | 19/1000 [16:51<12:16:54, 45.07s/it]  2%|▏         | 20/1000 [17:26<11:32:12, 42.38s/it]  2%|▏         | 20/1000 [17:27<11:32:20, 42.39s/it]  2%|▏         | 20/1000 [17:27<11:32:22, 42.39s/it]  2%|▏         | 20/1000 [17:27<11:32:33, 42.40s/it]  2%|▏         | 21/1000 [18:16<12:04:50, 44.42s/it]  2%|▏         | 21/1000 [18:16<12:04:54, 44.43s/it]  2%|▏         | 21/1000 [18:17<12:04:52, 44.43s/it]  2%|▏         | 21/1000 [18:16<12:05:44, 44.48s/it]  2%|▏         | 22/1000 [19:33<14:42:50, 54.16s/it]  2%|▏         | 22/1000 [19:33<14:42:52, 54.16s/it]  2%|▏         | 22/1000 [19:33<14:42:55, 54.17s/it]  2%|▏         | 22/1000 [19:32<14:42:50, 54.16s/it]  2%|▏         | 23/1000 [20:19<14:01:16, 51.66s/it]  2%|▏         | 23/1000 [20:19<14:01:18, 51.67s/it]  2%|▏         | 23/1000 [20:19<14:01:16, 51.67s/it]  2%|▏         | 23/1000 [20:18<14:01:11, 51.66s/it]  2%|▏         | 24/1000 [21:08<13:45:52, 50.77s/it]  2%|▏         | 24/1000 [21:08<13:45:52, 50.77s/it]  2%|▏         | 24/1000 [21:08<13:45:58, 50.78s/it]  2%|▏         | 24/1000 [21:07<13:45:46, 50.77s/it]  2%|▎         | 25/1000 [21:44<12:35:16, 46.48s/it]  2%|▎         | 25/1000 [21:43<12:35:02, 46.46s/it]  2%|▎         | 25/1000 [21:44<12:35:16, 46.48s/it]  2%|▎         | 25/1000 [21:44<12:35:21, 46.48s/it]  3%|▎         | 26/1000 [22:21<11:46:35, 43.53s/it]  3%|▎         | 26/1000 [22:21<11:46:35, 43.53s/it]  3%|▎         | 26/1000 [22:21<11:46:37, 43.53s/it]  3%|▎         | 26/1000 [22:20<11:46:39, 43.53s/it]  3%|▎         | 27/1000 [23:38<14:26:55, 53.46s/it]  3%|▎         | 27/1000 [23:38<14:26:55, 53.46s/it]  3%|▎         | 27/1000 [23:38<14:26:57, 53.46s/it]  3%|▎         | 27/1000 [23:37<14:27:23, 53.49s/it]  3%|▎         | 28/1000 [24:43<15:23:15, 56.99s/it]  3%|▎         | 28/1000 [24:43<15:23:15, 56.99s/it]  3%|▎         | 28/1000 [24:43<15:23:25, 57.00s/it]  3%|▎         | 28/1000 [24:42<15:23:16, 56.99s/it]  3%|▎         | 29/1000 [25:30<14:35:45, 54.11s/it]  3%|▎         | 29/1000 [25:30<14:35:45, 54.11s/it]  3%|▎         | 29/1000 [25:30<14:35:44, 54.11s/it]  3%|▎         | 29/1000 [25:29<14:35:44, 54.11s/it]  3%|▎         | 30/1000 [26:21<14:21:20, 53.28s/it]  3%|▎         | 30/1000 [26:21<14:21:20, 53.28s/it]  3%|▎         | 30/1000 [26:22<14:21:18, 53.28s/it]  3%|▎         | 30/1000 [26:21<14:21:20, 53.28s/it]  3%|▎         | 31/1000 [27:02<13:20:57, 49.59s/it]  3%|▎         | 31/1000 [27:03<13:21:19, 49.62s/it]  3%|▎         | 31/1000 [27:03<13:21:21, 49.62s/it]  3%|▎         | 31/1000 [27:03<13:21:25, 49.62s/it]  3%|▎         | 32/1000 [27:38<12:16:59, 45.68s/it]  3%|▎         | 32/1000 [27:39<12:17:10, 45.69s/it]  3%|▎         | 32/1000 [27:39<12:17:14, 45.70s/it]  3%|▎         | 32/1000 [27:39<12:17:17, 45.70s/it]  3%|▎         | 33/1000 [28:28<12:33:53, 46.78s/it]  3%|▎         | 33/1000 [28:28<12:33:53, 46.78s/it]  3%|▎         | 33/1000 [28:29<12:33:53, 46.78s/it]  3%|▎         | 33/1000 [28:28<12:34:48, 46.83s/it]  3%|▎         | 34/1000 [29:56<15:50:55, 59.06s/it]  3%|▎         | 34/1000 [29:56<15:50:54, 59.06s/it]  3%|▎         | 34/1000 [29:56<15:50:57, 59.07s/it]  3%|▎         | 34/1000 [29:55<15:51:08, 59.08s/it]  4%|▎         | 35/1000 [30:53<15:38:14, 58.34s/it]  4%|▎         | 35/1000 [30:53<15:38:14, 58.34s/it]  4%|▎         | 35/1000 [30:53<15:38:21, 58.34s/it]  4%|▎         | 35/1000 [30:52<15:38:06, 58.33s/it]  4%|▎         | 36/1000 [31:49<15:29:15, 57.84s/it]  4%|▎         | 36/1000 [31:49<15:29:16, 57.84s/it]  4%|▎         | 36/1000 [31:50<15:29:12, 57.83s/it]  4%|▎         | 36/1000 [31:49<15:29:06, 57.83s/it]  4%|▎         | 37/1000 [32:41<15:00:21, 56.10s/it]  4%|▎         | 37/1000 [32:42<15:00:22, 56.10s/it]  4%|▎         | 37/1000 [32:42<15:00:22, 56.10s/it]  4%|▎         | 37/1000 [32:41<15:00:09, 56.08s/it]  4%|▍         | 38/1000 [33:22<13:42:46, 51.32s/it]  4%|▍         | 38/1000 [33:22<13:42:45, 51.32s/it]  4%|▍         | 38/1000 [33:21<13:42:36, 51.31s/it]  4%|▍         | 38/1000 [33:22<13:42:57, 51.33s/it]  4%|▍         | 39/1000 [34:00<12:38:39, 47.37s/it]  4%|▍         | 39/1000 [34:00<12:38:37, 47.36s/it]  4%|▍         | 39/1000 [34:00<12:38:38, 47.37s/it]  4%|▍         | 39/1000 [33:59<12:38:29, 47.36s/it]  4%|▍         | 40/1000 [34:35<11:42:26, 43.90s/it]  4%|▍         | 40/1000 [34:36<11:42:38, 43.92s/it]  4%|▍         | 40/1000 [34:36<11:42:43, 43.92s/it]  4%|▍         | 40/1000 [34:36<11:42:42, 43.92s/it]  4%|▍         | 41/1000 [35:11<11:06:37, 41.71s/it]  4%|▍         | 41/1000 [35:12<11:06:43, 41.71s/it]  4%|▍         | 41/1000 [35:12<11:06:46, 41.72s/it]  4%|▍         | 41/1000 [35:12<11:06:53, 41.72s/it]  4%|▍         | 42/1000 [36:10<12:21:03, 46.41s/it]  4%|▍         | 42/1000 [36:10<12:21:02, 46.41s/it]  4%|▍         | 42/1000 [36:10<12:21:06, 46.42s/it]  4%|▍         | 42/1000 [36:09<12:21:29, 46.44s/it]  4%|▍         | 43/1000 [37:28<14:52:53, 55.98s/it]  4%|▍         | 43/1000 [37:28<14:52:52, 55.98s/it]  4%|▍         | 43/1000 [37:28<14:52:52, 55.98s/it]  4%|▍         | 43/1000 [37:27<14:53:02, 55.99s/it]  4%|▍         | 44/1000 [38:23<14:48:46, 55.78s/it]  4%|▍         | 44/1000 [38:23<14:48:49, 55.78s/it]  4%|▍         | 44/1000 [38:23<14:48:53, 55.79s/it]  4%|▍         | 44/1000 [38:22<14:48:57, 55.79s/it]  4%|▍         | 45/1000 [39:15<14:27:33, 54.51s/it]  4%|▍         | 45/1000 [39:15<14:27:34, 54.51s/it]  4%|▍         | 45/1000 [39:15<14:27:36, 54.51s/it]  4%|▍         | 45/1000 [39:14<14:27:36, 54.51s/it]  5%|▍         | 46/1000 [40:03<13:58:03, 52.71s/it]  5%|▍         | 46/1000 [40:03<13:58:03, 52.71s/it]  5%|▍         | 46/1000 [40:03<13:58:00, 52.70s/it]  5%|▍         | 46/1000 [40:02<13:57:58, 52.70s/it]  5%|▍         | 47/1000 [40:40<12:42:42, 48.02s/it]  5%|▍         | 47/1000 [40:40<12:42:42, 48.02s/it]  5%|▍         | 47/1000 [40:41<12:42:39, 48.02s/it]  5%|▍         | 47/1000 [40:39<12:42:27, 48.00s/it]  5%|▍         | 48/1000 [41:17<11:47:10, 44.57s/it]  5%|▍         | 48/1000 [41:17<11:47:10, 44.57s/it]  5%|▍         | 48/1000 [41:17<11:47:11, 44.57s/it]  5%|▍         | 48/1000 [41:16<11:47:06, 44.57s/it]  5%|▍         | 49/1000 [41:52<11:07:22, 42.11s/it]  5%|▍         | 49/1000 [41:53<11:07:31, 42.11s/it]  5%|▍         | 49/1000 [41:53<11:07:34, 42.12s/it]  5%|▍         | 49/1000 [41:53<11:07:41, 42.13s/it]  5%|▌         | 50/1000 [42:43<11:45:07, 44.53s/it]  5%|▌         | 50/1000 [42:43<11:45:10, 44.54s/it]  5%|▌         | 50/1000 [42:44<11:45:09, 44.54s/it]  5%|▌         | 50/1000 [42:43<11:45:30, 44.56s/it]  5%|▌         | 51/1000 [44:07<14:47:52, 56.14s/it]  5%|▌         | 51/1000 [44:07<14:47:58, 56.14s/it]  5%|▌         | 51/1000 [44:07<14:47:57, 56.14s/it]  5%|▌         | 51/1000 [44:06<14:48:07, 56.15s/it]  5%|▌         | 52/1000 [45:52<18:40:47, 70.94s/it]  5%|▌         | 52/1000 [45:52<18:40:47, 70.94s/it]  5%|▌         | 52/1000 [45:52<18:40:54, 70.94s/it]  5%|▌         | 52/1000 [45:51<18:41:25, 70.98s/it]  5%|▌         | 53/1000 [47:10<19:11:59, 72.99s/it]  5%|▌         | 53/1000 [47:10<19:11:58, 72.99s/it]  5%|▌         | 53/1000 [47:10<19:12:00, 72.99s/it]  5%|▌         | 53/1000 [47:09<19:11:53, 72.98s/it]  5%|▌         | 54/1000 [48:12<18:20:19, 69.79s/it]  5%|▌         | 54/1000 [48:12<18:20:20, 69.79s/it]  5%|▌         | 54/1000 [48:12<18:20:22, 69.79s/it]  5%|▌         | 54/1000 [48:11<18:20:18, 69.79s/it]  6%|▌         | 55/1000 [49:17<17:57:35, 68.42s/it]  6%|▌         | 55/1000 [49:17<17:57:36, 68.42s/it]  6%|▌         | 55/1000 [49:18<17:57:35, 68.42s/it]  6%|▌         | 55/1000 [49:17<17:57:42, 68.43s/it]  6%|▌         | 56/1000 [50:13<16:56:19, 64.60s/it]  6%|▌         | 56/1000 [50:13<16:56:21, 64.60s/it]  6%|▌         | 56/1000 [50:13<16:56:22, 64.60s/it]  6%|▌         | 56/1000 [50:12<16:56:03, 64.58s/it]  6%|▌         | 57/1000 [50:49<14:40:45, 56.04s/it]  6%|▌         | 57/1000 [50:49<14:40:49, 56.04s/it]  6%|▌         | 57/1000 [50:49<14:40:50, 56.05s/it]  6%|▌         | 57/1000 [50:48<14:40:33, 56.03s/it]  6%|▌         | 58/1000 [51:27<13:14:20, 50.59s/it]  6%|▌         | 58/1000 [51:27<13:14:19, 50.59s/it]  6%|▌         | 58/1000 [51:27<13:14:26, 50.60s/it]  6%|▌         | 58/1000 [51:26<13:14:15, 50.59s/it]  6%|▌         | 59/1000 [52:25<13:47:09, 52.74s/it]  6%|▌         | 59/1000 [52:25<13:47:10, 52.74s/it]  6%|▌         | 59/1000 [52:25<13:47:05, 52.74s/it]  6%|▌         | 59/1000 [52:24<13:47:31, 52.76s/it]  6%|▌         | 60/1000 [53:29<14:41:26, 56.26s/it]  6%|▌         | 60/1000 [53:29<14:41:26, 56.26s/it]  6%|▌         | 60/1000 [53:30<14:41:27, 56.26s/it]  6%|▌         | 60/1000 [53:29<14:41:24, 56.26s/it]  6%|▌         | 61/1000 [54:17<13:58:29, 53.58s/it]  6%|▌         | 61/1000 [54:17<13:58:29, 53.58s/it]  6%|▌         | 61/1000 [54:17<13:58:26, 53.57s/it]  6%|▌         | 61/1000 [54:16<13:58:22, 53.57s/it]  6%|▌         | 62/1000 [55:04<13:27:00, 51.62s/it]  6%|▌         | 62/1000 [55:04<13:27:01, 51.62s/it]  6%|▌         | 62/1000 [55:04<13:26:59, 51.62s/it]  6%|▌         | 62/1000 [55:03<13:26:55, 51.62s/it]  6%|▋         | 63/1000 [55:50<12:58:49, 49.87s/it]  6%|▋         | 63/1000 [55:50<12:58:49, 49.87s/it]  6%|▋         | 63/1000 [55:50<12:58:48, 49.87s/it]  6%|▋         | 63/1000 [55:49<12:58:41, 49.86s/it]  6%|▋         | 64/1000 [56:28<12:05:05, 46.48s/it]  6%|▋         | 64/1000 [56:27<12:04:54, 46.47s/it]  6%|▋         | 64/1000 [56:28<12:05:11, 46.49s/it]  6%|▋         | 64/1000 [56:28<12:05:14, 46.49s/it]  6%|▋         | 65/1000 [57:04<11:15:14, 43.33s/it]  6%|▋         | 65/1000 [57:04<11:15:15, 43.33s/it]  6%|▋         | 65/1000 [57:03<11:15:08, 43.33s/it]  6%|▋         | 65/1000 [57:04<11:15:21, 43.34s/it]  7%|▋         | 66/1000 [57:51<11:29:58, 44.32s/it]  7%|▋         | 66/1000 [57:51<11:30:01, 44.33s/it]  7%|▋         | 66/1000 [57:51<11:30:07, 44.33s/it]  7%|▋         | 66/1000 [57:50<11:30:22, 44.35s/it]  7%|▋         | 67/1000 [59:13<14:25:00, 55.63s/it]  7%|▋         | 67/1000 [59:13<14:25:01, 55.63s/it]  7%|▋         | 67/1000 [59:13<14:25:05, 55.63s/it]  7%|▋         | 67/1000 [59:12<14:25:13, 55.64s/it]  7%|▋         | 68/1000 [1:00:25<15:43:21, 60.73s/it]  7%|▋         | 68/1000 [1:00:26<15:43:19, 60.73s/it]  7%|▋         | 68/1000 [1:00:25<15:43:27, 60.74s/it]  7%|▋         | 68/1000 [1:00:25<15:43:24, 60.73s/it]  7%|▋         | 69/1000 [1:01:38<16:38:51, 64.37s/it]  7%|▋         | 69/1000 [1:01:38<16:38:53, 64.38s/it]  7%|▋         | 69/1000 [1:01:38<16:38:57, 64.38s/it]  7%|▋         | 69/1000 [1:01:37<16:38:47, 64.37s/it]  7%|▋         | 70/1000 [1:02:27<15:24:11, 59.63s/it]  7%|▋         | 70/1000 [1:02:27<15:24:12, 59.63s/it]  7%|▋         | 70/1000 [1:02:27<15:24:09, 59.62s/it]  7%|▋         | 70/1000 [1:02:26<15:24:05, 59.62s/it]  7%|▋         | 71/1000 [1:03:05<13:42:14, 53.11s/it]  7%|▋         | 71/1000 [1:03:04<13:42:02, 53.09s/it]  7%|▋         | 71/1000 [1:03:05<13:42:18, 53.11s/it]  7%|▋         | 71/1000 [1:03:05<13:42:22, 53.11s/it]  7%|▋         | 72/1000 [1:03:40<12:23:46, 48.09s/it]  7%|▋         | 72/1000 [1:03:41<12:23:54, 48.10s/it]  7%|▋         | 72/1000 [1:03:41<12:23:57, 48.10s/it]  7%|▋         | 72/1000 [1:03:41<12:23:57, 48.10s/it]  7%|▋         | 73/1000 [1:04:18<11:31:52, 44.78s/it]  7%|▋         | 73/1000 [1:04:18<11:31:54, 44.78s/it]  7%|▋         | 73/1000 [1:04:18<11:31:53, 44.78s/it]  7%|▋         | 73/1000 [1:04:17<11:31:59, 44.79s/it]  7%|▋         | 74/1000 [1:05:46<14:49:36, 57.64s/it]  7%|▋         | 74/1000 [1:05:46<14:49:36, 57.64s/it]  7%|▋         | 74/1000 [1:05:46<14:49:39, 57.65s/it]  7%|▋         | 74/1000 [1:05:45<14:50:18, 57.69s/it]  8%|▊         | 75/1000 [1:06:53<15:31:50, 60.44s/it]  8%|▊         | 75/1000 [1:06:53<15:31:49, 60.44s/it]  8%|▊         | 75/1000 [1:06:53<15:31:49, 60.44s/it]  8%|▊         | 75/1000 [1:06:52<15:31:46, 60.44s/it]  8%|▊         | 76/1000 [1:07:47<15:02:07, 58.58s/it]  8%|▊         | 76/1000 [1:07:47<15:02:06, 58.58s/it]  8%|▊         | 76/1000 [1:07:47<15:02:05, 58.58s/it]  8%|▊         | 76/1000 [1:07:46<15:02:05, 58.58s/it]  8%|▊         | 77/1000 [1:08:41<14:41:52, 57.33s/it]  8%|▊         | 77/1000 [1:08:41<14:41:54, 57.33s/it]  8%|▊         | 77/1000 [1:08:42<14:41:52, 57.33s/it]  8%|▊         | 77/1000 [1:08:41<14:41:47, 57.32s/it]  8%|▊         | 78/1000 [1:09:21<13:18:51, 51.99s/it]  8%|▊         | 78/1000 [1:09:21<13:18:52, 51.99s/it]  8%|▊         | 78/1000 [1:09:20<13:18:36, 51.97s/it]  8%|▊         | 78/1000 [1:09:21<13:18:56, 51.99s/it]  8%|▊         | 79/1000 [1:09:57<12:03:51, 47.16s/it]  8%|▊         | 79/1000 [1:09:56<12:03:40, 47.14s/it]  8%|▊         | 79/1000 [1:09:57<12:03:55, 47.16s/it]  8%|▊         | 79/1000 [1:09:57<12:03:55, 47.16s/it]  8%|▊         | 80/1000 [1:10:33<11:11:52, 43.82s/it]  8%|▊         | 80/1000 [1:10:32<11:11:43, 43.81s/it]  8%|▊         | 80/1000 [1:10:33<11:11:51, 43.82s/it]  8%|▊         | 80/1000 [1:10:33<11:11:56, 43.82s/it]  8%|▊         | 81/1000 [1:11:43<13:13:38, 51.82s/it]  8%|▊         | 81/1000 [1:11:43<13:13:39, 51.82s/it]  8%|▊         | 81/1000 [1:11:44<13:13:39, 51.82s/it]  8%|▊         | 81/1000 [1:11:43<13:13:55, 51.83s/it]  8%|▊         | 82/1000 [1:12:55<14:44:54, 57.84s/it]  8%|▊         | 82/1000 [1:12:55<14:44:54, 57.84s/it]  8%|▊         | 82/1000 [1:12:55<14:44:50, 57.83s/it]  8%|▊         | 82/1000 [1:12:54<14:45:01, 57.84s/it]  8%|▊         | 83/1000 [1:13:53<14:44:46, 57.89s/it]  8%|▊         | 83/1000 [1:13:53<14:44:46, 57.89s/it]  8%|▊         | 83/1000 [1:13:53<14:44:42, 57.89s/it]  8%|▊         | 83/1000 [1:13:52<14:44:49, 57.89s/it]  8%|▊         | 84/1000 [1:14:49<14:35:50, 57.37s/it]  8%|▊         | 84/1000 [1:14:49<14:35:50, 57.37s/it]  8%|▊         | 84/1000 [1:14:50<14:35:51, 57.37s/it]  8%|▊         | 84/1000 [1:14:49<14:35:55, 57.37s/it]  8%|▊         | 85/1000 [1:15:30<13:19:46, 52.44s/it]  8%|▊         | 85/1000 [1:15:31<13:19:43, 52.44s/it]  8%|▊         | 85/1000 [1:15:30<13:19:50, 52.45s/it]  8%|▊         | 85/1000 [1:15:29<13:19:40, 52.44s/it]  9%|▊         | 86/1000 [1:16:08<12:11:00, 47.99s/it]  9%|▊         | 86/1000 [1:16:07<12:10:51, 47.98s/it]  9%|▊         | 86/1000 [1:16:08<12:11:06, 47.99s/it]  9%|▊         | 86/1000 [1:16:08<12:11:10, 48.00s/it]  9%|▊         | 87/1000 [1:16:44<11:18:49, 44.61s/it]  9%|▊         | 87/1000 [1:16:45<11:18:58, 44.62s/it]  9%|▊         | 87/1000 [1:16:45<11:19:03, 44.63s/it]  9%|▊         | 87/1000 [1:16:45<11:18:58, 44.62s/it]  9%|▉         | 88/1000 [1:17:44<12:25:24, 49.04s/it]  9%|▉         | 88/1000 [1:17:44<12:25:24, 49.04s/it]  9%|▉         | 88/1000 [1:17:44<12:25:26, 49.04s/it]  9%|▉         | 88/1000 [1:17:43<12:25:47, 49.06s/it]  9%|▉         | 89/1000 [1:19:07<14:58:35, 59.18s/it]  9%|▉         | 89/1000 [1:19:07<14:58:36, 59.18s/it]  9%|▉         | 89/1000 [1:19:07<14:58:37, 59.19s/it]  9%|▉         | 89/1000 [1:19:06<14:58:42, 59.19s/it]  9%|▉         | 90/1000 [1:20:00<14:27:46, 57.22s/it]  9%|▉         | 90/1000 [1:20:00<14:27:46, 57.22s/it]  9%|▉         | 90/1000 [1:20:00<14:27:42, 57.21s/it]  9%|▉         | 90/1000 [1:19:59<14:27:49, 57.22s/it]  9%|▉         | 91/1000 [1:20:52<14:03:57, 55.71s/it]  9%|▉         | 91/1000 [1:20:52<14:03:56, 55.71s/it]  9%|▉         | 91/1000 [1:20:52<14:03:57, 55.71s/it]  9%|▉         | 91/1000 [1:20:51<14:03:56, 55.71s/it]  9%|▉         | 92/1000 [1:21:30<12:42:42, 50.40s/it]  9%|▉         | 92/1000 [1:21:30<12:42:41, 50.40s/it]  9%|▉         | 92/1000 [1:21:30<12:42:39, 50.40s/it]  9%|▉         | 92/1000 [1:21:29<12:42:34, 50.39s/it]  9%|▉         | 93/1000 [1:22:05<11:35:27, 46.01s/it]  9%|▉         | 93/1000 [1:22:06<11:35:43, 46.02s/it]  9%|▉         | 93/1000 [1:22:06<11:35:46, 46.03s/it]  9%|▉         | 93/1000 [1:22:06<11:35:51, 46.03s/it]  9%|▉         | 94/1000 [1:22:42<10:51:09, 43.12s/it]  9%|▉         | 94/1000 [1:22:41<10:51:02, 43.12s/it]  9%|▉         | 94/1000 [1:22:42<10:51:10, 43.12s/it]  9%|▉         | 94/1000 [1:22:42<10:51:09, 43.12s/it] 10%|▉         | 95/1000 [1:23:40<11:59:30, 47.70s/it] 10%|▉         | 95/1000 [1:23:40<11:59:32, 47.70s/it] 10%|▉         | 95/1000 [1:23:40<11:59:29, 47.70s/it] 10%|▉         | 95/1000 [1:23:40<12:00:36, 47.78s/it] 10%|▉         | 96/1000 [1:24:53<13:51:25, 55.18s/it] 10%|▉         | 96/1000 [1:24:53<13:51:24, 55.18s/it] 10%|▉         | 96/1000 [1:24:53<13:51:24, 55.18s/it] 10%|▉         | 96/1000 [1:24:52<13:51:27, 55.19s/it] 10%|▉         | 97/1000 [1:25:49<13:55:42, 55.53s/it] 10%|▉         | 97/1000 [1:25:49<13:55:44, 55.53s/it] 10%|▉         | 97/1000 [1:25:49<13:55:44, 55.53s/it] 10%|▉         | 97/1000 [1:25:48<13:55:32, 55.52s/it] 10%|▉         | 98/1000 [1:26:34<13:06:48, 52.34s/it] 10%|▉         | 98/1000 [1:26:34<13:06:53, 52.34s/it] 10%|▉         | 98/1000 [1:26:33<13:06:33, 52.32s/it] 10%|▉         | 98/1000 [1:26:34<13:06:55, 52.35s/it] 10%|▉         | 99/1000 [1:27:10<11:56:31, 47.72s/it] 10%|▉         | 99/1000 [1:27:11<11:56:50, 47.74s/it] 10%|▉         | 99/1000 [1:27:11<11:56:48, 47.73s/it] 10%|▉         | 99/1000 [1:27:11<11:56:57, 47.74s/it] 10%|█         | 100/1000 [1:27:46<11:03:40, 44.24s/it] 10%|█         | 100/1000 [1:27:47<11:03:46, 44.25s/it] 10%|█         | 100/1000 [1:27:47<11:03:52, 44.26s/it] 10%|█         | 100/1000 [1:27:47<11:03:56, 44.26s/it] 10%|█         | 101/1000 [1:28:46<12:06:34, 48.49s/it] 10%|█         | 101/1000 [1:28:46<12:06:35, 48.49s/it] 10%|█         | 101/1000 [1:28:46<12:06:34, 48.49s/it] 10%|█         | 101/1000 [1:28:45<12:07:32, 48.56s/it] 10%|█         | 102/1000 [1:30:06<14:27:23, 57.96s/it] 10%|█         | 102/1000 [1:30:06<14:27:24, 57.96s/it] 10%|█         | 102/1000 [1:30:06<14:27:24, 57.96s/it] 10%|█         | 102/1000 [1:30:05<14:27:35, 57.97s/it] 10%|█         | 103/1000 [1:31:03<14:23:06, 57.73s/it] 10%|█         | 103/1000 [1:31:03<14:23:06, 57.73s/it] 10%|█         | 103/1000 [1:31:03<14:23:04, 57.73s/it] 10%|█         | 103/1000 [1:31:02<14:23:00, 57.73s/it] 10%|█         | 104/1000 [1:31:54<13:53:41, 55.83s/it] 10%|█         | 104/1000 [1:31:54<13:53:42, 55.83s/it] 10%|█         | 104/1000 [1:31:54<13:53:42, 55.83s/it] 10%|█         | 104/1000 [1:31:53<13:53:33, 55.82s/it] 10%|█         | 105/1000 [1:32:41<13:10:59, 53.03s/it] 10%|█         | 105/1000 [1:32:41<13:11:00, 53.03s/it] 10%|█         | 105/1000 [1:32:41<13:11:03, 53.03s/it] 10%|█         | 105/1000 [1:32:40<13:10:48, 53.01s/it] 11%|█         | 106/1000 [1:33:17<11:57:48, 48.17s/it] 11%|█         | 106/1000 [1:33:18<11:58:05, 48.19s/it] 11%|█         | 106/1000 [1:33:18<11:58:10, 48.20s/it] 11%|█         | 106/1000 [1:33:18<11:58:11, 48.20s/it] 11%|█         | 107/1000 [1:33:53<11:02:24, 44.51s/it] 11%|█         | 107/1000 [1:33:54<11:02:37, 44.52s/it] 11%|█         | 107/1000 [1:33:54<11:02:39, 44.52s/it] 11%|█         | 107/1000 [1:33:54<11:02:40, 44.53s/it] 11%|█         | 108/1000 [1:34:51<12:00:25, 48.46s/it] 11%|█         | 108/1000 [1:34:51<12:00:26, 48.46s/it] 11%|█         | 108/1000 [1:34:52<12:00:27, 48.46s/it] 11%|█         | 108/1000 [1:34:51<12:00:55, 48.49s/it] 11%|█         | 109/1000 [1:36:09<14:11:27, 57.34s/it] 11%|█         | 109/1000 [1:36:09<14:11:28, 57.34s/it] 11%|█         | 109/1000 [1:36:10<14:11:30, 57.34s/it] 11%|█         | 109/1000 [1:36:09<14:11:34, 57.35s/it] 11%|█         | 110/1000 [1:37:04<13:56:50, 56.42s/it] 11%|█         | 110/1000 [1:37:04<13:56:51, 56.42s/it] 11%|█         | 110/1000 [1:37:04<13:56:49, 56.41s/it] 11%|█         | 110/1000 [1:37:03<13:56:54, 56.42s/it] 11%|█         | 111/1000 [1:37:51<13:16:47, 53.78s/it] 11%|█         | 111/1000 [1:37:51<13:16:48, 53.78s/it] 11%|█         | 111/1000 [1:37:51<13:16:46, 53.78s/it] 11%|█         | 111/1000 [1:37:50<13:16:40, 53.77s/it] 11%|█         | 112/1000 [1:38:31<12:12:24, 49.49s/it] 11%|█         | 112/1000 [1:38:31<12:12:24, 49.49s/it] 11%|█         | 112/1000 [1:38:31<12:12:23, 49.49s/it] 11%|█         | 112/1000 [1:38:30<12:12:12, 49.47s/it] 11%|█▏        | 113/1000 [1:39:06<11:12:51, 45.52s/it] 11%|█▏        | 113/1000 [1:39:07<11:13:06, 45.53s/it] 11%|█▏        | 113/1000 [1:39:07<11:13:12, 45.54s/it] 11%|█▏        | 113/1000 [1:39:07<11:13:18, 45.55s/it] 11%|█▏        | 114/1000 [1:39:43<10:31:04, 42.74s/it] 11%|█▏        | 114/1000 [1:39:43<10:31:01, 42.73s/it] 11%|█▏        | 114/1000 [1:39:43<10:31:01, 42.73s/it] 11%|█▏        | 114/1000 [1:39:42<10:31:01, 42.73s/it] 12%|█▏        | 115/1000 [1:41:01<13:04:11, 53.17s/it] 12%|█▏        | 115/1000 [1:41:01<13:04:09, 53.16s/it] 12%|█▏        | 115/1000 [1:41:01<13:04:13, 53.17s/it] 12%|█▏        | 115/1000 [1:41:00<13:04:42, 53.20s/it] 12%|█▏        | 116/1000 [1:42:14<14:33:26, 59.28s/it] 12%|█▏        | 116/1000 [1:42:14<14:33:29, 59.29s/it] 12%|█▏        | 116/1000 [1:42:14<14:33:26, 59.28s/it] 12%|█▏        | 116/1000 [1:42:14<14:33:29, 59.29s/it] 12%|█▏        | 117/1000 [1:43:10<14:17:57, 58.30s/it] 12%|█▏        | 117/1000 [1:43:10<14:17:58, 58.30s/it] 12%|█▏        | 117/1000 [1:43:10<14:17:57, 58.30s/it] 12%|█▏        | 117/1000 [1:43:10<14:17:59, 58.30s/it] 12%|█▏        | 118/1000 [1:44:09<14:17:54, 58.36s/it] 12%|█▏        | 118/1000 [1:44:09<14:17:53, 58.36s/it] 12%|█▏        | 118/1000 [1:44:09<14:17:53, 58.36s/it] 12%|█▏        | 118/1000 [1:44:08<14:17:55, 58.36s/it] 12%|█▏        | 119/1000 [1:44:51<13:07:23, 53.62s/it] 12%|█▏        | 119/1000 [1:44:51<13:07:24, 53.63s/it] 12%|█▏        | 119/1000 [1:44:52<13:07:23, 53.63s/it] 12%|█▏        | 119/1000 [1:44:51<13:07:14, 53.61s/it] 12%|█▏        | 120/1000 [1:45:29<11:55:34, 48.79s/it] 12%|█▏        | 120/1000 [1:45:29<11:55:33, 48.79s/it] 12%|█▏        | 120/1000 [1:45:28<11:55:23, 48.78s/it] 12%|█▏        | 120/1000 [1:45:29<11:55:41, 48.80s/it] 12%|█▏        | 121/1000 [1:46:04<10:56:04, 44.78s/it] 12%|█▏        | 121/1000 [1:46:05<10:56:05, 44.78s/it] 12%|█▏        | 121/1000 [1:46:04<10:56:05, 44.78s/it] 12%|█▏        | 121/1000 [1:46:03<10:55:55, 44.77s/it] 12%|█▏        | 122/1000 [1:46:40<10:15:18, 42.05s/it] 12%|█▏        | 122/1000 [1:46:39<10:15:12, 42.04s/it] 12%|█▏        | 122/1000 [1:46:40<10:15:20, 42.05s/it] 12%|█▏        | 122/1000 [1:46:40<10:15:29, 42.06s/it] 12%|█▏        | 123/1000 [1:47:16<9:47:57, 40.22s/it]  12%|█▏        | 123/1000 [1:47:16<9:47:56, 40.22s/it]  12%|█▏        | 123/1000 [1:47:15<9:47:53, 40.22s/it]  12%|█▏        | 123/1000 [1:47:16<9:48:01, 40.23s/it]  12%|█▏        | 124/1000 [1:48:09<10:42:19, 43.99s/it] 12%|█▏        | 124/1000 [1:48:09<10:42:21, 44.00s/it] 12%|█▏        | 124/1000 [1:48:09<10:42:24, 44.00s/it] 12%|█▏        | 124/1000 [1:48:08<10:42:58, 44.04s/it] 12%|█▎        | 125/1000 [1:49:27<13:12:10, 54.32s/it] 12%|█▎        | 125/1000 [1:49:27<13:12:12, 54.32s/it] 12%|█▎        | 125/1000 [1:49:27<13:12:06, 54.32s/it] 12%|█▎        | 125/1000 [1:49:26<13:12:17, 54.33s/it] 13%|█▎        | 126/1000 [1:50:23<13:18:43, 54.83s/it] 13%|█▎        | 126/1000 [1:50:23<13:18:42, 54.83s/it] 13%|█▎        | 126/1000 [1:50:23<13:18:38, 54.83s/it] 13%|█▎        | 126/1000 [1:50:22<13:18:50, 54.84s/it] 13%|█▎        | 127/1000 [1:51:16<13:09:10, 54.24s/it] 13%|█▎        | 127/1000 [1:51:16<13:09:10, 54.24s/it] 13%|█▎        | 127/1000 [1:51:16<13:09:10, 54.24s/it] 13%|█▎        | 127/1000 [1:51:15<13:09:00, 54.23s/it] 13%|█▎        | 128/1000 [1:52:01<12:28:14, 51.48s/it] 13%|█▎        | 128/1000 [1:52:01<12:28:15, 51.49s/it] 13%|█▎        | 128/1000 [1:52:01<12:28:21, 51.49s/it] 13%|█▎        | 128/1000 [1:52:00<12:28:08, 51.48s/it] 13%|█▎        | 129/1000 [1:52:39<11:29:35, 47.50s/it] 13%|█▎        | 129/1000 [1:52:39<11:29:35, 47.50s/it] 13%|█▎        | 129/1000 [1:52:38<11:29:28, 47.50s/it] 13%|█▎        | 129/1000 [1:52:40<11:29:39, 47.51s/it] 13%|█▎        | 130/1000 [1:53:15<10:34:56, 43.79s/it] 13%|█▎        | 130/1000 [1:53:14<10:35:03, 43.80s/it] 13%|█▎        | 130/1000 [1:53:15<10:35:04, 43.80s/it] 13%|█▎        | 130/1000 [1:53:14<10:34:53, 43.79s/it] 13%|█▎        | 131/1000 [1:53:50<9:58:08, 41.30s/it]  13%|█▎        | 131/1000 [1:53:50<9:58:09, 41.30s/it]  13%|█▎        | 131/1000 [1:53:49<9:58:00, 41.29s/it]  13%|█▎        | 131/1000 [1:53:50<9:58:11, 41.30s/it]  13%|█▎        | 132/1000 [1:54:26<9:33:14, 39.63s/it] 13%|█▎        | 132/1000 [1:54:26<9:33:15, 39.63s/it] 13%|█▎        | 132/1000 [1:54:25<9:33:09, 39.62s/it] 13%|█▎        | 132/1000 [1:54:26<9:33:15, 39.63s/it] 13%|█▎        | 133/1000 [1:55:19<10:31:32, 43.71s/it] 13%|█▎        | 133/1000 [1:55:19<10:31:34, 43.71s/it] 13%|█▎        | 133/1000 [1:55:19<10:31:42, 43.72s/it] 13%|█▎        | 133/1000 [1:55:18<10:32:06, 43.75s/it] 13%|█▎        | 134/1000 [1:56:38<13:05:23, 54.42s/it] 13%|█▎        | 134/1000 [1:56:38<13:05:24, 54.42s/it] 13%|█▎        | 134/1000 [1:56:38<13:05:19, 54.41s/it] 13%|█▎        | 134/1000 [1:56:38<13:05:27, 54.42s/it] 14%|█▎        | 135/1000 [1:57:40<13:35:38, 56.58s/it] 14%|█▎        | 135/1000 [1:57:40<13:35:39, 56.58s/it] 14%|█▎        | 135/1000 [1:57:40<13:35:34, 56.57s/it] 14%|█▎        | 135/1000 [1:57:39<13:35:38, 56.58s/it] 14%|█▎        | 136/1000 [1:58:37<13:37:38, 56.78s/it] 14%|█▎        | 136/1000 [1:58:37<13:37:39, 56.78s/it] 14%|█▎        | 136/1000 [1:58:37<13:37:35, 56.78s/it] 14%|█▎        | 136/1000 [1:58:36<13:37:37, 56.78s/it] 14%|█▎        | 137/1000 [1:59:21<12:39:17, 52.79s/it] 14%|█▎        | 137/1000 [1:59:21<12:39:17, 52.79s/it] 14%|█▎        | 137/1000 [1:59:21<12:39:21, 52.79s/it] 14%|█▎        | 137/1000 [1:59:20<12:39:12, 52.78s/it] 14%|█▍        | 138/1000 [2:00:00<11:39:30, 48.69s/it] 14%|█▍        | 138/1000 [2:00:00<11:39:33, 48.69s/it] 14%|█▍        | 138/1000 [1:59:59<11:39:19, 48.68s/it] 14%|█▍        | 138/1000 [2:00:00<11:39:29, 48.69s/it] 14%|█▍        | 139/1000 [2:00:35<10:42:20, 44.76s/it] 14%|█▍        | 139/1000 [2:00:35<10:42:10, 44.75s/it] 14%|█▍        | 139/1000 [2:00:36<10:42:21, 44.76s/it] 14%|█▍        | 139/1000 [2:00:35<10:42:27, 44.77s/it] 14%|█▍        | 140/1000 [2:01:11<10:04:21, 42.16s/it] 14%|█▍        | 140/1000 [2:01:12<10:04:16, 42.16s/it] 14%|█▍        | 140/1000 [2:01:12<10:04:23, 42.17s/it] 14%|█▍        | 140/1000 [2:01:11<10:04:18, 42.16s/it] 14%|█▍        | 141/1000 [2:02:00<10:30:49, 44.06s/it] 14%|█▍        | 141/1000 [2:02:00<10:30:45, 44.06s/it] 14%|█▍        | 141/1000 [2:02:00<10:30:46, 44.06s/it] 14%|█▍        | 141/1000 [2:01:59<10:31:01, 44.08s/it] 14%|█▍        | 142/1000 [2:03:32<13:53:47, 58.31s/it] 14%|█▍        | 142/1000 [2:03:32<13:53:46, 58.31s/it] 14%|█▍        | 142/1000 [2:03:32<13:53:46, 58.31s/it] 14%|█▍        | 142/1000 [2:03:31<13:53:54, 58.32s/it] 14%|█▍        | 143/1000 [2:04:31<13:55:44, 58.51s/it] 14%|█▍        | 143/1000 [2:04:31<13:55:47, 58.52s/it] 14%|█▍        | 143/1000 [2:04:31<13:55:45, 58.51s/it] 14%|█▍        | 143/1000 [2:04:30<13:55:46, 58.51s/it] 14%|█▍        | 144/1000 [2:05:21<13:18:51, 56.00s/it] 14%|█▍        | 144/1000 [2:05:21<13:18:50, 55.99s/it] 14%|█▍        | 144/1000 [2:05:21<13:18:50, 55.99s/it] 14%|█▍        | 144/1000 [2:05:20<13:18:50, 55.99s/it] 14%|█▍        | 145/1000 [2:06:06<12:34:11, 52.93s/it] 14%|█▍        | 145/1000 [2:06:06<12:34:10, 52.92s/it] 14%|█▍        | 145/1000 [2:06:07<12:34:13, 52epoch=0 	 step=199 	 loss=tensor(1.1172, device='cuda:0', dtype=torch.bfloat16,
+       grad_fn=<PreBackwardFunctionBackward>)
+.93s/it] 14%|█▍        | 145/1000 [2:06:06<12:34:11, 52.93s/it] 15%|█▍        | 146/1000 [2:06:43<11:25:25, 48.16s/it] 15%|█▍        | 146/1000 [2:06:43<11:25:38, 48.17s/it] 15%|█▍        | 146/1000 [2:06:43<11:25:39, 48.17s/it] 15%|█▍        | 146/1000 [2:06:44<11:25:41, 48.17s/it] 15%|█▍        | 147/1000 [2:07:21<10:40:59, 45.09s/it] 15%|█▍        | 147/1000 [2:07:21<10:41:01, 45.09s/it] 15%|█▍        | 147/1000 [2:07:22<10:41:08, 45.10s/it] 15%|█▍        | 147/1000 [2:07:21<10:41:05, 45.09s/it] 15%|█▍        | 148/1000 [2:08:43<13:17:00, 56.13s/it] 15%|█▍        | 148/1000 [2:08:43<13:16:59, 56.13s/it] 15%|█▍        | 148/1000 [2:08:43<13:16:58, 56.13s/it] 15%|█▍        | 148/1000 [2:08:42<13:17:17, 56.15s/it] 15%|█▍        | 149/1000 [2:09:43<13:31:15, 57.20s/it] 15%|█▍        | 149/1000 [2:09:43<13:31:14, 57.20s/it] 15%|█▍        | 149/1000 [2:09:43<13:31:20, 57.20s/it] 15%|█▍        | 149/1000 [2:09:42<13:31:13, 57.20s/it] 15%|█▌        | 150/1000 [2:10:35<13:07:58, 55.62s/it] 15%|█▌        | 150/1000 [2:10:35<13:07:59, 55.62s/it] 15%|█▌        | 150/1000 [2:10:35<13:07:58, 55.62s/it] 15%|█▌        | 150/1000 [2:10:34<13:07:58, 55.62s/it] 15%|█▌        | 151/1000 [2:11:19<12:17:08, 52.09s/it] 15%|█▌        | 151/1000 [2:11:19<12:17:08, 52.10s/it] 15%|█▌        | 151/1000 [2:11:19<12:17:04, 52.09s/it] 15%|█▌        | 151/1000 [2:11:18<12:17:04, 52.09s/it] 15%|█▌        | 152/1000 [2:11:56<11:13:38, 47.66s/it] 15%|█▌        | 152/1000 [2:11:55<11:13:26, 47.65s/it] 15%|█▌        | 152/1000 [2:11:56<11:13:37, 47.66s/it] 15%|█▌        | 152/1000 [2:11:56<11:13:45, 47.67s/it] 15%|█▌        | 153/1000 [2:12:32<10:24:45, 44.26s/it] 15%|█▌        | 153/1000 [2:12:32<10:24:55, 44.27s/it] 15%|█▌        | 153/1000 [2:12:32<10:24:56, 44.27s/it] 15%|█▌        | 153/1000 [2:12:33<10:25:01, 44.28s/it] 15%|█▌        | 154/1000 [2:13:29<11:14:31, 47.84s/it] 15%|█▌        | 154/1000 [2:13:29<11:14:34, 47.84s/it] 15%|█▌        | 154/1000 [2:13:29<11:14:29, 47.84s/it] 15%|█▌        | 154/1000 [2:13:28<11:14:53, 47.86s/it] 16%|█▌        | 155/1000 [2:14:43<13:04:27, 55.70s/it] 16%|█▌        | 155/1000 [2:14:43<13:04:29, 55.70s/it] 16%|█▌        | 155/1000 [2:14:43<13:04:27, 55.70s/it] 16%|█▌        | 155/1000 [2:14:42<13:04:33, 55.71s/it] 16%|█▌        | 156/1000 [2:15:41<13:14:08, 56.46s/it] 16%|█▌        | 156/1000 [2:15:41<13:14:07, 56.45s/it] 16%|█▌        | 156/1000 [2:15:41<13:14:07, 56.45s/it] 16%|█▌        | 156/1000 [2:15:40<13:14:09, 56.46s/it] 16%|█▌        | 157/1000 [2:16:38<13:15:55, 56.65s/it] 16%|█▌        | 157/1000 [2:16:38<13:15:56, 56.65s/it] 16%|█▌        | 157/1000 [2:16:38<13:15:54, 56.65s/it] 16%|█▌        | 157/1000 [2:16:37<13:15:57, 56.65s/it] 16%|█▌        | 158/1000 [2:17:22<12:21:00, 52.80s/it] 16%|█▌        | 158/1000 [2:17:22<12:21:01, 52.80s/it] 16%|█▌        | 158/1000 [2:17:22<12:21:02, 52.81s/it] 16%|█▌        | 158/1000 [2:17:21<12:20:56, 52.80s/it] 16%|█▌        | 159/1000 [2:18:00<11:19:54, 48.51s/it] 16%|█▌        | 159/1000 [2:18:00<11:19:54, 48.51s/it] 16%|█▌        | 159/1000 [2:18:00<11:19:52, 48.50s/it] 16%|█▌        | 159/1000 [2:17:59<11:19:47, 48.50s/it] 16%|█▌        | 160/1000 [2:18:37<10:31:44, 45.12s/it] 16%|█▌        | 160/1000 [2:18:38<10:31:53, 45.14s/it] 16%|█▌        | 160/1000 [2:18:38<10:31:57, 45.14s/it] 16%|█▌        | 160/1000 [2:18:38<10:32:00, 45.14s/it] 16%|█▌        | 161/1000 [2:19:21<10:25:42, 44.75s/it] 16%|█▌        | 161/1000 [2:19:21<10:25:41, 44.75s/it] 16%|█▌        | 161/1000 [2:19:22<10:25:44, 44.75s/it] 16%|█▌        | 161/1000 [2:19:21<10:26:08, 44.78s/it] 16%|█▌        | 162/1000 [2:20:46<13:13:48, 56.84s/it] 16%|█▌        | 162/1000 [2:20:46<13:13:47, 56.83s/it] 16%|█▌        | 162/1000 [2:20:47<13:13:55, 56.84s/it] 16%|█▌        | 162/1000 [2:20:46<13:14:03, 56.85s/it] 16%|█▋        | 163/1000 [2:21:50<13:39:35, 58.75s/it] 16%|█▋        | 163/1000 [2:21:50<13:39:36, 58.75s/it] 16%|█▋        | 163/1000 [2:21:50<13:39:38, 58.76s/it] 16%|█▋        | 163/1000 [2:21:49<13:39:29, 58.75s/it] 16%|█▋        | 164/1000 [2:22:46<13:27:03, 57.92s/it] 16%|█▋        | 164/1000 [2:22:46<13:27:04, 57.92s/it] 16%|█▋        | 164/1000 [2:22:46<13:26:59, 57.92s/it] 16%|█▋        | 164/1000 [2:22:45<13:26:59, 57.92s/it] 16%|█▋        | 165/1000 [2:23:33<12:41:12, 54.70s/it] 16%|█▋        | 165/1000 [2:23:33<12:41:11, 54.70s/it] 16%|█▋        | 165/1000 [2:23:33<12:41:09, 54.69s/it] 16%|█▋        | 165/1000 [2:23:32<12:41:06, 54.69s/it] 17%|█▋        | 166/1000 [2:24:11<11:30:27, 49.67s/it] 17%|█▋        | 166/1000 [2:24:11<11:30:29, 49.68s/it] 17%|█▋        | 166/1000 [2:24:11<11:30:26, 49.67s/it] 17%|█▋        | 166/1000 [2:24:10<11:30:21, 49.67s/it] 17%|█▋        | 167/1000 [2:24:46<10:33:22, 45.62s/it] 17%|█▋        | 167/1000 [2:24:47<10:33:34, 45.64s/it] 17%|█▋        | 167/1000 [2:24:47<10:33:36, 45.64s/it] 17%|█▋        | 167/1000 [2:24:47<10:33:38, 45.64s/it] 17%|█▋        | 168/1000 [2:25:24<9:58:24, 43.15s/it]  17%|█▋        | 168/1000 [2:25:24<9:58:25, 43.16s/it]  17%|█▋        | 168/1000 [2:25:25<9:58:25, 43.16s/it]  17%|█▋        | 168/1000 [2:25:24<9:58:27, 43.16s/it]  17%|█▋        | 169/1000 [2:26:44<12:27:44, 53.99s/it] 17%|█▋        | 169/1000 [2:26:44<12:27:43, 53.99s/it] 17%|█▋        | 169/1000 [2:26:44<12:27:44, 53.99s/it] 17%|█▋        | 169/1000 [2:26:43<12:28:20, 54.03s/it] 17%|█▋        | 170/1000 [2:28:00<14:00:45, 60.78s/it] 17%|█▋        | 170/1000 [2:28:00<14:00:45, 60.78s/it] 17%|█▋        | 170/1000 [2:28:00<14:00:43, 60.78s/it] 17%|█▋        | 170/1000 [2:27:59<14:00:52, 60.79s/it] 17%|█▋        | 171/1000 [2:29:00<13:56:10, 60.52s/it] 17%|█▋        | 171/1000 [2:29:00<13:56:10, 60.52s/it] 17%|█▋        | 171/1000 [2:29:00<13:56:08, 60.52s/it] 17%|█▋        | 171/1000 [2:28:59<13:56:03, 60.51s/it] 17%|█▋        | 172/1000 [2:29:47<12:56:24, 56.26s/it] 17%|█▋        | 172/1000 [2:29:47<12:56:24, 56.26s/it] 17%|█▋        | 172/1000 [2:29:47<12:56:24, 56.26s/it] 17%|█▋        | 172/1000 [2:29:46<12:56:14, 56.25s/it] 17%|█▋        | 173/1000 [2:30:27<11:49:18, 51.46s/it] 17%|█▋        | 173/1000 [2:30:27<11:49:18, 51.46s/it] 17%|█▋        | 173/1000 [2:30:26<11:49:01, 51.44s/it] 17%|█▋        | 173/1000 [2:30:27<11:49:25, 51.47s/it] 17%|█▋        | 174/1000 [2:31:02<10:44:39, 46.83s/it] 17%|█▋        | 174/1000 [2:31:03<10:44:52, 46.84s/it] 17%|█▋        | 174/1000 [2:31:03<10:44:55, 46.85s/it] 17%|█▋        | 174/1000 [2:31:03<10:44:56, 46.85s/it] 18%|█▊        | 175/1000 [2:31:38<10:00:01, 43.64s/it] 18%|█▊        | 175/1000 [2:31:39<10:00:09, 43.65s/it] 18%|█▊        | 175/1000 [2:31:39<10:00:13, 43.65s/it] 18%|█▊        | 175/1000 [2:31:39<10:00:11, 43.65s/it] 18%|█▊        | 176/1000 [2:32:53<12:02:21, 52.60s/it] 18%|█▊        | 176/1000 [2:32:53<12:02:25, 52.60s/it] 18%|█▊        | 176/1000 [2:32:53<12:02:22, 52.60s/it] 18%|█▊        | 176/1000 [2:32:52<12:02:46, 52.63s/it] 18%|█▊        | 177/1000 [2:33:57<12:51:34, 56.25s/it] 18%|█▊        | 177/1000 [2:33:57<12:51:33, 56.25s/it] 18%|█▊        | 177/1000 [2:33:57<12:51:36, 56.25s/it] 18%|█▊        | 177/1000 [2:33:56<12:51:38, 56.26s/it] 18%|█▊        | 178/1000 [2:34:47<12:21:44, 54.14s/it] 18%|█▊        | 178/1000 [2:34:47<12:21:45, 54.14s/it] 18%|█▊        | 178/1000 [2:34:47<12:21:43, 54.14s/it] 18%|█▊        | 178/1000 [2:34:46<12:21:40, 54.14s/it] 18%|█▊        | 179/1000 [2:35:27<11:24:55, 50.06s/it] 18%|█▊        | 179/1000 [2:35:26<11:24:44, 50.04s/it] 18%|█▊        | 179/1000 [2:35:27<11:24:59, 50.06s/it] 18%|█▊        | 179/1000 [2:35:27<11:24:59, 50.06s/it] 18%|█▊        | 180/1000 [2:36:03<10:25:57, 45.80s/it] 18%|█▊        | 180/1000 [2:36:02<10:25:49, 45.79s/it] 18%|█▊        | 180/1000 [2:36:03<10:25:56, 45.80s/it] 18%|█▊        | 180/1000 [2:36:03<10:26:04, 45.81s/it] 18%|█▊        | 181/1000 [2:36:47<10:18:52, 45.34s/it] 18%|█▊        | 181/1000 [2:36:47<10:18:55, 45.34s/it] 18%|█▊        | 181/1000 [2:36:47<10:18:48, 45.33s/it] 18%|█▊        | 181/1000 [2:36:46<10:19:10, 45.36s/it] 18%|█▊        | 182/1000 [2:38:12<12:58:05, 57.07s/it] 18%|█▊        | 182/1000 [2:38:12<12:58:06, 57.07s/it] 18%|█▊        | 182/1000 [2:38:12<12:58:05, 57.07s/it] 18%|█▊        | 182/1000 [2:38:11<12:58:12, 57.08s/it] 18%|█▊        | 183/1000 [2:39:10<13:03:54, 57.57s/it] 18%|█▊        | 183/1000 [2:39:10<13:03:54, 57.57s/it] 18%|█▊        | 183/1000 [2:39:11<13:03:51, 57.57s/it] 18%|█▊        | 183/1000 [2:39:10<13:04:02, 57.58s/it] 18%|█▊        | 184/1000 [2:40:05<12:49:31, 56.58s/it] 18%|█▊        | 184/1000 [2:40:05<12:49:31, 56.58s/it] 18%|█▊        | 184/1000 [2:40:05<12:49:27, 56.58s/it] 18%|█▊        | 184/1000 [2:40:04<12:49:29, 56.58s/it] 18%|█▊        | 185/1000 [2:40:46<11:45:02, 51.90s/it] 18%|█▊        | 185/1000 [2:40:46<11:45:02, 51.91s/it] 18%|█▊        | 185/1000 [2:40:46<11:45:03, 51.91s/it] 18%|█▊        | 185/1000 [2:40:45<11:44:57, 51.90s/it] 19%|█▊        | 186/1000 [2:41:22<10:45:43, 47.60s/it] 19%|█▊        | 186/1000 [2:41:23<10:45:56, 47.61s/it] 19%|█▊        | 186/1000 [2:41:23<10:45:56, 47.61s/it] 19%|█▊        | 186/1000 [2:41:23<10:46:04, 47.62s/it] 19%|█▊        | 187/1000 [2:41:59<9:59:06, 44.21s/it]  19%|█▊        | 187/1000 [2:42:00<9:59:16, 44.23s/it]  19%|█▊        | 187/1000 [2:42:00<9:59:17, 44.23s/it]  19%|█▊        | 187/1000 [2:42:00<9:59:11, 44.22s/it]  19%|█▉        | 188/1000 [2:42:43<9:56:29, 44.08s/it] 19%|█▉        | 188/1000 [2:42:43<9:56:29, 44.08s/it] 19%|█▉        | 188/1000 [2:42:43<9:56:26, 44.07s/it] 19%|█▉        | 188/1000 [2:42:42<9:56:41, 44.09s/it] 19%|█▉        | 189/1000 [2:44:14<13:03:49, 57.99s/it] 19%|█▉        | 189/1000 [2:44:14<13:03:50, 57.99s/it] 19%|█▉        | 189/1000 [2:44:14<13:03:49, 57.99s/it] 19%|█▉        | 189/1000 [2:44:13<13:04:11, 58.02s/it] 19%|█▉        | 190/1000 [2:45:15<13:16:09, 58.98s/it] 19%|█▉        | 190/1000 [2:45:15<13:16:10, 58.98s/it] 19%|█▉        | 190/1000 [2:45:15<13:16:11, 58.98s/it] 19%|█▉        | 190/1000 [2:45:14<13:16:14, 58.98s/it] 19%|█▉        | 191/1000 [2:46:07<12:45:32, 56.78s/it] 19%|█▉        | 191/1000 [2:46:07<12:45:33, 56.78s/it] 19%|█▉        | 191/1000 [2:46:07<12:45:33, 56.78s/it] 19%|█▉        | 191/1000 [2:46:06<12:45:34, 56.78s/it] 19%|█▉        | 192/1000 [2:47:00<12:29:41, 55.67s/it] 19%|█▉        | 192/1000 [2:47:00<12:29:42, 55.67s/it] 19%|█▉        | 192/1000 [2:47:00<12:29:45, 55.68s/it] 19%|█▉        | 192/1000 [2:46:59<12:29:38, 55.67s/it] 19%|█▉        | 193/1000 [2:47:39<11:20:42, 50.61s/it] 19%|█▉        | 193/1000 [2:47:38<11:20:33, 50.60s/it] 19%|█▉        | 193/1000 [2:47:39<11:20:50, 50.62s/it] 19%|█▉        | 193/1000 [2:47:39<11:20:52, 50.62s/it] 19%|█▉        | 194/1000 [2:48:14<10:20:39, 46.20s/it] 19%|█▉        | 194/1000 [2:48:14<10:20:39, 46.20s/it] 19%|█▉        | 194/1000 [2:48:14<10:20:29, 46.19s/it] 19%|█▉        | 194/1000 [2:48:15<10:20:50, 46.22s/it] 20%|█▉        | 195/1000 [2:48:54<9:54:54, 44.34s/it]  20%|█▉        | 195/1000 [2:48:54<9:54:54, 44.34s/it]  20%|█▉        | 195/1000 [2:48:55<9:55:01, 44.35s/it]  20%|█▉        | 195/1000 [2:48:54<9:55:02, 44.35s/it]  20%|█▉        | 196/1000 [2:50:19<12:34:13, 56.29s/it] 20%|█▉        | 196/1000 [2:50:19<12:34:13, 56.29s/it] 20%|█▉        | 196/1000 [2:50:19<12:34:13, 56.29s/it] 20%|█▉        | 196/1000 [2:50:18<12:34:46, 56.33s/it] 20%|█▉        | 197/1000 [2:51:19<12:50:45, 57.59s/it] 20%|█▉        | 197/1000 [2:51:19<12:50:45, 57.59s/it] 20%|█▉        | 197/1000 [2:51:19<12:50:42, 57.59s/it] 20%|█▉        | 197/1000 [2:51:18<12:50:37, 57.58s/it] 20%|█▉        | 198/1000 [2:52:09<12:20:13, 55.38s/it] 20%|█▉        | 198/1000 [2:52:09<12:20:13, 55.38s/it] 20%|█▉        | 198/1000 [2:52:10<12:20:17, 55.38s/it] 20%|█▉        | 198/1000 [2:52:09<12:20:10, 55.38s/it] 20%|█▉        | 199/1000 [2:52:57<11:47:38, 53.01s/it] 20%|█▉        | 199/1000 [2:52:57<11:47:38, 53.01s/it] 20%|█▉        | 199/1000 [2:52:57<11:47:33, 53.00s/it] 20%|█▉        | 199/1000 [2:52:56<11:47:32, 53.00s/it] 20%|██        | 200/1000 [2:53:34<10:43:27, 48.26s/it] 20%|██        | 200/1000 [2:53:34<10:43:21, 48.25s/it] 20%|██        | 200/1000 [2:53:34<10:43:28, 48.26s/it] 20%|██        | 200/1000 [2:53:33<10:43:16, 48.25s/it] 20%|██        | 201/1000 [2:54:11<9:56:42, 44.81s/it]  20%|██        | 201/1000 [2:54:11<9:56:42, 44.81s/it]  20%|██        | 201/1000 [2:54:11<9:56:42, 44.81s/it]  20%|██        | 201/1000 [2:54:10<9:56:38, 44.80s/it]  20%|██        | 202/1000 [2:55:23<11:46:37, 53.13s/it] 20%|██        | 202/1000 [2:55:23<11:46:38, 53.13s/it] 20%|██        | 202/1000 [2:55:24<11:46:35, 53.13s/it] 20%|██        | 202/1000 [2:55:23<11:46:54, 53.15s/it] 20%|██        | 203/1000 [2:56:29<12:35:14, 56.86s/it] 20%|██        | 203/1000 [2:56:29<12:35:16, 56.86s/it] 20%|██        | 203/1000 [2:56:29<12:35:13, 56.86s/it] 20%|██        | 203/1000 [2:56:28<12:35:25, 56.87s/it] 20%|██        | 204/1000 [2:57:31<12:56:03, 58.50s/it] 20%|██        | 204/1000 [2:57:31<12:56:04, 58.50s/it] 20%|██        | 204/1000 [2:57:31<12:56:02, 58.50s/it] 20%|██        | 204/1000 [2:57:30<12:55:59, 58.49s/it] 20%|██        | 205/1000 [2:58:21<12:19:41, 55.83s/it] 20%|██        | 205/1000 [2:58:21<12:19:41, 55.83s/it] 20%|██        | 205/1000 [2:58:21<12:19:40, 55.82s/it] 20%|██        | 205/1000 [2:58:20<12:19:34, 55.82s/it] 21%|██        | 206/1000 [2:59:00<11:12:53, 50.85s/it] 21%|██        | 206/1000 [2:59:00<11:12:55, 50.85s/it] 21%|██        | 206/1000 [2:58:59<11:12:41, 50.83s/it] 21%|██        | 206/1000 [2:59:00<11:12:56, 50.85s/it] 21%|██        | 207/1000 [2:59:35<10:13:47, 46.44s/it] 21%|██        | 207/1000 [2:59:36<10:13:59, 46.46s/it] 21%|██        | 207/1000 [2:59:36<10:14:00, 46.46s/it] 21%|██        | 207/1000 [2:59:37<10:14:03, 46.46s/it] 21%|██        | 208/1000 [3:00:11<9:30:48, 43.24s/it]  21%|██        | 208/1000 [3:00:12<9:31:00, 43.26s/it]  21%|██        | 208/1000 [3:00:12<9:31:01, 43.26s/it]  21%|██        | 208/1000 [3:00:12<9:31:01, 43.26s/it]  21%|██        | 209/1000 [3:00:48<9:02:38, 41.16s/it] 21%|██        | 209/1000 [3:00:49<9:02:35, 41.16s/it] 21%|██        | 209/1000 [3:00:48<9:02:37, 41.16s/it] 21%|██        | 209/1000 [3:00:48<9:02:42, 41.17s/it] 21%|██        | 210/1000 [3:01:24<8:41:51, 39.63s/it] 21%|██        | 210/1000 [3:01:24<8:41:53, 39.64s/it] 21%|██        | 210/1000 [3:01:25<8:41:53, 39.64s/it] 21%|██        | 210/1000 [3:01:25<8:42:02, 39.65s/it] 21%|██        | 211/1000 [3:02:00<8:27:43, 38.61s/it] 21%|██        | 211/1000 [3:02:01<8:27:47, 38.62s/it] 21%|██        | 211/1000 [3:02:01<8:27:46, 38.61s/it] 21%|██        | 211/1000 [3:02:01<8:27:52, 38.62s/it] 21%|██        | 212/1000 [3:02:37<8:18:46, 37.98s/it] 21%|██        | 212/1000 [3:02:36<8:18:45, 37.98s/it] 21%|██        | 212/1000 [3:02:37<8:18:45, 37.98s/it] 21%|██        | 212/1000 [3:02:37<8:18:55, 37.99s/it] 21%|██▏       | 213/1000 [3:03:13<8:11:09, 37.45s/it] 21%|██▏       | 213/1000 [3:03:13<8:11:11, 37.45s/it] 21%|██▏       | 213/1000 [3:03:14<8:11:06, 37.44s/it] 21%|██▏       | 213/1000 [3:03:13<8:11:13, 37.45s/it] 21%|██▏       | 214/1000 [3:03:50<8:05:51, 37.09s/it] 21%|██▏       | 214/1000 [3:03:49<8:05:52, 37.09s/it] 21%|██▏       | 214/1000 [3:03:50<8:05:56, 37.10s/it] 21%|██▏       | 214/1000 [3:03:50<8:05:54, 37.09s/it] 22%|██▏       | 215/1000 [3:04:26<8:02:20, 36.87s/it] 22%|██▏       | 215/1000 [3:04:25<8:02:21, 36.87s/it] 22%|██▏       | 215/1000 [3:04:26<8:02:24, 36.87s/it] 22%|██▏       | 215/1000 [3:04:26<8:02:21, 36.87s/it] 22%|██▏       | 216/1000 [3:05:03<8:00:14, 36.75s/it] 22%|██▏       | 216/1000 [3:05:02<8:00:13, 36.75s/it] 22%|██▏       | 216/1000 [3:05:03<8:00:16, 36.76s/it] 22%|██▏       | 216/1000 [3:05:03<8:00:25, 36.77s/it] 22%|██▏       | 217/1000 [3:05:39<7:57:12, 36.57s/it] 22%|██▏       | 217/1000 [3:05:39<7:57:05, 36.56s/it] 22%|██▏       | 217/1000 [3:05:39<7:57:11, 36.57s/it] 22%|██▏       | 217/1000 [3:05:38<7:57:17, 36.57s/it] 22%|██▏       | 218/1000 [3:06:15<7:55:39, 36.50s/it] 22%|██▏       | 218/1000 [3:06:15<7:55:34, 36.49s/it] 22%|██▏       | 218/1000 [3:06:14<7:55:39, 36.50s/it] 22%|██▏       | 218/1000 [3:06:15<7:55:41, 36.50s/it] 22%|██▏       | 219/1000 [3:06:51<7:52:38, 36.31s/it] 22%|██▏       | 219/1000 [3:06:50<7:52:36, 36.31s/it] 22%|██▏       | 219/1000 [3:06:51<7:52:39, 36.31s/it] 22%|██▏       | 219/1000 [3:06:51<7:52:41, 36.31s/it] 22%|██▏       | 220/1000 [3:07:26<7:51:25, 36.26s/it] 22%|██▏       | 220/1000 [3:07:27<7:51:29, 36.27s/it] 22%|██▏       | 220/1000 [3:07:27<7:51:28, 36.27s/it] 22%|██▏       | 220/1000 [3:07:27<7:51:29, 36.27s/it] 22%|██▏       | 221/1000 [3:08:03<7:51:13, 36.29s/it] 22%|██▏       | 221/1000 [3:08:03<7:51:18, 36.30s/it] 22%|██▏       | 221/1000 [3:08:03<7:51:18, 36.30s/it] 22%|██▏       | 221/1000 [3:08:04<7:51:15, 36.30s/it] 22%|██▏       | 222/1000 [3:08:39<7:48:56, 36.17s/it] 22%|██▏       | 222/1000 [3:08:39<7:49:00, 36.17s/it] 22%|██▏       | 222/1000 [3:08:39<7:48:56, 36.17s/it] 22%|██▏       | 222/1000 [3:08:38<7:49:05, 36.18s/it] 22%|██▏       | 223/1000 [3:09:15<7:48:20, 36.17s/it] 22%|██▏       | 223/1000 [3:09:15<7:48:23, 36.17s/it] 22%|██▏       | 223/1000 [3:09:15<7:48:22, 36.17s/it] 22%|██▏       | 223/1000 [3:09:16<7:48:21, 36.17s/it] 22%|██▏       | 224/1000 [3:09:52<7:48:22, 36.21s/it] 22%|██▏       | 224/1000 [3:09:51<7:48:22, 36.21s/it] 22%|██▏       | 224/1000 [3:09:52<7:48:25, 36.22s/it] 22%|██▏       | 224/1000 [3:09:52<7:48:30, 36.22s/it] 22%|██▎       | 225/1000 [3:10:28<7:47:39, 36.21s/it] 22%|██▎       | 225/1000 [3:10:27<7:47:42, 36.21s/it] 22%|██▎       | 225/1000 [3:10:28<7:47:48, 36.22s/it] 22%|██▎       | 225/1000 [3:10:28<7:47:49, 36.22s/it] 23%|██▎       | 226/1000 [3:11:04<7:48:16, 36.30s/it] 23%|██▎       | 226/1000 [3:11:04<7:48:17, 36.30s/it] 23%|██▎       | 226/1000 [3:11:05<7:48:14, 36.30s/it] 23%|██▎       | 226/1000 [3:11:04<7:48:20, 36.31s/it] 23%|██▎       | 227/1000 [3:11:40<7:46:18, 36.20s/it] 23%|██▎       | 227/1000 [3:11:40<7:46:18, 36.19s/it] 23%|██▎       | 227/1000 [3:11:40<7:46:19, 36.20s/it] 23%|██▎       | 227/1000 [3:11:41<7:46:18, 36.19s/it] 23%|██▎       | 228/1000 [3:12:17<7:46:00, 36.22s/it] 23%|██▎       | 228/1000 [3:12:17<7:46:01, 36.22s/it] 23%|██▎       | 228/1000 [3:12:17<7:45:59, 36.22s/it] 23%|██▎       | 228/1000 [3:12:16<7:46:08, 36.23s/it] 23%|██▎       | 229/1000 [3:12:53<7:45:01, 36.19s/it] 23%|██▎       | 229/1000 [3:12:53<7:45:04, 36.19s/it] 23%|██▎       | 229/1000 [3:12:52<7:45:04, 36.19s/it] 23%|██▎       | 229/1000 [3:12:53<7:45:04, 36.19s/it] 23%|██▎       | 230/1000 [3:13:29<7:43:07, 36.09s/it] 23%|██▎       | 230/1000 [3:13:29<7:43:06, 36.09s/it] 23%|██▎       | 230/1000 [3:13:28<7:43:07, 36.09s/it] 23%|██▎       | 230/1000 [3:13:29<7:43:06, 36.09s/it] 23%|██▎       | 231/1000 [3:14:04<7:44:04, 36.21s/it] 23%|██▎       | 231/1000 [3:14:05<7:44:11, 36.22s/it] 23%|██▎       | 231/1000 [3:14:05<7:44:11, 36.22s/it] 23%|██▎       | 231/1000 [3:14:05<7:44:12, 36.22s/it] 23%|██▎       | 232/1000 [3:14:41<7:43:55, 36.24s/it] 23%|██▎       | 232/1000 [3:14:42<7:43:57, 36.25s/it] 23%|██▎       | 232/1000 [3:14:42<7:43:57, 36.25s/it] 23%|██▎       | 232/1000 [3:14:42<7:43:55, 36.24s/it] 23%|██▎       | 233/1000 [3:15:17<7:43:41, 36.27s/it] 23%|██▎       | 233/1000 [3:15:18<7:43:44, 36.28s/it] 23%|██▎       | 233/1000 [3:15:18<7:43:46, 36.28s/it] 23%|██▎       | 233/1000 [3:15:18<7:43:48, 36.28s/it] 23%|██▎       | 234/1000 [3:15:54<7:43:14, 36.29s/it] 23%|██▎       | 234/1000 [3:15:53<7:43:18, 36.29s/it] 23%|██▎       | 234/1000 [3:15:54<7:43:19, 36.29s/it] 23%|██▎       | 234/1000 [3:15:54<7:43:18, 36.29s/it] 24%|██▎       | 235/1000 [3:16:30<7:44:59, 36.47s/it] 24%|██▎       | 235/1000 [3:16:31<7:45:01, 36.47s/it] 24%|██▎       | 235/1000 [3:16:31<7:44:59, 36.47s/it] 24%|██▎       | 235/1000 [3:16:31<7:45:05, 36.48s/it] 24%|██▎       | 236/1000 [3:17:06<7:42:01, 36.29s/it] 24%|██▎       | 236/1000 [3:17:07<7:42:00, 36.28s/it] 24%|██▎       | 236/1000 [3:17:07<7:42:03, 36.29s/it] 24%|██▎       | 236/1000 [3:17:07<7:42:01, 36.29s/it] 24%|██▎       | 237/1000 [3:17:44<7:42:44, 36.39s/it] 24%|██▎       | 237/1000 [3:17:44<7:42:45, 36.39s/it] 24%|██▎       | 237/1000 [3:17:44<7:42:42, 36.39s/it] 24%|██▎       | 237/1000 [3:17:43<7:42:50, 36.40s/it] 24%|██▍       | 238/1000 [3:18:20<7:40:30, 36.26s/it] 24%|██▍       | 238/1000 [3:18:20<7:40:28, 36.26s/it] 24%|██▍       | 238/1000 [3:18:19<7:40:32, 36.26s/it] 24%|██▍       | 238/1000 [3:18:20<7:40:33, 36.27s/it] 24%|██▍       | 239/1000 [3:18:56<7:39:21, 36.22s/it] 24%|██▍       | 239/1000 [3:18:56<7:39:19, 36.21s/it] 24%|██▍       | 239/1000 [3:18:56<7:39:23, 36.22s/it] 24%|██▍       | 239/1000 [3:18:55<7:39:23, 36.22s/it] 24%|██▍       | 240/1000 [3:19:32<7:38:43, 36.22s/it] 24%|██▍       | 240/1000 [3:19:32<7:38:45, 36.22s/it] 24%|██▍       | 240/1000 [3:19:31<7:38:45, 36.22s/it] 24%|██▍       | 240/1000 [3:19:32<7:38:49, 36.22s/it] 24%|██▍       | 241/1000 [3:20:08<7:37:45, 36.19s/it] 24%|██▍       | 241/1000 [3:20:08<7:37:48, 36.19s/it] 24%|██▍       | 241/1000 [3:20:07<7:37:47, 36.19s/it] 24%|██▍       | 241/1000 [3:20:08<7:37:56, 36.20s/it] 24%|██▍       | 242/1000 [3:20:43<7:37:16, 36.20s/it] 24%|██▍       | 242/1000 [3:20:44<7:37:19, 36.20s/it] 24%|██▍       | 242/1000 [3:20:44<7:37:20, 36.20s/it] 24%|██▍       | 242/1000 [3:20:44<7:37:23, 36.21s/it] 24%|██▍       | 243/1000 [3:21:20<7:37:03, 36.23s/it] 24%|██▍       | 243/1000 [3:21:20<7:37:04, 36.23s/it] 24%|██▍       | 243/1000 [3:21:21<7:37:05, 36.23s/it] 24%|██▍       | 243/1000 [3:21:21<7:37:05, 36.23s/it] 24%|██▍       | 244/1000 [3:21:55<7:35:08, 36.12s/it] 24%|██▍       | 244/1000 [3:21:56<7:35:10, 36.13s/it] 24%|██▍       | 244/1000 [3:21:56<7:35:11, 36.13s/it] 24%|██▍       | 244/1000 [3:21:57<7:35:08, 36.12s/it] 24%|██▍       | 245/1000 [3:22:33<7:35:28, 36.20s/it] 24%|██▍       | 245/1000 [3:22:32<7:35:31, 36.20s/it] 24%|██▍       | 245/1000 [3:22:33<7:35:31, 36.20s/it] 24%|██▍       | 245/1000 [3:22:33<7:35:28, 36.20s/it] 25%|██▍       | 246/1000 [3:23:09<7:34:31, 36.17s/it] 25%|██▍       | 246/1000 [3:23:08<7:34:33, 36.17s/it] 25%|██▍       | 246/1000 [3:23:09<7:34:36, 36.18s/it] 25%|██▍       | 246/1000 [3:23:09<7:34:35, 36.17s/it] 25%|██▍       | 247/1000 [3:23:44<7:34:51, 36.24s/it] 25%|██▍       | 247/1000 [3:23:45<7:34:49, 36.24s/it] 25%|██▍       | 247/1000 [3:23:45<7:34:53, 36.25s/it] 25%|██▍       | 247/1000 [3:23:45<7:34:51, 36.24s/it] 25%|██▍       | 248/1000 [3:24:21<7:34:00, 36.22s/it] 25%|██▍       | 248/1000 [3:24:22<7:33:55, 36.22s/it] 25%|██▍       | 248/1000 [3:24:21<7:34:00, 36.22s/it] 25%|██▍       | 248/1000 [3:24:21<7:34:04, 36.23s/it] 25%|██▍       | 249/1000 [3:24:57<7:32:27, 36.15s/it] 25%|██▍       | 249/1000 [3:24:57<7:32:37, 36.16s/it] 25%|██▍       | 249/1000 [3:24:57<7:32:36, 36.16s/it] 25%|██▍       | 249/1000 [3:24:58<7:32:33, 36.16s/it] 25%|██▌       | 250/1000 [3:25:33<7:31:15, 36.10s/it] 25%|██▌       | 250/1000 [3:25:33<7:31:15, 36.10s/it] 25%|██▌       | 250/1000 [3:25:34<7:31:13, 36.10s/it] 25%|██▌       | 250/1000 [3:25:33<7:31:21, 36.11s/it] 25%|██▌       | 251/1000 [3:26:09<7:30:54, 36.12s/it] 25%|██▌       | 251/1000 [3:26:10<7:30:52, 36.12s/it] 25%|██▌       | 251/1000 [3:26:10<7:31:02, 36.13s/it] 25%|██▌       | 251/1000 [3:26:10<7:31:03, 36.13s/it] 25%|██▌       | 252/1000 [3:26:46<7:30:56, 36.17s/it] 25%|██▌       | 252/1000 [3:26:45<7:31:01, 36.18s/it] 25%|██▌       | 252/1000 [3:26:46<7:30:56, 36.17s/it] 25%|██▌       | 252/1000 [3:26:46<7:31:01, 36.18s/it] 25%|██▌       | 253/1000 [3:27:22<7:32:11, 36.32s/it] 25%|██▌       | 253/1000 [3:27:23<7:32:10, 36.32s/it] 25%|██▌       | 253/1000 [3:27:23<7:32:09, 36.32s/it] 25%|██▌       | 253/1000 [3:27:23<7:32:15, 36.33s/it] 25%|██▌       | 254/1000 [3:27:58<7:30:49, 36.26s/it] 25%|██▌       | 254/1000 [3:27:59<7:30:48, 36.26s/it] 25%|██▌       | 254/1000 [3:27:59<7:30:49, 36.26s/it] 25%|██▌       | 254/1000 [3:27:59<7:30:48, 36.26s/it] 26%|██▌       | 255/1000 [3:28:34<7:29:50, 36.23s/it] 26%|██▌       | 255/1000 [3:28:35<7:29:48, 36.23s/it] 26%|██▌       | 255/1000 [3:28:35<7:29:53, 36.23s/it] 26%|██▌       | 255/1000 [3:28:35<7:29:57, 36.24s/it] 26%|██▌       | 256/1000 [3:29:11<7:30:20, 36.32s/it] 26%|██▌       | 256/1000 [3:29:11<7:30:22, 36.32s/it] 26%|██▌       | 256/1000 [3:29:10<7:30:26, 36.33s/it] 26%|██▌       | 256/1000 [3:29:12<7:30:26, 36.33s/it] 26%|██▌       | 257/1000 [3:29:47<7:28:04, 36.18s/it] 26%|██▌       | 257/1000 [3:29:47<7:28:05, 36.19s/it] 26%|██▌       | 257/1000 [3:29:46<7:28:07, 36.19s/it] 26%|██▌       | 257/1000 [3:29:47<7:28:07, 36.19s/it] 26%|██▌       | 258/1000 [3:30:24<7:28:20, 36.25s/it] 26%|██▌       | 258/1000 [3:30:24<7:28:19, 36.25s/it] 26%|██▌       | 258/1000 [3:30:23<7:28:22, 36.26s/it] 26%|██▌       | 258/1000 [3:30:24<7:28:23, 36.26s/it] 26%|██▌       | 259/1000 [3:31:00<7:26:58, 36.19s/it] 26%|██▌       | 259/1000 [3:30:59<7:26:58, 36.19s/it] 26%|██▌       | 259/1000 [3:31:00<7:26:59, 36.19s/it] 26%|██▌       | 259/1000 [3:31:00<7:27:04, 36.20s/it] 26%|██▌       | 260/1000 [3:31:34<7:24:12, 36.02s/it] 26%|██▌       | 260/1000 [3:31:35<7:24:14, 36.02s/it] 26%|██▌       | 260/1000 [3:31:36<7:24:13, 36.02s/it] 26%|██▌       | 260/1000 [3:31:35<7:24:16, 36.02s/it] 26%|██▌       | 261/1000 [3:32:11<7:23:12, 35.98s/it] 26%|██▌       | 261/1000 [3:32:10<7:23:15, 35.99s/it] 26%|██▌       | 261/1000 [3:32:11<7:23:14, 35.99s/it] 26%|██▌       | 261/1000 [3:32:11<7:23:19, 35.99s/it] 26%|██▌       | 262/1000 [3:32:46<7:22:58, 36.01s/it] 26%|██▌       | 262/1000 [3:32:47<7:22:57, 36.01s/it] 26%|██▌       | 262/1000 [3:32:47<7:22:57, 36.01s/it] 26%|██▌       | 262/1000 [3:32:47<7:22:57, 36.01s/it] 26%|██▋       | 263/1000 [3:33:25<7:26:58, 36.39s/it] 26%|██▋       | 263/1000 [3:33:24<7:27:00, 36.39s/it] 26%|██▋       | 263/1000 [3:33:25<7:26:58, 36.39s/it] 26%|██▋       | 263/1000 [3:33:25<7:27:02, 36.39s/it] 26%|██▋       | 264/1000 [3:34:14<8:14:27, 40.31s/it] 26%|██▋       | 264/1000 [3:34:14<8:14:28, 40.31s/it] 26%|██▋       | 264/1000 [3:34:14<8:14:33, 40.32s/it] 26%|██▋       | 264/1000 [3:34:13<8:14:47, 40.34s/it] 26%|██▋       | 265/1000 [3:35:23<9:59:56, 48.98s/it] 26%|██▋       | 265/1000 [3:35:23<9:59:56, 48.97s/it] 26%|██▋       | 265/1000 [3:35:23<10:00:00, 48.98s/it] 26%|██▋       | 265/1000 [3:35:22<10:00:08, 48.99s/it] 27%|██▋       | 266/1000 [3:36:24<10:41:33, 52.44s/it] 27%|██▋       | 266/1000 [3:36:24<10:41:34, 52.44s/it] 27%|██▋       | 266/1000 [3:36:24<10:41:35, 52.45s/it] 27%|██▋       | 266/1000 [3:36:23<10:41:37, 52.45s/it] 27%|██▋       | 267/1000 [3:37:02<9:47:13, 48.07s/it]  27%|██▋       | 267/1000 [3:37:01<9:47:09, 48.06s/it]  27%|██▋       | 267/1000 [3:37:02<9:47:19, 48.08s/it]  27%|██▋       | 267/1000 [3:37:02<9:47:17, 48.07s/it]  27%|██▋       | 268/1000 [3:38:13<11:10:52, 54.99s/it] 27%|██▋       | 268/1000 [3:38:13<11:10:54, 54.99s/it] 27%|██▋       | 268/1000 [3:38:13<11:10:50, 54.99s/it] 27%|██▋       | 268/1000 [3:38:12<11:11:14, 55.02s/it] 27%|██▋       | 269/1000 [3:39:09<11:13:14, 55.26s/it] 27%|██▋       | 269/1000 [3:39:09<11:13:14, 55.26s/it] 27%|██▋       | 269/1000 [3:39:09<11:13:12, 55.26s/it] 27%|██▋       | 269/1000 [3:39:08<11:13:09, 55.25s/it] 27%|██▋       | 270/1000 [3:39:58<10:51:38, 53.56s/it] 27%|██▋       | 270/1000 [3:39:58<10:51:40, 53.56s/it] 27%|██▋       | 270/1000 [3:39:58<10:51:43, 53.57s/it] 27%|██▋       | 270/1000 [3:39:57<10:51:37, 53.56s/it] 27%|██▋       | 271/1000 [3:40:42<10:15:32, 50.66s/it] 27%|██▋       | 271/1000 [3:40:42<10:15:32, 50.66s/it] 27%|██▋       | 271/1000 [3:40:42<10:15:33, 50.66s/it] 27%|██▋       | 271/1000 [3:40:41<10:15:35, 50.67s/it] 27%|██▋       | 272/1000 [3:42:22<13:14:05, 65.45s/it] 27%|██▋       | 272/1000 [3:42:22<13:14:05, 65.45s/it] 27%|██▋       | 272/1000 [3:42:22<13:14:03, 65.44s/it] 27%|██▋       | 272/1000 [3:42:21<13:14:22, 65.47s/it] 27%|██▋       | 273/1000 [3:43:17<12:36:08, 62.41s/it] 27%|██▋       | 273/1000 [3:43:17<12:36:08, 62.40s/it] 27%|██▋       | 273/1000 [3:43:18<12:36:11, 62.41s/it] 27%|██▋       | 273/1000 [3:43:17<12:36:04, 62.40s/it] 27%|██▋       | 274/1000 [3:44:06<11:44:58, 58.26s/it] 27%|██▋       | 274/1000 [3:44:06<11:44:58, 58.26s/it] 27%|██▋       | 274/1000 [3:44:06<11:44:56, 58.26s/it] 27%|██▋       | 274/1000 [3:44:05<11:44:51, 58.25s/it] 28%|██▊       | 275/1000 [3:44:58<11:20:39, 56.33s/it] 28%|██▊       | 275/1000 [3:44:58<11:20:39, 56.33s/it] 28%|██▊       | 275/1000 [3:44:58<11:20:37, 56.33s/it] 28%|██▊       | 275/1000 [3:44:57<11:20:41, 56.33s/it] 28%|██▊       | 276/1000 [3:45:48<10:59:02, 54.62s/it] 28%|██▊       | 276/1000 [3:45:48<10:59:03, 54.62s/it] 28%|██▊       | 276/1000 [3:45:49<10:59:01, 54.61s/it] 28%|██▊       | 276/1000 [3:45:48<10:58:58, 54.61s/it] 28%|██▊       | 277/1000 [3:46:59<11:54:06, 59.26s/it] 28%|██▊       | 277/1000 [3:46:59<11:54:07, 59.26s/it] 28%|██▊       | 277/1000 [3:46:59<11:54:13, 59.27s/it] 28%|██▊       | 277/1000 [3:46:58<11:54:39, 59.31s/it] 28%|██▊       | 278/1000 [3:48:23<13:22:30, 66.69s/it] 28%|██▊       | 278/1000 [3:48:23<13:22:30, 66.69s/it] 28%|██▊       | 278/1000 [3:48:23<13:22:27, 66.69s/it] 28%|██▊       | 278/1000 [3:48:22<13:22:18, 66.67s/it] 28%|██▊       | 279/1000 [3:49:20<12:46:55, 63.82s/it] 28%|██▊       | 279/1000 [3:49:20<12:46:56, 63.82s/it] 28%|██▊       | 279/1000 [3:49:20<12:46:55, 63.82s/it] 28%|██▊       | 279/1000 [3:49:19<12:46:58, 63.83s/it] 28%|██▊       | 280/1000 [3:50:49<14:16:26, 71.37s/it] 28%|██▊       | 280/1000 [3:50:49<14:16:25, 71.37s/it] 28%|██▊       | 280/1000 [3:50:49<14:16:23, 71.37s/it] 28%|██▊       | 280/1000 [3:50:48<14:16:19, 71.36s/it] 28%|██▊       | 281/1000 [3:51:39<12:59:42, 65.07s/it] 28%|██▊       | 281/1000 [3:51:39<12:59:44, 65.07s/it] 28%|██▊       | 281/1000 [3:51:39<12:59:45, 65.07s/it] 28%|██▊       | 281/1000 [3:51:38<12:59:37, 65.06s/it] 28%|██▊       | 282/1000 [3:52:23<11:44:06, 58.84s/it] 28%|██▊       | 282/1000 [3:52:23<11:44:06, 58.84s/it] 28%|██▊       | 282/1000 [3:52:24<11:44:07, 58.84s/it] 28%|██▊       | 282/1000 [3:52:23<11:44:01, 58.83s/it] 28%|██▊       | 283/1000 [3:53:03<10:33:17, 52.99s/it] 28%|██▊       | 283/1000 [3:53:02<10:33:06, 52.98s/it] 28%|██▊       | 283/1000 [3:53:03<10:33:17, 52.99s/it] 28%|██▊       | 283/1000 [3:53:03<10:33:21, 53.00s/it] 28%|██▊       | 284/1000 [3:53:45<9:53:41, 49.75s/it]  28%|██▊       | 284/1000 [3:53:45<9:53:42, 49.75s/it]  28%|██▊       | 284/1000 [3:53:44<9:53:42, 49.75s/it]  28%|██▊       | 284/1000 [3:53:45<9:53:49, 49.76s/it]  28%|██▊       | 285/1000 [3:54:49<10:45:29, 54.17s/it] 28%|██▊       | 285/1000 [3:54:49<10:45:28, 54.17s/it] 28%|██▊       | 285/1000 [3:54:50<10:45:25, 54.16s/it] 28%|██▊       | 285/1000 [3:54:49<10:45:51, 54.20s/it] 29%|██▊       | 286/1000 [3:55:56<11:27:28, 57.77s/it] 29%|██▊       | 286/1000 [3:55:56<11:27:29, 57.77s/it] 29%|██▊       | 286/1000 [3:55:56<11:27:26, 57.77s/it] 29%|██▊       | 286/1000 [3:55:55<11:27:19, 57.76s/it] 29%|██▊       | 287/1000 [3:56:34<10:17:39, 51.98s/it] 29%|██▊       | 287/1000 [3:56:34<10:17:41, 51.98s/it] 29%|██▊       | 287/1000 [3:56:34<10:17:40, 51.98s/it] 29%|██▊       | 287/1000 [3:56:33<10:17:30, 51.96s/it] 29%|██▉       | 288/1000 [3:57:10<9:19:55, 47.19s/it]  29%|██▉       | 288/1000 [3:57:10<9:19:55, 47.18s/it]  29%|██▉       | 288/1000 [3:57:09<9:19:49, 47.18s/it]  29%|██▉       | 288/1000 [3:57:10<9:19:57, 47.19s/it]  29%|██▉       | 289/1000 [3:57:46<8:39:58, 43.88s/it] 29%|██▉       | 289/1000 [3:57:46<8:39:59, 43.88s/it] 29%|██▉       | 289/1000 [3:57:45<8:39:50, 43.87s/it] 29%|██▉       | 289/1000 [3:57:46<8:40:03, 43.89s/it] 29%|██▉       | 290/1000 [3:58:21<8:10:45, 41.47s/it] 29%|██▉       | 290/1000 [3:58:22<8:10:52, 41.48s/it] 29%|██▉       | 290/1000 [3:58:22<8:10:48, 41.48s/it] 29%|██▉       | 290/1000 [3:58:22<8:10:55, 41.49s/it] 29%|██▉       | 291/1000 [3:59:09<8:29:28, 43.12s/it] 29%|██▉       | 291/1000 [3:59:09<8:29:28, 43.11s/it] 29%|██▉       | 291/1000 [3:59:09<8:29:27, 43.11s/it] 29%|██▉       | 291/1000 [3:59:08<8:29:43, 43.14s/it] 29%|██▉       | 292/1000 [4:00:43<11:28:22, 58.34s/it] 29%|██▉       | 292/1000 [4:00:43<11:28:24, 58.34s/it] 29%|██▉       | 292/1000 [4:00:43<11:28:21, 58.34s/it] 29%|██▉       | 292/1000 [4:00:42<11:28:52, 58.38s/it] 29%|██▉       | 293/1000 [4:01:45<11:40:52, 59.48s/it] 29%|██▉       | 293/1000 [4:01:45<11:40:51, 59.48s/it] 29%|██▉       | 293/1000 [4:01:45<11:40:50, 59.48s/it] 29%|██▉       | 293/1000 [4:01:44<11:40:44, 59.47s/it] 29%|██▉       | 294/1000 [4:02:26<10:34:48, 53.95s/it] 29%|██▉       | 294/1000 [4:02:26<10:34:52, 53.96s/it] 29%|██▉       | 294/1000 [4:02:25<10:34:40, 53.94s/it] 29%|██▉       | 294/1000 [4:02:26<10:34:54, 53.96s/it] 30%|██▉       | 295/1000 [4:03:01<9:31:22, 48.63s/it]  30%|██▉       | 295/1000 [4:03:02<9:31:34, 48.64s/it]  30%|██▉       | 295/1000 [4:03:02<9:31:37, 48.65s/it]  30%|██▉       | 295/1000 [4:03:02<9:31:40, 48.65s/it]  30%|██▉       | 296/1000 [4:03:37<8:46:05, 44.84s/it] 30%|██▉       | 296/1000 [4:03:38<8:46:13, 44.85s/it] 30%|██▉       | 296/1000 [4:03:39<8:46:15, 44.85s/it] 30%|██▉       | 296/1000 [4:03:38<8:46:18, 44.86s/it] 30%|██▉       | 297/1000 [4:04:25<8:52:17, 45.43s/it] 30%|██▉       | 297/1000 [4:04:25<8:52:16, 45.43s/it] 30%|██▉       | 297/1000 [4:04:25<8:52:16, 45.43s/it] 30%|██▉       | 297/1000 [4:04:24<8:52:37, 45.46s/it] 30%|██▉       | 298/1000 [4:05:44<10:49:14, 55.49s/it] 30%|██▉       | 298/1000 [4:05:44<10:49:13, 55.49s/it] 30%|██▉       | 298/1000 [4:05:44<10:49:18, 55.50s/it] 30%|██▉       | 298/1000 [4:05:43<10:49:18, 55.50s/it] 30%|██▉       | 299/1000 [4:07:06<12:20:18, 63.36s/it] 30%|██▉       | 299/1000 [4:07:06<12:20:17, 63.36s/it] 30%|██▉       | 299/1000 [4:07:06<12:20:21, 63.37s/it] 30%|██▉       | 299/1000 [4:07:05<12:20:14, 63.36s/it] 30%|███       | 300/1000 [4:07:49<11:09:25, 57.38s/it] 30%|███       | 300/1000 [4:07:49<11:09:28, 57.38s/it] 30%|███       | 300/1000 [4:07:49<11:09:27, 57.38s/it] 30%|███       | 300/1000 [4:07:48<11:09:23, 57.38s/it] 30%|███       | 301/1000 [4:08:27<10:01:05, 51.60s/it] 30%|███       | 301/1000 [4:08:26<10:00:59, 51.59s/it] 30%|███       | 301/1000 [4:08:27<10:01:09, 51.60s/it] 30%|███       | 301/1000 [4:08:28<10:01:11, 51.60s/it] 30%|███       | 302/1000 [4:09:03<9:04:34, 46.81s/it]  30%|███       | 302/1000 [4:09:02<9:04:31, 46.81s/it]  30%|███       | 302/1000 [4:09:03<9:04:41, 46.82s/it]  30%|███       | 302/1000 [4:09:03<9:04:36, 46.82s/it]  30%|███       | 303/1000 [4:09:43<8:38:47, 44.66s/it] 30%|███       | 303/1000 [4:09:43<8:38:48, 44.66s/it] 30%|███       | 303/1000 [4:09:43<8:38:47, 44.66s/it] 30%|███       | 303/1000 [4:09:42<8:38:57, 44.67s/it][E ProcessGroupNCCL.cpp:828] [Rank 3] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=390193, OpType=_ALLGATHER_BASE, Timeout(ms)=1800000) ran for 1809078 milliseconds before timing out.
+[E ProcessGroupNCCL.cpp:828] [Rank 0] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=390229, OpType=_ALLGATHER_BASE, Timeout(ms)=1800000) ran for 1809103 milliseconds before timing out.
+[E ProcessGroupNCCL.cpp:828] [Rank 2] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=390229, OpType=_ALLGATHER_BASE, Timeout(ms)=1800000) ran for 1809105 milliseconds before timing out.
+[E ProcessGroupNCCL.cpp:828] [Rank 1] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=390229, OpType=_ALLGATHER_BASE, Timeout(ms)=1800000) ran for 1809362 milliseconds before timing out.
+ 30%|███       | 303/1000 [4:39:58<10:44:02, 55.44s/it]
+[E ProcessGroupNCCL.cpp:455] Some NCCL operations have failed or timed out. Due to the asynchronous nature of CUDA kernels, subsequent GPU operations might run on corrupted/incomplete data.
+[E ProcessGroupNCCL.cpp:460] To avoid data inconsistency, we are taking the entire process down.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  [Rank 1] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=390229, OpType=_ALLGATHER_BASE, Timeout(ms)=1800000) ran for 1809362 milliseconds before timing out.
+Traceback (most recent call last):
+  File "examples/mt0_peft_lora_ds_zero3_offload.py", line 386, in main
+    outputs = model(**batch, use_cache=False) # dsj
+  File "/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/deepspeed/utils/nvtx.py", line 15, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/deepspeed/runtime/engine.py", line 1769, in forward
+    loss = self.module(*inputs, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1538, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/userhome/dsj/peft/src/peft/peft_model.py", line 859, in forward
+    return self.base_model(
+  File "/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1538, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/userhome/dsj/transformers/src/transformers/models/mt5/modeling_mt5.py", line 1711, in forward
+    encoder_outputs = self.encoder(
+  File "/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1538, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/userhome/dsj/transformers/src/transformers/models/mt5/modeling_mt5.py", line 1044, in forward
+    layer_outputs = checkpoint(
+  File "/opt/conda/lib/python3.8/site-packages/torch/utils/checkpoint.py", line 249, in checkpoint
+    return CheckpointFunction.apply(function, preserve, *args)
+  File "/opt/conda/lib/python3.8/site-packages/torch/autograd/function.py", line 506, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+  File "/opt/conda/lib/python3.8/site-packages/torch/utils/checkpoint.py", line 107, in forward
+    outputs = run_function(*args)
+  File "/userhome/dsj/transformers/src/transformers/models/mt5/modeling_mt5.py", line 1040, in custom_forward
+    return tuple(module(*inputs, use_cache, output_attentions))
+  File "/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1538, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/userhome/dsj/transformers/src/transformers/models/mt5/modeling_mt5.py", line 556, in forward
+    self_attention_outputs = self.layer[0](
+  File "/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1538, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/userhome/dsj/transformers/src/transformers/models/mt5/modeling_mt5.py", line 461, in forward
+    attention_output = self.SelfAttention(
+  File "/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1538, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/userhome/dsj/transformers/src/transformers/models/mt5/modeling_mt5.py", line 420, in forward
+    attn_weights = nn.functional.softmax(scores.float(), dim=-1).type_as(
+  File "/opt/conda/lib/python3.8/site-packages/torch/nn/functional.py", line 1843, in softmax
+    ret = input.softmax(dim)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 12.43 GiB (GPU 3; 31.75 GiB total capacity; 27.02 GiB already allocated; 3.59 GiB free; 27.15 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "examples/mt0_peft_lora_ds_zero3_offload.py", line 791, in <module>
+    main()
+  File "examples/mt0_peft_lora_ds_zero3_offload.py", line 542, in main
+    outputs = model(**batch, use_cache=False) # dsj
+  File "/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/deepspeed/utils/nvtx.py", line 15, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/deepspeed/runtime/engine.py", line 1769, in forward
+    loss = self.module(*inputs, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1538, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/userhome/dsj/peft/src/peft/peft_model.py", line 859, in forward
+    return self.base_model(
+  File "/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1538, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/userhome/dsj/transformers/src/transformers/models/mt5/modeling_mt5.py", line 1711, in forward
+    encoder_outputs = self.encoder(
+  File "/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1538, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/userhome/dsj/transformers/src/transformers/models/mt5/modeling_mt5.py", line 1044, in forward
+    layer_outputs = checkpoint(
+  File "/opt/conda/lib/python3.8/site-packages/torch/utils/checkpoint.py", line 249, in checkpoint
+    return CheckpointFunction.apply(function, preserve, *args)
+  File "/opt/conda/lib/python3.8/site-packages/torch/autograd/function.py", line 506, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+  File "/opt/conda/lib/python3.8/site-packages/torch/utils/checkpoint.py", line 107, in forward
+    outputs = run_function(*args)
+  File "/userhome/dsj/transformers/src/transformers/models/mt5/modeling_mt5.py", line 1040, in custom_forward
+    return tuple(module(*inputs, use_cache, output_attentions))
+  File "/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1538, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/userhome/dsj/transformers/src/transformers/models/mt5/modeling_mt5.py", line 556, in forward
+    self_attention_outputs = self.layer[0](
+  File "/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1538, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/userhome/dsj/transformers/src/transformers/models/mt5/modeling_mt5.py", line 461, in forward
+    attention_output = self.SelfAttention(
+  File "/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1538, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/userhome/dsj/transformers/src/transformers/models/mt5/modeling_mt5.py", line 379, in forward
+    query_states = shape(self.q(hidden_states))  # (batch_size, n_heads, seq_length, dim_per_head)
+  File "/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    result = hook(self, args)
+  File "/opt/conda/lib/python3.8/site-packages/deepspeed/utils/nvtx.py", line 15, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/deepspeed/runtime/zero/parameter_offload.py", line 382, in _pre_forward_module_hook
+    self.pre_sub_module_forward_function(module)
+  File "/opt/conda/lib/python3.8/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/deepspeed/runtime/zero/parameter_offload.py", line 494, in pre_sub_module_forward_function
+    param_coordinator.fetch_sub_module(sub_module, forward=True)
+  File "/opt/conda/lib/python3.8/site-packages/deepspeed/utils/nvtx.py", line 15, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/deepspeed/runtime/zero/partitioned_param_coordinator.py", line 278, in fetch_sub_module
+    self.__all_gather_params(params_to_fetch, forward)
+  File "/opt/conda/lib/python3.8/site-packages/deepspeed/utils/nvtx.py", line 15, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/deepspeed/runtime/zero/partitioned_param_coordinator.py", line 424, in __all_gather_params
+    handle = partitioned_params[0].all_gather_coalesced(partitioned_params, forward)
+  File "/opt/conda/lib/python3.8/site-packages/deepspeed/utils/nvtx.py", line 15, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/deepspeed/runtime/zero/partition_parameters.py", line 1114, in all_gather_coalesced
+    handle = _dist_allgather_fn(partitions[rank_in_group], flat_tensor, ds_process_group)
+  File "/opt/conda/lib/python3.8/site-packages/deepspeed/runtime/zero/partition_parameters.py", line 84, in _dist_allgather_fn
+    return instrument_w_nvtx(dist.allgather_fn)(output_tensor, input_tensor, group=group, async_op=True)
+  File "/opt/conda/lib/python3.8/site-packages/deepspeed/utils/nvtx.py", line 15, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/deepspeed/comm/comm.py", line 312, in allgather_fn
+    return all_gather_into_tensor(output_tensor, input_tensor, group=group, async_op=async_op, debug=debug)
+  File "/opt/conda/lib/python3.8/site-packages/deepspeed/comm/comm.py", line 116, in log_wrapper
+    return func(*args, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/deepspeed/comm/comm.py", line 297, in all_gather_into_tensor
+    return cdb.all_gather_into_tensor(output_tensor=output_tensor, input_tensor=tensor, group=group, async_op=async_op)
+  File "/opt/conda/lib/python3.8/site-packages/deepspeed/comm/torch.py", line 200, in all_gather_into_tensor
+    return self.all_gather_function(output_tensor=output_tensor,
+  File "/opt/conda/lib/python3.8/site-packages/torch/distributed/distributed_c10d.py", line 1451, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/torch/distributed/distributed_c10d.py", line 2532, in all_gather_into_tensor
+    work = group._allgather_base(output_tensor, input_tensor)
+RuntimeError: NCCL communicator was aborted on rank 3.  Original reason for failure was: [Rank 3] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=390193, OpType=_ALLGATHER_BASE, Timeout(ms)=1800000) ran for 1809078 milliseconds before timing out.
+[E ProcessGroupNCCL.cpp:455] Some NCCL operations have failed or timed out. Due to the asynchronous nature of CUDA kernels, subsequent GPU operations might run on corrupted/incomplete data.
+[E ProcessGroupNCCL.cpp:460] To avoid data inconsistency, we are taking the entire process down.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  [Rank 0] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=390229, OpType=_ALLGATHER_BASE, Timeout(ms)=1800000) ran for 1809103 milliseconds before timing out.
+[E ProcessGroupNCCL.cpp:455] Some NCCL operations have failed or timed out. Due to the asynchronous nature of CUDA kernels, subsequent GPU operations might run on corrupted/incomplete data.
+[E ProcessGroupNCCL.cpp:460] To avoid data inconsistency, we are taking the entire process down.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  [Rank 3] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=390193, OpType=_ALLGATHER_BASE, Timeout(ms)=1800000) ran for 1809078 milliseconds before timing out.
+[E ProcessGroupNCCL.cpp:455] Some NCCL operations have failed or timed out. Due to the asynchronous nature of CUDA kernels, subsequent GPU operations might run on corrupted/incomplete data.
+[E ProcessGroupNCCL.cpp:460] To avoid data inconsistency, we are taking the entire process down.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  [Rank 2] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=390229, OpType=_ALLGATHER_BASE, Timeout(ms)=1800000) ran for 1809105 milliseconds before timing out.
+WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 121 closing signal SIGTERM
+WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 122 closing signal SIGTERM
+WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 124 closing signal SIGTERM
+ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: -6) local_rank: 2 (pid: 123) of binary: /opt/conda/bin/python
+Traceback (most recent call last):
+  File "/opt/conda/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+  File "/opt/conda/lib/python3.8/site-packages/accelerate/commands/accelerate_cli.py", line 45, in main
+    args.func(args)
+  File "/opt/conda/lib/python3.8/site-packages/accelerate/commands/launch.py", line 908, in launch_command
+    deepspeed_launcher(args)
+  File "/opt/conda/lib/python3.8/site-packages/accelerate/commands/launch.py", line 647, in deepspeed_launcher
+    distrib_run.run(args)
+  File "/opt/conda/lib/python3.8/site-packages/torch/distributed/run.py", line 785, in run
+    elastic_launch(
+  File "/opt/conda/lib/python3.8/site-packages/torch/distributed/launcher/api.py", line 134, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/opt/conda/lib/python3.8/site-packages/torch/distributed/launcher/api.py", line 250, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+examples/mt0_peft_lora_ds_zero3_offload.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2023-07-17_09:59:13
+  host      : bfe5014673e940f7a82027dd1d1762f7-task0-0.bfe5014673e940f7a82027dd1d1762f7.4a2e700ee5474fd68e7c8fdd9af1964d.svc.cluster.local
+  rank      : 2 (local_rank: 2)
+  exitcode  : -6 (pid: 123)
+  error_file: <N/A>
+  traceback : Signal 6 (SIGABRT) received by PID 123
+============================================================
