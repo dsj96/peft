@@ -52,7 +52,7 @@ In order to reproduce the bug, I have released the dataset used in the formal tr
 
 dataset     | datasize | OOM step(v100*4) | OOM step(v100*8) | batch_size
 -------- | ----- | ----- | --|--|
-opus_dev_dev_tst  | train:371068 validation:371074 test:371074 |  5952/23192 |  2976/11596  | 2
+opus_dev_dev_tst  | train:371068 validation:371074 test:371074 |  5952/23192 |  2976/11596  | 4
 opus9_select_train_labse_dev_tst_add_task  | train:32000 validation:32000 test:32000 | 303/1000 | - | 8
 wmt16enro_dev_dev_test_task  | train:3998 validation:3998 test:3998 | run correctly **in a complete epoch**.
 
@@ -130,4 +130,5 @@ bash mt0.sh
 
 
 ## log file
-some failed config file and log report are in the `error_log` directionary.
+some failed config file and log report are in the `error_log` directionary when training on the `opus9_select_train_labse_dev_tst_add_task` dataset. 
+
