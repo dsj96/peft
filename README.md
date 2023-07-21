@@ -3,6 +3,8 @@ Forked from [PEFT](https://github.com/huggingface/peft). Thanks for their outsta
 I hope this library can help developers easily identify the problem.
 ## Target
 I want to utilize LORA to fineturn a LLM.
+## Expect behavior
+Use LORA to finetune the mt0-xxl model in a  complete epoch with `no Out of Memmory` on `opus_dev_dev_tst or opus9_select_train_labse_dev_tst_add_task` datasets.
 
 ## Bug description
 - When I finetune [mt0-xxl(13B)](https://huggingface.co/bigscience/mt0-xxl) through [peft-lora](https://github.com/huggingface/peft) on 2 V100(32 G), batch size=8 on data `wmt16enro_dev_dev_test_task.zip` (train:3998 validation:3998 test:3998), The program can run successfully.
